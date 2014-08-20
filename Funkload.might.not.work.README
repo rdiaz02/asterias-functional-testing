@@ -1,0 +1,3 @@
+It seems that either python2.6 or Funkload 1.10 will not work 
+with some of the numerical testing. Be aware of this, and fix
+it eventually.

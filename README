@@ -1,0 +1,107 @@
+What is this
+============
+
+The files here are used for testing of the different Asterias
+applications.
+
+
+Requirements
+=============
+
+All:
+----
+You need:
+
+- Python 2.4 (might work with 2.3 and/or 2.5, but we haven't tested it).
+- Funkload (http://funkload.nuxeo.org).
+
+(Note: I have no idea whether any of this works under Windows; we've only
+tested under GNU/Linux. This is no serious limitation: these are tests we
+use to make sure our applications do what they should, so we will not
+spend time to make them run under OSs we don't use.).
+
+
+Extra:
+------
+
+If you want to carry out the more exhaustive numerical tests (under
+/PomeloII/NumericalTesting) you need:
+
+- rpy, the R/Python interface (http://rpy.sourceforge.net); there are
+  Debian packages.
+
+- R (http://cran.r-project.org), of course, and several of its recommended
+  packages.
+
+
+
+
+Running the tests
+==================
+
+For Pomelo, the file testPomeloSingleTest.sh  runs a single
+test. Otherwise, all the test*.py in each subdirectory should be run using
+"fl-run-test testwhatever.py". 
+
+There is a utility shell script, under the main directory,
+"run_all_tests.sh" that runs all tests, except the NumericalResults
+tests. All the tests in this file are completed in about 90 minutes (but
+can take longer, or give network-related exceptions, if there are network
+problems, etc. )
+
+
+The main exception are the set of tests under "NumericalResults". The file
+there is pomelo-num.py. This file should run as any stand-alone python
+file. However, if you run into networks problems (that are unrelated to
+asterias), it is advised that you run this file interactively from a
+Python shell. This also provides you some more control, and allows you to
+rerun specifictests if you are interested. When run stand-alone, the tests
+take between 20 and 40 minutes (depending on network speed and on your
+machine speed ---it is R who does the comparisons).
+
+
+
+NumericalResults: details
+=========================
+
+These are related to the pomelo-num.py. This is the logic of the tests:
+
+- A bunch of reference results have been precomputed in R, and stored
+  under "DataSets_R_Analyses".
+
+- How these have been generated is explained in each of the .R files:
+  * Permut.R
+  * Limma.R
+  * FishersExact.R
+  * Cox.R
+
+  Those files get a file/data set, run the R analyses, and store
+  results. There should be no need to recreate these analyses (unless you
+  want, of course).
+
+- The file flstandalone.py: this is a modified version of funkload. I
+  modified it so that I can use it for our type of testing here without
+  using the unit test testing type of approach of fl-run-test.
+
+- The file pomelo-num.py defines a few functions, and does the testing
+  itself. The logic is:
+
+  a) Using rpy, set an R session that will be called from Python
+
+  b) Load a bunch of helper R functions
+
+  c) Use funkload to submit files to the application, with the appropriate
+  parameters, etc. and get back the output (whatever that needs to be: the
+  results file, the comparisons between sets of coefficients, etc). This
+  can be more or less involved, depending on what we are doing (e.g., the
+  most complex are using covariates in linear models).
+
+  d) Using rpy, get R to read the output, and carry out the comparisons of
+  the computed stuff from Pomelo (what funkload just got back in step c)
+  before) and the precomputed results (the reference results). Of course,
+  some of these comparisons cannot be literal comparison (recall these are
+  real numbers), and some need to account for the standard error
+  associated with an estimate (e.g., p-values returned from permutation
+  tests). This explains why in many cases you see listing of differences
+  that do not mean that things are broken, but just that you should expect
+  to see some differences.

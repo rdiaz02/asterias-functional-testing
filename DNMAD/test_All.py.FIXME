@@ -1,0 +1,298 @@
+# -*- coding: iso-8859-15 -*-
+"""all FunkLoad test
+
+$Id: $
+"""
+import time
+import unittest
+from funkload.FunkLoadTestCase import FunkLoadTestCase
+from webunit.utility import Upload
+
+auto_refresh_string = 'This is an autorefreshing page'
+MAX_running_time = 3600 * 1 
+
+def common_part(self, serverurl, final_output,                
+		MAX_running_time = 3600,
+		auto_refresh_string = auto_refresh_string):    
+    server_url = serverurl
+    start_run = time.time()
+    refresh_num = 0
+    
+    while True:
+	final_body = self.getBody()
+	if final_body.find(auto_refresh_string) < 0:
+	    break
+	time.sleep(32)
+	refresh_num += 1
+	run_time = time.time() - start_run
+	print '\n Refreshed ' + str(refresh_num) + ' times. Been running for ' + str(round(run_time/60.0, 2)) + ' minutes.\n'
+	if run_time > MAX_running_time :
+	    self.fail('Run longer than MAX_running_time')
+	self.get(server_url + self.getLastUrl(),
+		 description="Get /cgi-bin/checkdone.cgi")
+    print(final_body)
+    self.assert_(final_body.find(final_output) >= 0,'Unexpected final result')
+
+    
+def getTempString(self,final_output):
+	bodyx = self.getBody()
+	if bodyx.find("ERROR") > 0:
+		self.fail('Catched error')
+	elif bodyx.find("http://"):
+		a = bodyx.split("http://")
+		urltmp = "http://" +a[2][:-1]
+		print "\n" + urltmp
+		self.get(urltmp, description= "Get results")	    
+		final_body = self.getBody()
+		if final_body.find('Fix your input data'):
+			print 'error.html'
+		if final_body.find(final_output):
+			print 'Run OK'
+		return urltmp
+	else:
+		self.fail('Un-catched error')
+	    
+    
+class All(FunkLoadTestCase):
+    """XXX
+
+    This test use a configuration file All.conf.
+    """              
+    def setUp(self):
+        """Setting up test."""
+        self.logd("setUp")
+        self.server_url = 'http://dnmad.bioinfo.cnio.es'
+
+    def test1(self):
+        server_url = self.server_url
+        # begin of test ---------------------------------------------
+
+
+        self.get(server_url + "/",
+            description="Get /")
+	
+        self.post(server_url + "/cgi-bin/dnmad.cgi", params=[
+            ['ind_files', ''],
+            ['arrays_file', Upload("./test1/data.tar.gz")],
+            ['arrays_file_rg', '1'],
+            ['ngr', '12'],
+            ['ngc', '4'],
+            ['nsr', '17'],
+            ['nsc', '16'],
+            ['flags', 'yes'],
+            ['flagged', 'yes'],
+            ['BS', 'yes'],
+            ['bgsubtract', 'half'],
+            ['run', 'Run']],
+            description="Post /cgi-bin/dnmad.cgi")
+	
+	final_output = 'Results'
+        common_part(self, final_output)
+	stringtolook = getTempString(self, final_output)
+	
+	
+        self.get("http://prep.bioinfo.cnio.es/?datadir=" + stringtolook,
+            description="Get /")
+
+        self.post("http://prep.bioinfo.cnio.es/cgi-bin/prep.py", params=[
+            ['covariate2', stringtolook],
+            ['o_filter', '1'],
+            ['op_filter', '70'],
+            ['o_impute', '2'],
+            ['op_impute', 'knn'],
+            ['op_impute_knn', '15'],
+            ['o_merge', '3'],
+            ['op_merge', 'mean'],
+            ['o_remove', '4'],
+            ['op_remove', '1E-9']],
+            description="Post /cgi-bin/prep.py")
+
+        self.get("http://prep.bioinfo.cnio.es/tmp/2695203118584311416476866673/results.html",
+            description="Get /tmp/26952031185843...866673/results.html")
+
+        self.get("http://pomelo2.bioinfo.cnio.es/?datadir=2695203118584311416476866673",
+            description="Get /")
+
+        self.post("http://pomelo2.bioinfo.cnio.es/cgi-bin/pomeloII.cgi", params=[
+            ['covariate2', '2695203118584311416476866673'],
+            ['class_labels', Upload(".test1/class")],
+            ['censored_indicator', Upload("./test1/class")],
+            ['testtype', 't'],
+            ['num_permut', '200000'],
+            ['idtype', 'None'],
+            ['organism', 'None']],
+            description="Post /cgi-bin/pomeloII.cgi")
+
+        self.get("http://tnasas.bioinfo.cnio.es/?datadir=2695203118584311416476866673",
+            description="Get /")
+
+        self.post("http://tnasas.bioinfo.cnio.es/cgi-bin/tnasasR.cgi", params=[
+            ['covariate2', '2695203118584311416476866673'],
+            ['class', Upload("./test1/class")],
+            ['model', 'dlda'],
+            ['genesel', 'Fratio'],
+            ['organism', 'None'],
+            ['idtype', 'None']],
+            description="Post /cgi-bin/tnasasR.cgi")
+
+        self.get("http://genesrf.bioinfo.cnio.es/genesrf.html?datadir=2695203118584311416476866673",
+            description="Get /genesrf.html")
+
+        self.post("http://genesrf.bioinfo.cnio.es/cgi-bin/genesrfR.cgi", params=[
+            ['covariate2', '2695203118584311416476866673'],
+            ['class', Upload("class")],
+            ['organism', 'None'],
+            ['idtype', 'None']],
+            description="Post /cgi-bin/genesrfR.cgi")
+
+        self.get("http://signs.bioinfo.cnio.es/?datadir=2695203118584311416476866673",
+            description="Get /")
+
+        self.post("http://signs.bioinfo.cnio.es/cgi-bin/signsR.cgi", params=[
+            ['covariate2', '2695203118584311416476866673'],
+            ['time', Upload("./test1/survtime")],
+            ['event', Upload("./test1/class")],
+            ['validationcovariate', Upload("empty.txt")],
+            ['validationtime', Upload("empty.txt")],
+            ['validationevent', Upload("empty.txt")],
+            ['methodSurv', 'FCMS'],
+            ['Minp', '0.1'],
+            ['MaxSize', '100'],
+            ['MinSize', '10'],
+            ['MinCor', '0.5'],
+            ['organism', 'None'],
+            ['idtype', 'None']],
+            description="Post /cgi-bin/signsR.cgi")	    
+	    
+        self.get("http://pomelo2.bioinfo.cnio.es/cgi-bin/pomelo_checkdone.cgi?newDir=7938189807499111416477677450",
+            description="Get /cgi-bin/pomelo_checkdone.cgi")
+
+        self.get("http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=6773215028073011416477259938",
+            description="Get /cgi-bin/checkdone.cgi")
+
+        self.get("http://genesrf.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=8469212138591811416477326982",
+            description="Get /cgi-bin/checkdone.cgi")
+
+        self.get("http://signs.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=5290199583906211416477557812",
+            description="Get /cgi-bin/checkdone.cgi")
+
+
+
+        # end of test -----------------------------------------------
+
+    def test2(self):
+        server_url = "http://prep.bioinfo.cnio.es"
+        # begin of test ---------------------------------------------
+
+
+        self.get(server_url + "/",
+            description="Get /")
+	
+        self.post("http://prep.bioinfo.cnio.es/cgi-bin/prep.py", params=[
+            ['covariate', Upload("./test2/covariates.txt")],
+            ['o_filter', '1'],
+            ['op_filter', '70'],
+            ['o_impute', '2'],
+            ['op_impute', 'knn'],
+            ['op_impute_knn', '15'],
+            ['o_merge', '3'],
+            ['op_merge', 'mean'],
+            ['o_remove', '4'],
+            ['op_remove', '1E-9']],
+            description="Post /cgi-bin/prep.py")
+	
+	final_output = 'Summary'
+
+	tempdir = getTempString(self, final_output)
+	tempdir = tempdir[32:]
+	s = tempdir.split("/")
+	tempdir = s[0]
+
+
+	print 'start pomelo2'
+        self.get("http://pomelo2.bioinfo.cnio.es/?datadir=" + tempdir ,
+            description="Get /")
+
+        self.post("http://pomelo2.bioinfo.cnio.es/cgi-bin/pomeloII.cgi", params=[
+            ['covariate2', tempdir],
+            ['class_labels', Upload("./test2/class")],
+            ['censored_indicator', Upload("./test2/class")],
+            ['testtype', 't'],
+            ['num_permut', '200000'],
+            ['idtype', 'None'],
+            ['organism', 'None']],
+            description="Post /cgi-bin/pomeloII.cgi")
+
+        final_output = '<b> Chosen test type: t-test</b><br><b> Permutations used'
+        common_part(self,  "http://pomelo2.bioinfo.cnio.es", final_output)
+
+
+	print 'start tnasas'
+	
+        self.get("http://tnasas.bioinfo.cnio.es/?datadir=" + tempdir ,
+            description="Get /")
+
+        self.post("http://tnasas.bioinfo.cnio.es/cgi-bin/tnasasR.cgi", params=[
+            ['covariate2',  tempdir ],
+            ['class', Upload("./test2/class")],
+            ['model', 'dlda'],
+            ['genesel', 'Fratio'],
+            ['organism', 'None'],
+            ['idtype', 'None']],
+            description="Post /cgi-bin/tnasasR.cgi")
+
+	final_output = 'Classification algorithm'
+        common_part(self,  "http://tnasas.bioinfo.cnio.es", final_output)
+	    
+
+	print 'start genesrf'	    
+	    
+        self.get("http://genesrf.bioinfo.cnio.es/genesrf.html?datadir=" + tempdir ,
+            description="Get /genesrf.html")
+
+        self.post("http://genesrf.bioinfo.cnio.es/cgi-bin/genesrfR.cgi", params=[
+            ['covariate2', tempdir],
+            ['class', Upload("class")],
+            ['organism', 'None'],
+            ['idtype', 'None']],
+            description="Post /cgi-bin/genesrfR.cgi")
+
+	final_output = '<h3>Variable selection using all data </h3><h4>Variables used</h4>'
+        common_part(self,  "http://genesrf.bioinfo.cnio.es", final_output)
+	    
+
+	print 'start signs'	    
+        self.get("http://signs.bioinfo.cnio.es/?datadir=" + tempdir ,
+            description="Get /")
+
+        self.post("http://signs.bioinfo.cnio.es/cgi-bin/signsR.cgi", params=[
+            ['covariate2', tempdir],
+            ['time', Upload("./test2/survtime")],
+            ['event', Upload("./test2/class")],
+            ['validationcovariate', Upload("empty.txt")],
+            ['validationtime', Upload("empty.txt")],
+            ['validationevent', Upload("empty.txt")],
+            ['methodSurv', 'FCMS'],
+            ['Minp', '0.1'],
+            ['MaxSize', '100'],
+            ['MinSize', '10'],
+            ['MinCor', '0.5'],
+            ['organism', 'None'],
+            ['idtype', 'None']],
+            description="Post /cgi-bin/signsR.cgi")	    
+	    
+        final_output = 'results'
+        common_part(self,  "http://signs.bioinfo.cnio.es", final_output)
+
+
+        # end of test -----------------------------------------------
+	
+	
+    def tearDown(self):
+        """Setting up test."""
+        self.logd("tearDown.\n")
+
+
+
+if __name__ in ('main', '__main__'):
+    unittest.main()

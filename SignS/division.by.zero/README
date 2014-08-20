@@ -1,0 +1,2 @@
+Used to cause a division by zero error in Cox. So this is a regression test.
+Also tests that can draw dendros even if all selected and named.

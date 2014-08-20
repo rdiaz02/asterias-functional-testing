@@ -1,0 +1,967 @@
+2006-02-28 16:13:18,246 INFO test1: [test1] description not found
+2006-02-28 16:13:18,246 DEBUG test1: Starting -----------------------------------
+	
+2006-02-28 16:13:18,246 DEBUG test1: setUp
+2006-02-28 16:13:18,246 DEBUG test1: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-28 16:13:18,253 DEBUG test1:  Done in 0.007s
+2006-02-28 16:13:18,254 DEBUG test1:  Load css and images...
+2006-02-28 16:13:18,337 DEBUG test1:   Done in 0.026s
+2006-02-28 16:13:18,347 DEBUG test1: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'None', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'Two.files', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0x4062778c>, 'PSW.prec': '100', 'centering': 'Median', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0x406274cc>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0x4062740c>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'CBS', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'None'}
+	Page 2: CBS ...
+2006-02-28 16:13:18,832 DEBUG test1:  Done in 0.485s
+2006-02-28 16:13:18,837 DEBUG test1:  Load redirect link: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=182825112990511411396417812
+2006-02-28 16:13:18,893 DEBUG test1:  Done in 0.056s
+2006-02-28 16:13:18,893 DEBUG test1:  Load css and images...
+2006-02-28 16:13:18,894 DEBUG test1:   Done in 0.000s
+2006-02-28 16:13:50,897 DEBUG test1: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=182825112990511411396417812
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:13:50,951 DEBUG test1:  Done in 0.054s
+2006-02-28 16:13:50,952 DEBUG test1:  Load css and images...
+2006-02-28 16:13:50,953 DEBUG test1:   Done in 0.000s
+2006-02-28 16:14:22,957 DEBUG test1: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=182825112990511411396417812
+	Page 4: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:14:23,011 DEBUG test1:  Done in 0.054s
+2006-02-28 16:14:23,011 DEBUG test1:  Load css and images...
+2006-02-28 16:14:23,012 DEBUG test1:   Done in 0.000s
+2006-02-28 16:14:55,017 DEBUG test1: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=182825112990511411396417812
+	Page 5: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:14:55,071 DEBUG test1:  Done in 0.054s
+2006-02-28 16:14:55,071 DEBUG test1:  Load css and images...
+2006-02-28 16:14:55,072 DEBUG test1:   Done in 0.000s
+2006-02-28 16:15:27,077 DEBUG test1: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=182825112990511411396417812
+	Page 6: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:15:27,131 DEBUG test1:  Done in 0.054s
+2006-02-28 16:15:27,131 DEBUG test1:  Load css and images...
+2006-02-28 16:15:27,132 DEBUG test1:   Done in 0.000s
+2006-02-28 16:15:59,142 DEBUG test1: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=182825112990511411396417812
+	Page 7: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:15:59,196 DEBUG test1:  Done in 0.054s
+2006-02-28 16:15:59,197 DEBUG test1:  Load css and images...
+2006-02-28 16:15:59,198 DEBUG test1:   Done in 0.000s
+2006-02-28 16:16:31,207 DEBUG test1: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=182825112990511411396417812
+	Page 8: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:16:31,259 DEBUG test1:  Done in 0.052s
+2006-02-28 16:16:31,260 DEBUG test1:  Load css and images...
+2006-02-28 16:16:31,261 DEBUG test1:   Done in 0.000s
+2006-02-28 16:17:03,267 DEBUG test1: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=182825112990511411396417812
+	Page 9: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:17:03,333 DEBUG test1:  Done in 0.066s
+2006-02-28 16:17:03,333 DEBUG test1:  Load css and images...
+2006-02-28 16:17:03,334 DEBUG test1:   Done in 0.000s
+2006-02-28 16:17:35,337 DEBUG test1: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=182825112990511411396417812
+	Page 10: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:17:35,392 DEBUG test1:  Done in 0.054s
+2006-02-28 16:17:35,392 DEBUG test1:  Load css and images...
+2006-02-28 16:17:35,393 DEBUG test1:   Done in 0.000s
+2006-02-28 16:18:07,397 DEBUG test1: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=182825112990511411396417812
+	Page 11: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:18:07,451 DEBUG test1:  Done in 0.054s
+2006-02-28 16:18:07,452 DEBUG test1:  Load css and images...
+2006-02-28 16:18:07,452 DEBUG test1:   Done in 0.000s
+2006-02-28 16:18:39,457 DEBUG test1: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=182825112990511411396417812
+	Page 12: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:19:29,768 DEBUG test1:  Done in 50.311s
+2006-02-28 16:19:29,776 DEBUG test1:  Load redirect link: http://adacgh.bioinfo.cnio.es/tmp/182825112990511411396417812/results.html
+2006-02-28 16:19:29,792 DEBUG test1:  Done in 0.016s
+2006-02-28 16:19:29,793 DEBUG test1:  Load css and images...
+2006-02-28 16:19:31,368 DEBUG test1:   Done in 0.432s
+2006-02-28 16:19:31,379 DEBUG test1: tearDown.
+
+2006-02-28 16:19:31,380 INFO test2: [test2] description not found
+2006-02-28 16:19:31,380 DEBUG test2: Starting -----------------------------------
+	
+2006-02-28 16:19:31,380 DEBUG test2: setUp
+2006-02-28 16:19:31,380 DEBUG test2: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-28 16:19:31,386 DEBUG test2:  Done in 0.005s
+2006-02-28 16:19:31,386 DEBUG test2:  Load css and images...
+2006-02-28 16:19:31,467 DEBUG test2:   Done in 0.027s
+2006-02-28 16:19:31,477 DEBUG test2: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'One.file', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0x4062a2ac>, 'PSW.prec': '100', 'centering': 'Median', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0x4062722c>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0x4064fdcc>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'WS', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: WS ...
+2006-02-28 16:19:31,823 DEBUG test2:  Done in 0.346s
+2006-02-28 16:19:31,827 DEBUG test2:  Load redirect link: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=139392388252311411400145590
+2006-02-28 16:19:31,881 DEBUG test2:  Done in 0.054s
+2006-02-28 16:19:31,882 DEBUG test2:  Load css and images...
+2006-02-28 16:19:31,883 DEBUG test2:   Done in 0.000s
+2006-02-28 16:20:03,887 DEBUG test2: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=139392388252311411400145590
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:20:03,938 DEBUG test2:  Done in 0.051s
+2006-02-28 16:20:03,939 DEBUG test2:  Load css and images...
+2006-02-28 16:20:03,940 DEBUG test2:   Done in 0.000s
+2006-02-28 16:20:35,947 DEBUG test2: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=139392388252311411400145590
+	Page 4: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:20:36,001 DEBUG test2:  Done in 0.054s
+2006-02-28 16:20:36,002 DEBUG test2:  Load css and images...
+2006-02-28 16:20:36,003 DEBUG test2:   Done in 0.000s
+2006-02-28 16:21:08,007 DEBUG test2: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=139392388252311411400145590
+	Page 5: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:21:26,576 DEBUG test2:  Done in 18.569s
+2006-02-28 16:21:26,577 DEBUG test2:  Load redirect link: http://adacgh.bioinfo.cnio.es/tmp/139392388252311411400145590/results.html
+2006-02-28 16:21:26,585 DEBUG test2:  Done in 0.008s
+2006-02-28 16:21:26,586 DEBUG test2:  Load css and images...
+2006-02-28 16:21:26,917 DEBUG test2:   Done in 0.076s
+2006-02-28 16:21:26,927 DEBUG test2: tearDown.
+
+2006-02-28 16:21:26,929 INFO test3: [test3] description not found
+2006-02-28 16:21:26,929 DEBUG test3: Starting -----------------------------------
+	
+2006-02-28 16:21:26,929 DEBUG test3: setUp
+2006-02-28 16:21:26,929 DEBUG test3: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-28 16:21:26,934 DEBUG test3:  Done in 0.005s
+2006-02-28 16:21:26,935 DEBUG test3:  Load css and images...
+2006-02-28 16:21:27,017 DEBUG test3:   Done in 0.026s
+2006-02-28 16:21:27,027 DEBUG test3: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'One.file', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0x406278cc>, 'PSW.prec': '100', 'centering': 'Median', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0x4064f24c>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0x4064ffcc>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'PSW', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: PSW ...
+2006-02-28 16:21:27,351 DEBUG test3:  Done in 0.324s
+2006-02-28 16:21:27,356 DEBUG test3:  Load redirect link: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=7131321166482311411401303340
+2006-02-28 16:21:27,408 DEBUG test3:  Done in 0.051s
+2006-02-28 16:21:27,408 DEBUG test3:  Load css and images...
+2006-02-28 16:21:27,409 DEBUG test3:   Done in 0.000s
+2006-02-28 16:21:59,417 DEBUG test3: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=7131321166482311411401303340
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:21:59,471 DEBUG test3:  Done in 0.054s
+2006-02-28 16:21:59,472 DEBUG test3:  Load css and images...
+2006-02-28 16:21:59,472 DEBUG test3:   Done in 0.000s
+2006-02-28 16:22:31,477 DEBUG test3: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=7131321166482311411401303340
+	Page 4: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:22:31,532 DEBUG test3:  Done in 0.055s
+2006-02-28 16:22:31,532 DEBUG test3:  Load css and images...
+2006-02-28 16:22:31,533 DEBUG test3:   Done in 0.000s
+2006-02-28 16:23:03,537 DEBUG test3: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=7131321166482311411401303340
+	Page 5: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:23:03,591 DEBUG test3:  Done in 0.054s
+2006-02-28 16:23:03,591 DEBUG test3:  Load css and images...
+2006-02-28 16:23:03,592 DEBUG test3:   Done in 0.000s
+2006-02-28 16:23:35,597 DEBUG test3: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=7131321166482311411401303340
+	Page 6: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:23:35,650 DEBUG test3:  Done in 0.053s
+2006-02-28 16:23:35,651 DEBUG test3:  Load css and images...
+2006-02-28 16:23:35,652 DEBUG test3:   Done in 0.000s
+2006-02-28 16:24:07,657 DEBUG test3: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=7131321166482311411401303340
+	Page 7: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:24:12,963 DEBUG test3:  Done in 5.306s
+2006-02-28 16:24:12,966 DEBUG test3:  Load redirect link: http://adacgh.bioinfo.cnio.es/tmp/7131321166482311411401303340/results.html
+2006-02-28 16:24:12,975 DEBUG test3:  Done in 0.008s
+2006-02-28 16:24:12,976 DEBUG test3:  Load css and images...
+2006-02-28 16:24:13,288 DEBUG test3:   Done in 0.072s
+2006-02-28 16:24:13,297 DEBUG test3: tearDown.
+
+2006-02-28 16:24:13,298 INFO test4: [test4] description not found
+2006-02-28 16:24:13,298 DEBUG test4: Starting -----------------------------------
+	
+2006-02-28 16:24:13,298 DEBUG test4: setUp
+2006-02-28 16:24:13,299 DEBUG test4: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-28 16:24:13,304 DEBUG test4:  Done in 0.005s
+2006-02-28 16:24:13,305 DEBUG test4:  Load css and images...
+2006-02-28 16:24:13,387 DEBUG test4:   Done in 0.026s
+2006-02-28 16:24:13,397 DEBUG test4: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'Two.files', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0x4066212c>, 'PSW.prec': '100', 'centering': 'Mean', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0x40662cec>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0x406621ac>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'ACE', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: ACE, many arrays ...
+2006-02-28 16:24:13,770 DEBUG test4:  Done in 0.373s
+2006-02-28 16:24:13,776 DEBUG test4:  Load redirect link: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=334710546849011411402968518
+2006-02-28 16:24:13,830 DEBUG test4:  Done in 0.053s
+2006-02-28 16:24:13,831 DEBUG test4:  Load css and images...
+2006-02-28 16:24:13,831 DEBUG test4:   Done in 0.000s
+2006-02-28 16:24:45,837 DEBUG test4: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=334710546849011411402968518
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:24:45,894 DEBUG test4:  Done in 0.057s
+2006-02-28 16:24:45,895 DEBUG test4:  Load css and images...
+2006-02-28 16:24:45,896 DEBUG test4:   Done in 0.000s
+2006-02-28 16:25:17,897 DEBUG test4: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=334710546849011411402968518
+	Page 4: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:25:17,949 DEBUG test4:  Done in 0.052s
+2006-02-28 16:25:17,949 DEBUG test4:  Load css and images...
+2006-02-28 16:25:17,950 DEBUG test4:   Done in 0.000s
+2006-02-28 16:25:49,957 DEBUG test4: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=334710546849011411402968518
+	Page 5: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:25:50,011 DEBUG test4:  Done in 0.054s
+2006-02-28 16:25:50,011 DEBUG test4:  Load css and images...
+2006-02-28 16:25:50,012 DEBUG test4:   Done in 0.000s
+2006-02-28 16:26:22,017 DEBUG test4: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=334710546849011411402968518
+	Page 6: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:26:22,072 DEBUG test4:  Done in 0.055s
+2006-02-28 16:26:22,072 DEBUG test4:  Load css and images...
+2006-02-28 16:26:22,073 DEBUG test4:   Done in 0.000s
+2006-02-28 16:26:54,077 DEBUG test4: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=334710546849011411402968518
+	Page 7: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:26:54,130 DEBUG test4:  Done in 0.053s
+2006-02-28 16:26:54,130 DEBUG test4:  Load css and images...
+2006-02-28 16:26:54,131 DEBUG test4:   Done in 0.000s
+2006-02-28 16:27:26,137 DEBUG test4: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=334710546849011411402968518
+	Page 8: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:27:26,191 DEBUG test4:  Done in 0.054s
+2006-02-28 16:27:26,192 DEBUG test4:  Load css and images...
+2006-02-28 16:27:26,193 DEBUG test4:   Done in 0.000s
+2006-02-28 16:27:58,197 DEBUG test4: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=334710546849011411402968518
+	Page 9: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:27:58,251 DEBUG test4:  Done in 0.054s
+2006-02-28 16:27:58,251 DEBUG test4:  Load css and images...
+2006-02-28 16:27:58,252 DEBUG test4:   Done in 0.000s
+2006-02-28 16:28:30,257 DEBUG test4: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=334710546849011411402968518
+	Page 10: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:28:40,752 DEBUG test4:  Done in 10.495s
+2006-02-28 16:28:40,756 DEBUG test4:  Load redirect link: http://adacgh.bioinfo.cnio.es/tmp/334710546849011411402968518/results.html
+2006-02-28 16:28:40,772 DEBUG test4:  Done in 0.015s
+2006-02-28 16:28:40,772 DEBUG test4:  Load css and images...
+2006-02-28 16:28:42,009 DEBUG test4:   Done in 0.125s
+2006-02-28 16:28:42,017 DEBUG test4: tearDown.
+
+2006-02-28 16:28:42,017 INFO test5: [test5] description not found
+2006-02-28 16:28:42,017 DEBUG test5: Starting -----------------------------------
+	
+2006-02-28 16:28:42,018 DEBUG test5: setUp
+2006-02-28 16:28:42,018 DEBUG test5: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-28 16:28:42,023 DEBUG test5:  Done in 0.005s
+2006-02-28 16:28:42,024 DEBUG test5:  Load css and images...
+2006-02-28 16:28:42,117 DEBUG test5:   Done in 0.044s
+2006-02-28 16:28:42,127 DEBUG test5: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'Two.files', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0x40666d4c>, 'PSW.prec': '100', 'centering': 'Mean', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0x4067ae0c>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0x4064f24c>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'ACE', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: ACE, single array ...
+2006-02-28 16:28:42,407 DEBUG test5:  Done in 0.280s
+2006-02-28 16:28:42,416 DEBUG test5:  Load redirect link: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=7125745692271141140565396
+2006-02-28 16:28:42,468 DEBUG test5:  Done in 0.051s
+2006-02-28 16:28:42,468 DEBUG test5:  Load css and images...
+2006-02-28 16:28:42,469 DEBUG test5:   Done in 0.000s
+2006-02-28 16:29:14,477 DEBUG test5: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=7125745692271141140565396
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:29:14,535 DEBUG test5:  Done in 0.058s
+2006-02-28 16:29:14,536 DEBUG test5:  Load css and images...
+2006-02-28 16:29:14,536 DEBUG test5:   Done in 0.000s
+2006-02-28 16:29:46,547 DEBUG test5: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=7125745692271141140565396
+	Page 4: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:29:47,609 DEBUG test5:  Done in 1.062s
+2006-02-28 16:29:47,616 DEBUG test5:  Load redirect link: http://adacgh.bioinfo.cnio.es/tmp/7125745692271141140565396/results.html
+2006-02-28 16:29:47,624 DEBUG test5:  Done in 0.007s
+2006-02-28 16:29:47,624 DEBUG test5:  Load css and images...
+2006-02-28 16:29:47,714 DEBUG test5:   Failed in ~ 0.09s
+2006-02-28 16:29:47,715 DEBUG test5: tearDown.
+
+2006-02-28 16:29:47,718 INFO test6: [test6] description not found
+2006-02-28 16:29:47,718 DEBUG test6: Starting -----------------------------------
+	
+2006-02-28 16:29:47,718 DEBUG test6: setUp
+2006-02-28 16:29:47,718 DEBUG test6: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-28 16:29:47,724 DEBUG test6:  Done in 0.005s
+2006-02-28 16:29:47,724 DEBUG test6:  Load css and images...
+2006-02-28 16:29:47,807 DEBUG test6:   Done in 0.027s
+2006-02-28 16:29:47,817 DEBUG test6: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'One.file', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0x4064f24c>, 'PSW.prec': '100', 'centering': 'Median', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0x40666d4c>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0x4062a2ac>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'CBS', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: CBS, single file ...
+2006-02-28 16:29:47,817 DEBUG test6:  Failed in 0.000s
+2006-02-28 16:29:47,837 DEBUG test6: tearDown.
+
+2006-02-28 16:29:47,840 INFO test7: [test7] description not found
+2006-02-28 16:29:47,840 DEBUG test7: Starting -----------------------------------
+	
+2006-02-28 16:29:47,840 DEBUG test7: setUp
+2006-02-28 16:29:47,840 DEBUG test7: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-28 16:29:47,846 DEBUG test7:  Done in 0.005s
+2006-02-28 16:29:47,846 DEBUG test7:  Load css and images...
+2006-02-28 16:29:47,927 DEBUG test7:   Done in 0.026s
+2006-02-28 16:29:47,937 DEBUG test7: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'One.file', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0x4068896c>, 'PSW.prec': '100', 'centering': 'Median', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0x40688eac>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0x40692fec>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'WS', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: WS, min < -1000 ...
+2006-02-28 16:29:48,283 DEBUG test7:  Done in 0.346s
+2006-02-28 16:29:48,287 DEBUG test7:  Load redirect link: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=7126256284302811411406316115
+2006-02-28 16:29:48,345 DEBUG test7:  Done in 0.058s
+2006-02-28 16:29:48,345 DEBUG test7:  Load css and images...
+2006-02-28 16:29:48,346 DEBUG test7:   Done in 0.000s
+2006-02-28 16:30:20,347 DEBUG test7: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=7126256284302811411406316115
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:30:20,474 DEBUG test7:  Done in 0.128s
+2006-02-28 16:30:20,477 DEBUG test7:  Load redirect link: http://adacgh.bioinfo.cnio.es/tmp/7126256284302811411406316115/results.html
+2006-02-28 16:30:20,482 DEBUG test7:  Done in 0.005s
+2006-02-28 16:30:20,483 DEBUG test7:  Load css and images...
+2006-02-28 16:30:20,497 DEBUG test7:   Done in 0.005s
+2006-02-28 16:30:20,506 DEBUG test7: tearDown.
+
+2006-02-28 16:30:20,507 INFO test8: [test8] description not found
+2006-02-28 16:30:20,507 DEBUG test8: Starting -----------------------------------
+	
+2006-02-28 16:30:20,507 DEBUG test8: setUp
+2006-02-28 16:30:20,508 DEBUG test8: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-28 16:30:20,513 DEBUG test8:  Done in 0.005s
+2006-02-28 16:30:20,513 DEBUG test8:  Load css and images...
+2006-02-28 16:30:20,597 DEBUG test8:   Done in 0.029s
+2006-02-28 16:30:20,607 DEBUG test8: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'Two.files', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0x4069282c>, 'PSW.prec': '100', 'centering': 'Median', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0x40692fac>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0x40696eac>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'PSW', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: PSW; many < -300 ...
+2006-02-28 16:30:20,922 DEBUG test8:  Done in 0.315s
+2006-02-28 16:30:20,927 DEBUG test8:  Load redirect link: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=1710985027511411406637400
+2006-02-28 16:30:20,980 DEBUG test8:  Done in 0.053s
+2006-02-28 16:30:20,980 DEBUG test8:  Load css and images...
+2006-02-28 16:30:20,981 DEBUG test8:   Done in 0.000s
+2006-02-28 16:30:52,987 DEBUG test8: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=1710985027511411406637400
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 16:30:53,114 DEBUG test8:  Done in 0.127s
+2006-02-28 16:30:53,116 DEBUG test8:  Load redirect link: http://adacgh.bioinfo.cnio.es/tmp/1710985027511411406637400/results.html
+2006-02-28 16:30:53,122 DEBUG test8:  Done in 0.005s
+2006-02-28 16:30:53,122 DEBUG test8:  Load css and images...
+2006-02-28 16:30:53,137 DEBUG test8:   Done in 0.005s
+2006-02-28 16:30:53,146 DEBUG test8: tearDown.
+
+2006-02-28 17:27:04,158 INFO test6: [test6] description not found
+2006-02-28 17:27:04,158 DEBUG test6: Starting -----------------------------------
+	
+2006-02-28 17:27:04,159 DEBUG test6: setUp
+2006-02-28 17:27:04,159 DEBUG test6: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-28 17:27:04,195 DEBUG test6:  Done in 0.036s
+2006-02-28 17:27:04,196 DEBUG test6:  Load css and images...
+2006-02-28 17:27:04,277 DEBUG test6:   Done in 0.027s
+2006-02-28 17:27:04,287 DEBUG test6: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'One.file', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0x4069808c>, 'PSW.prec': '100', 'centering': 'Median', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0x4069bbcc>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0x4069b96c>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'CBS', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: CBS, single array ...
+2006-02-28 17:27:04,572 DEBUG test6:  Done in 0.285s
+2006-02-28 17:27:04,576 DEBUG test6:  Load redirect link: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=49358409649911411440683118
+2006-02-28 17:27:04,631 DEBUG test6:  Done in 0.055s
+2006-02-28 17:27:04,632 DEBUG test6:  Load css and images...
+2006-02-28 17:27:04,633 DEBUG test6:   Done in 0.000s
+2006-02-28 17:27:36,637 DEBUG test6: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=49358409649911411440683118
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:27:36,693 DEBUG test6:  Done in 0.056s
+2006-02-28 17:27:36,694 DEBUG test6:  Load css and images...
+2006-02-28 17:27:36,695 DEBUG test6:   Done in 0.000s
+2006-02-28 17:28:08,697 DEBUG test6: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=49358409649911411440683118
+	Page 4: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:28:08,751 DEBUG test6:  Done in 0.054s
+2006-02-28 17:28:08,751 DEBUG test6:  Load css and images...
+2006-02-28 17:28:08,752 DEBUG test6:   Done in 0.000s
+2006-02-28 17:28:40,757 DEBUG test6: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=49358409649911411440683118
+	Page 5: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:28:47,608 DEBUG test6:  Done in 6.852s
+2006-02-28 17:28:47,616 DEBUG test6:  Load redirect link: http://adacgh.bioinfo.cnio.es/tmp/49358409649911411440683118/results.html
+2006-02-28 17:28:47,623 DEBUG test6:  Done in 0.007s
+2006-02-28 17:28:47,624 DEBUG test6:  Load css and images...
+2006-02-28 17:28:47,747 DEBUG test6:   Done in 0.029s
+2006-02-28 17:28:47,758 DEBUG test6: tearDown.
+
+2006-02-28 17:30:47,529 INFO test6: [test6] description not found
+2006-02-28 17:30:47,529 DEBUG test6: Starting -----------------------------------
+	
+2006-02-28 17:30:47,529 DEBUG test6: setUp
+2006-02-28 17:30:47,530 DEBUG test6: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-28 17:30:47,537 DEBUG test6:  Done in 0.007s
+2006-02-28 17:30:47,537 DEBUG test6:  Load css and images...
+2006-02-28 17:30:47,617 DEBUG test6:   Done in 0.027s
+2006-02-28 17:30:47,627 DEBUG test6: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'One.file', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0x4069808c>, 'PSW.prec': '100', 'centering': 'Median', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0x4069bbcc>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0x4069b96c>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'CBS', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: CBS, single array ...
+2006-02-28 17:30:47,996 DEBUG test6:  Done in 0.370s
+2006-02-28 17:30:48,006 DEBUG test6:  Load redirect link: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=4453309074003011411442911919
+2006-02-28 17:30:48,062 DEBUG test6:  Done in 0.055s
+2006-02-28 17:30:48,062 DEBUG test6:  Load css and images...
+2006-02-28 17:30:48,063 DEBUG test6:   Done in 0.000s
+2006-02-28 17:31:20,067 DEBUG test6: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=4453309074003011411442911919
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:31:20,120 DEBUG test6:  Done in 0.053s
+2006-02-28 17:31:20,120 DEBUG test6:  Load css and images...
+2006-02-28 17:31:20,121 DEBUG test6:   Done in 0.000s
+2006-02-28 17:31:52,127 DEBUG test6: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=4453309074003011411442911919
+	Page 4: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:31:52,204 DEBUG test6:  Done in 0.077s
+2006-02-28 17:31:52,205 DEBUG test6:  Load css and images...
+2006-02-28 17:31:52,206 DEBUG test6:   Done in 0.000s
+2006-02-28 17:32:24,207 DEBUG test6: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=4453309074003011411442911919
+	Page 5: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:32:31,038 DEBUG test6:  Done in 6.831s
+2006-02-28 17:32:31,046 DEBUG test6:  Load redirect link: http://adacgh.bioinfo.cnio.es/tmp/4453309074003011411442911919/results.html
+2006-02-28 17:32:31,053 DEBUG test6:  Done in 0.006s
+2006-02-28 17:32:31,053 DEBUG test6:  Load css and images...
+2006-02-28 17:32:31,177 DEBUG test6:   Done in 0.030s
+2006-02-28 17:32:31,186 DEBUG test6: tearDown.
+
+2006-02-28 17:42:09,280 INFO test1: [test1] description not found
+2006-02-28 17:42:09,281 DEBUG test1: Starting -----------------------------------
+	
+2006-02-28 17:42:09,281 DEBUG test1: setUp
+2006-02-28 17:42:09,281 DEBUG test1: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-28 17:42:09,287 DEBUG test1:  Done in 0.006s
+2006-02-28 17:42:09,288 DEBUG test1:  Load css and images...
+2006-02-28 17:42:09,377 DEBUG test1:   Done in 0.046s
+2006-02-28 17:42:09,388 DEBUG test1: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'None', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'Two.files', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0x40623fac>, 'PSW.prec': '100', 'centering': 'Median', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0x40623fec>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0x40623f6c>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'CBS', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'None'}
+	Page 2: CBS ...
+2006-02-28 17:42:09,851 DEBUG test1:  Done in 0.463s
+2006-02-28 17:42:09,856 DEBUG test1:  Load redirect link: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=282224924689921141144973461
+2006-02-28 17:42:09,936 DEBUG test1:  Done in 0.079s
+2006-02-28 17:42:09,937 DEBUG test1:  Load css and images...
+2006-02-28 17:42:09,937 DEBUG test1:   Done in 0.000s
+2006-02-28 17:42:41,947 DEBUG test1: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=282224924689921141144973461
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:42:42,003 DEBUG test1:  Done in 0.056s
+2006-02-28 17:42:42,004 DEBUG test1:  Load css and images...
+2006-02-28 17:42:42,004 DEBUG test1:   Done in 0.000s
+2006-02-28 17:43:14,007 DEBUG test1: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=282224924689921141144973461
+	Page 4: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:43:14,086 DEBUG test1:  Done in 0.079s
+2006-02-28 17:43:14,087 DEBUG test1:  Load css and images...
+2006-02-28 17:43:14,088 DEBUG test1:   Done in 0.000s
+2006-02-28 17:43:46,097 DEBUG test1: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=282224924689921141144973461
+	Page 5: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:43:46,177 DEBUG test1:  Done in 0.080s
+2006-02-28 17:43:46,177 DEBUG test1:  Load css and images...
+2006-02-28 17:43:46,178 DEBUG test1:   Done in 0.000s
+2006-02-28 17:44:18,187 DEBUG test1: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=282224924689921141144973461
+	Page 6: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:44:18,239 DEBUG test1:  Done in 0.052s
+2006-02-28 17:44:18,239 DEBUG test1:  Load css and images...
+2006-02-28 17:44:18,240 DEBUG test1:   Done in 0.000s
+2006-02-28 17:44:50,247 DEBUG test1: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=282224924689921141144973461
+	Page 7: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:44:50,301 DEBUG test1:  Done in 0.054s
+2006-02-28 17:44:50,302 DEBUG test1:  Load css and images...
+2006-02-28 17:44:50,303 DEBUG test1:   Done in 0.000s
+2006-02-28 17:45:22,307 DEBUG test1: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=282224924689921141144973461
+	Page 8: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:45:22,360 DEBUG test1:  Done in 0.053s
+2006-02-28 17:45:22,361 DEBUG test1:  Load css and images...
+2006-02-28 17:45:22,361 DEBUG test1:   Done in 0.000s
+2006-02-28 17:45:54,367 DEBUG test1: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=282224924689921141144973461
+	Page 9: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:45:54,421 DEBUG test1:  Done in 0.054s
+2006-02-28 17:45:54,422 DEBUG test1:  Load css and images...
+2006-02-28 17:45:54,423 DEBUG test1:   Done in 0.000s
+2006-02-28 17:46:26,427 DEBUG test1: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=282224924689921141144973461
+	Page 10: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:46:26,506 DEBUG test1:  Done in 0.079s
+2006-02-28 17:46:26,506 DEBUG test1:  Load css and images...
+2006-02-28 17:46:26,507 DEBUG test1:   Done in 0.000s
+2006-02-28 17:46:58,517 DEBUG test1: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=282224924689921141144973461
+	Page 11: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:46:58,597 DEBUG test1:  Done in 0.080s
+2006-02-28 17:46:58,597 DEBUG test1:  Load css and images...
+2006-02-28 17:46:58,598 DEBUG test1:   Done in 0.000s
+2006-02-28 17:47:30,607 DEBUG test1: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=282224924689921141144973461
+	Page 12: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:48:20,782 DEBUG test1:  Done in 50.175s
+2006-02-28 17:48:20,786 DEBUG test1:  Load redirect link: http://adacgh.bioinfo.cnio.es/tmp/282224924689921141144973461/results.html
+2006-02-28 17:48:20,802 DEBUG test1:  Done in 0.016s
+2006-02-28 17:48:20,803 DEBUG test1:  Load css and images...
+2006-02-28 17:48:22,179 DEBUG test1:   Done in 0.226s
+2006-02-28 17:48:22,187 DEBUG test1: tearDown.
+
+2006-02-28 17:48:22,187 INFO test2: [test2] description not found
+2006-02-28 17:48:22,187 DEBUG test2: Starting -----------------------------------
+	
+2006-02-28 17:48:22,188 DEBUG test2: setUp
+2006-02-28 17:48:22,188 DEBUG test2: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-28 17:48:22,193 DEBUG test2:  Done in 0.005s
+2006-02-28 17:48:22,194 DEBUG test2:  Load css and images...
+2006-02-28 17:48:22,277 DEBUG test2:   Done in 0.026s
+2006-02-28 17:48:22,289 DEBUG test2: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'One.file', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0x40623f2c>, 'PSW.prec': '100', 'centering': 'Median', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0x40623fac>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0x40623fcc>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'WS', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: WS ...
+2006-02-28 17:48:22,653 DEBUG test2:  Done in 0.364s
+2006-02-28 17:48:22,656 DEBUG test2:  Load redirect link: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=251330656833281141145378161
+2006-02-28 17:48:22,712 DEBUG test2:  Done in 0.055s
+2006-02-28 17:48:22,712 DEBUG test2:  Load css and images...
+2006-02-28 17:48:22,713 DEBUG test2:   Done in 0.000s
+2006-02-28 17:48:54,717 DEBUG test2: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=251330656833281141145378161
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:48:54,770 DEBUG test2:  Done in 0.054s
+2006-02-28 17:48:54,771 DEBUG test2:  Load css and images...
+2006-02-28 17:48:54,772 DEBUG test2:   Done in 0.000s
+2006-02-28 17:49:26,777 DEBUG test2: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=251330656833281141145378161
+	Page 4: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:49:26,855 DEBUG test2:  Done in 0.079s
+2006-02-28 17:49:26,856 DEBUG test2:  Load css and images...
+2006-02-28 17:49:26,857 DEBUG test2:   Done in 0.000s
+2006-02-28 17:49:58,867 DEBUG test2: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=251330656833281141145378161
+	Page 5: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:50:17,525 DEBUG test2:  Done in 18.658s
+2006-02-28 17:50:17,526 DEBUG test2:  Load redirect link: http://adacgh.bioinfo.cnio.es/tmp/251330656833281141145378161/results.html
+2006-02-28 17:50:17,535 DEBUG test2:  Done in 0.008s
+2006-02-28 17:50:17,535 DEBUG test2:  Load css and images...
+2006-02-28 17:50:17,877 DEBUG test2:   Done in 0.079s
+2006-02-28 17:50:17,887 DEBUG test2: tearDown.
+
+2006-02-28 17:50:17,887 INFO test3: [test3] description not found
+2006-02-28 17:50:17,887 DEBUG test3: Starting -----------------------------------
+	
+2006-02-28 17:50:17,887 DEBUG test3: setUp
+2006-02-28 17:50:17,888 DEBUG test3: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-28 17:50:17,893 DEBUG test3:  Done in 0.006s
+2006-02-28 17:50:17,894 DEBUG test3:  Load css and images...
+2006-02-28 17:50:17,977 DEBUG test3:   Done in 0.025s
+2006-02-28 17:50:17,987 DEBUG test3: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'One.file', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0x40623d2c>, 'PSW.prec': '100', 'centering': 'Median', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0x406289ec>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0x406282cc>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'PSW', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: PSW ...
+2006-02-28 17:50:18,334 DEBUG test3:  Done in 0.347s
+2006-02-28 17:50:18,336 DEBUG test3:  Load redirect link: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=6342285189995211411454617077
+2006-02-28 17:50:18,390 DEBUG test3:  Done in 0.053s
+2006-02-28 17:50:18,391 DEBUG test3:  Load css and images...
+2006-02-28 17:50:18,391 DEBUG test3:   Done in 0.000s
+2006-02-28 17:50:50,397 DEBUG test3: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=6342285189995211411454617077
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:50:50,454 DEBUG test3:  Done in 0.057s
+2006-02-28 17:50:50,455 DEBUG test3:  Load css and images...
+2006-02-28 17:50:50,455 DEBUG test3:   Done in 0.000s
+2006-02-28 17:51:22,457 DEBUG test3: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=6342285189995211411454617077
+	Page 4: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:51:22,546 DEBUG test3:  Done in 0.089s
+2006-02-28 17:51:22,547 DEBUG test3:  Load css and images...
+2006-02-28 17:51:22,548 DEBUG test3:   Done in 0.000s
+2006-02-28 17:51:54,557 DEBUG test3: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=6342285189995211411454617077
+	Page 5: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:51:54,610 DEBUG test3:  Done in 0.053s
+2006-02-28 17:51:54,611 DEBUG test3:  Load css and images...
+2006-02-28 17:51:54,612 DEBUG test3:   Done in 0.000s
+2006-02-28 17:52:26,617 DEBUG test3: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=6342285189995211411454617077
+	Page 6: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:52:26,677 DEBUG test3:  Done in 0.060s
+2006-02-28 17:52:26,678 DEBUG test3:  Load css and images...
+2006-02-28 17:52:26,679 DEBUG test3:   Done in 0.000s
+2006-02-28 17:52:58,687 DEBUG test3: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=6342285189995211411454617077
+	Page 7: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:53:03,944 DEBUG test3:  Done in 5.257s
+2006-02-28 17:53:03,946 DEBUG test3:  Load redirect link: http://adacgh.bioinfo.cnio.es/tmp/6342285189995211411454617077/results.html
+2006-02-28 17:53:03,956 DEBUG test3:  Done in 0.009s
+2006-02-28 17:53:03,956 DEBUG test3:  Load css and images...
+2006-02-28 17:53:04,278 DEBUG test3:   Done in 0.071s
+2006-02-28 17:53:04,287 DEBUG test3: tearDown.
+
+2006-02-28 17:53:04,287 INFO test4: [test4] description not found
+2006-02-28 17:53:04,287 DEBUG test4: Starting -----------------------------------
+	
+2006-02-28 17:53:04,287 DEBUG test4: setUp
+2006-02-28 17:53:04,288 DEBUG test4: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-28 17:53:04,293 DEBUG test4:  Done in 0.005s
+2006-02-28 17:53:04,293 DEBUG test4:  Load css and images...
+2006-02-28 17:53:04,377 DEBUG test4:   Done in 0.025s
+2006-02-28 17:53:04,387 DEBUG test4: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'Two.files', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0x406529ec>, 'PSW.prec': '100', 'centering': 'Mean', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0x40659a0c>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0x4065980c>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'ACE', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: ACE, many arrays ...
+2006-02-28 17:53:04,785 DEBUG test4:  Done in 0.398s
+2006-02-28 17:53:04,786 DEBUG test4:  Load redirect link: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=4430266675241111411456285295
+2006-02-28 17:53:04,840 DEBUG test4:  Done in 0.053s
+2006-02-28 17:53:04,840 DEBUG test4:  Load css and images...
+2006-02-28 17:53:04,841 DEBUG test4:   Done in 0.000s
+2006-02-28 17:53:36,847 DEBUG test4: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=4430266675241111411456285295
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:53:36,926 DEBUG test4:  Done in 0.079s
+2006-02-28 17:53:36,926 DEBUG test4:  Load css and images...
+2006-02-28 17:53:36,927 DEBUG test4:   Done in 0.000s
+2006-02-28 17:54:08,937 DEBUG test4: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=4430266675241111411456285295
+	Page 4: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:54:08,990 DEBUG test4:  Done in 0.053s
+2006-02-28 17:54:08,991 DEBUG test4:  Load css and images...
+2006-02-28 17:54:08,992 DEBUG test4:   Done in 0.000s
+2006-02-28 17:54:40,997 DEBUG test4: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=4430266675241111411456285295
+	Page 5: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:54:41,056 DEBUG test4:  Done in 0.059s
+2006-02-28 17:54:41,057 DEBUG test4:  Load css and images...
+2006-02-28 17:54:41,058 DEBUG test4:   Done in 0.000s
+2006-02-28 17:55:13,067 DEBUG test4: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=4430266675241111411456285295
+	Page 6: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:55:13,125 DEBUG test4:  Done in 0.058s
+2006-02-28 17:55:13,125 DEBUG test4:  Load css and images...
+2006-02-28 17:55:13,126 DEBUG test4:   Done in 0.000s
+2006-02-28 17:55:45,137 DEBUG test4: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=4430266675241111411456285295
+	Page 7: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:55:45,198 DEBUG test4:  Done in 0.061s
+2006-02-28 17:55:45,198 DEBUG test4:  Load css and images...
+2006-02-28 17:55:45,199 DEBUG test4:   Done in 0.000s
+2006-02-28 17:56:17,207 DEBUG test4: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=4430266675241111411456285295
+	Page 8: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:56:17,261 DEBUG test4:  Done in 0.054s
+2006-02-28 17:56:17,262 DEBUG test4:  Load css and images...
+2006-02-28 17:56:17,263 DEBUG test4:   Done in 0.000s
+2006-02-28 17:56:49,267 DEBUG test4: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=4430266675241111411456285295
+	Page 9: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:56:49,327 DEBUG test4:  Done in 0.060s
+2006-02-28 17:56:49,327 DEBUG test4:  Load css and images...
+2006-02-28 17:56:49,328 DEBUG test4:   Done in 0.000s
+2006-02-28 17:57:21,337 DEBUG test4: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=4430266675241111411456285295
+	Page 10: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:57:31,906 DEBUG test4:  Done in 10.569s
+2006-02-28 17:57:31,916 DEBUG test4:  Load redirect link: http://adacgh.bioinfo.cnio.es/tmp/4430266675241111411456285295/results.html
+2006-02-28 17:57:31,932 DEBUG test4:  Done in 0.016s
+2006-02-28 17:57:31,933 DEBUG test4:  Load css and images...
+2006-02-28 17:57:33,239 DEBUG test4:   Done in 0.125s
+2006-02-28 17:57:33,247 DEBUG test4: tearDown.
+
+2006-02-28 17:57:33,247 INFO test5: [test5] description not found
+2006-02-28 17:57:33,247 DEBUG test5: Starting -----------------------------------
+	
+2006-02-28 17:57:33,248 DEBUG test5: setUp
+2006-02-28 17:57:33,248 DEBUG test5: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-28 17:57:33,253 DEBUG test5:  Done in 0.005s
+2006-02-28 17:57:33,254 DEBUG test5:  Load css and images...
+2006-02-28 17:57:33,337 DEBUG test5:   Done in 0.025s
+2006-02-28 17:57:33,347 DEBUG test5: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'Two.files', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0x40652b6c>, 'PSW.prec': '100', 'centering': 'Mean', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0x406283ac>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0x40623fac>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'ACE', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: ACE, single array ...
+2006-02-28 17:57:33,644 DEBUG test5:  Done in 0.297s
+2006-02-28 17:57:33,646 DEBUG test5:  Load redirect link: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=22329417479011411458976434
+2006-02-28 17:57:33,700 DEBUG test5:  Done in 0.054s
+2006-02-28 17:57:33,701 DEBUG test5:  Load css and images...
+2006-02-28 17:57:33,702 DEBUG test5:   Done in 0.000s
+2006-02-28 17:58:05,707 DEBUG test5: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=22329417479011411458976434
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:58:05,760 DEBUG test5:  Done in 0.053s
+2006-02-28 17:58:05,761 DEBUG test5:  Load css and images...
+2006-02-28 17:58:05,761 DEBUG test5:   Done in 0.000s
+2006-02-28 17:58:37,767 DEBUG test5: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=22329417479011411458976434
+	Page 4: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:58:39,027 DEBUG test5:  Done in 1.260s
+2006-02-28 17:58:39,036 DEBUG test5:  Load redirect link: http://adacgh.bioinfo.cnio.es/tmp/22329417479011411458976434/results.html
+2006-02-28 17:58:39,043 DEBUG test5:  Done in 0.006s
+2006-02-28 17:58:39,043 DEBUG test5:  Load css and images...
+2006-02-28 17:58:39,157 DEBUG test5:   Done in 0.013s
+2006-02-28 17:58:39,166 DEBUG test5: tearDown.
+
+2006-02-28 17:58:39,167 INFO test6: [test6] description not found
+2006-02-28 17:58:39,167 DEBUG test6: Starting -----------------------------------
+	
+2006-02-28 17:58:39,167 DEBUG test6: setUp
+2006-02-28 17:58:39,167 DEBUG test6: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-28 17:58:39,173 DEBUG test6:  Done in 0.006s
+2006-02-28 17:58:39,174 DEBUG test6:  Load css and images...
+2006-02-28 17:58:39,257 DEBUG test6:   Done in 0.026s
+2006-02-28 17:58:39,267 DEBUG test6: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'One.file', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0x4064e7cc>, 'PSW.prec': '100', 'centering': 'Median', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0x4066b8cc>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0x40652b6c>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'CBS', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: CBS, single array ...
+2006-02-28 17:58:39,574 DEBUG test6:  Done in 0.307s
+2006-02-28 17:58:39,577 DEBUG test6:  Load redirect link: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=7696315611382811411459635779
+2006-02-28 17:58:39,631 DEBUG test6:  Done in 0.055s
+2006-02-28 17:58:39,632 DEBUG test6:  Load css and images...
+2006-02-28 17:58:39,633 DEBUG test6:   Done in 0.000s
+2006-02-28 17:59:11,637 DEBUG test6: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=7696315611382811411459635779
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:59:11,690 DEBUG test6:  Done in 0.054s
+2006-02-28 17:59:11,691 DEBUG test6:  Load css and images...
+2006-02-28 17:59:11,692 DEBUG test6:   Done in 0.000s
+2006-02-28 17:59:43,697 DEBUG test6: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=7696315611382811411459635779
+	Page 4: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 17:59:43,750 DEBUG test6:  Done in 0.053s
+2006-02-28 17:59:43,751 DEBUG test6:  Load css and images...
+2006-02-28 17:59:43,752 DEBUG test6:   Done in 0.000s
+2006-02-28 18:00:15,757 DEBUG test6: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=7696315611382811411459635779
+	Page 5: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 18:00:22,585 DEBUG test6:  Done in 6.828s
+2006-02-28 18:00:22,586 DEBUG test6:  Load redirect link: http://adacgh.bioinfo.cnio.es/tmp/7696315611382811411459635779/results.html
+2006-02-28 18:00:22,593 DEBUG test6:  Done in 0.006s
+2006-02-28 18:00:22,593 DEBUG test6:  Load css and images...
+2006-02-28 18:00:22,717 DEBUG test6:   Done in 0.029s
+2006-02-28 18:00:22,726 DEBUG test6: tearDown.
+
+2006-02-28 18:00:22,727 INFO test6b: [test6b] description not found
+2006-02-28 18:00:22,727 DEBUG test6b: Starting -----------------------------------
+	
+2006-02-28 18:00:22,727 DEBUG test6b: setUp
+2006-02-28 18:00:22,727 DEBUG test6b: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-28 18:00:22,733 DEBUG test6b:  Done in 0.005s
+2006-02-28 18:00:22,733 DEBUG test6b:  Load css and images...
+2006-02-28 18:00:22,817 DEBUG test6b:   Done in 0.025s
+2006-02-28 18:00:22,827 DEBUG test6b: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'One.file', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0x4066bccc>, 'PSW.prec': '100', 'centering': 'Median', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0x406280cc>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0x406529ec>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'WS', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: WS, single array ...
+2006-02-28 18:00:23,105 DEBUG test6b:  Done in 0.278s
+2006-02-28 18:00:23,106 DEBUG test6b:  Load redirect link: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=8174318848962311411460667301
+2006-02-28 18:00:23,161 DEBUG test6b:  Done in 0.055s
+2006-02-28 18:00:23,162 DEBUG test6b:  Load css and images...
+2006-02-28 18:00:23,163 DEBUG test6b:   Done in 0.000s
+2006-02-28 18:00:55,167 DEBUG test6b: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=8174318848962311411460667301
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 18:00:55,226 DEBUG test6b:  Done in 0.059s
+2006-02-28 18:00:55,227 DEBUG test6b:  Load css and images...
+2006-02-28 18:00:55,228 DEBUG test6b:   Done in 0.000s
+2006-02-28 18:01:27,237 DEBUG test6b: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=8174318848962311411460667301
+	Page 4: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 18:01:34,265 DEBUG test6b:  Done in 7.028s
+2006-02-28 18:01:34,266 DEBUG test6b:  Load redirect link: http://adacgh.bioinfo.cnio.es/tmp/8174318848962311411460667301/results.html
+2006-02-28 18:01:34,274 DEBUG test6b:  Done in 0.007s
+2006-02-28 18:01:34,274 DEBUG test6b:  Load css and images...
+2006-02-28 18:01:34,397 DEBUG test6b:   Done in 0.029s
+2006-02-28 18:01:34,406 DEBUG test6b: tearDown.
+
+2006-02-28 18:01:34,407 INFO test6c: [test6c] description not found
+2006-02-28 18:01:34,407 DEBUG test6c: Starting -----------------------------------
+	
+2006-02-28 18:01:34,407 DEBUG test6c: setUp
+2006-02-28 18:01:34,407 DEBUG test6c: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-28 18:01:34,413 DEBUG test6c:  Done in 0.005s
+2006-02-28 18:01:34,413 DEBUG test6c:  Load css and images...
+2006-02-28 18:01:34,497 DEBUG test6c:   Done in 0.026s
+2006-02-28 18:01:34,507 DEBUG test6c: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'One.file', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0x40659f4c>, 'PSW.prec': '100', 'centering': 'Median', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0x406280cc>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0x40675d6c>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'PSW', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: PSW, single array ...
+2006-02-28 18:01:34,842 DEBUG test6c:  Done in 0.335s
+2006-02-28 18:01:34,847 DEBUG test6c:  Load redirect link: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=420597366946611411461386450
+2006-02-28 18:01:34,903 DEBUG test6c:  Done in 0.056s
+2006-02-28 18:01:34,903 DEBUG test6c:  Load css and images...
+2006-02-28 18:01:34,904 DEBUG test6c:   Done in 0.000s
+2006-02-28 18:02:06,907 DEBUG test6c: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=420597366946611411461386450
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 18:02:06,964 DEBUG test6c:  Done in 0.057s
+2006-02-28 18:02:06,965 DEBUG test6c:  Load css and images...
+2006-02-28 18:02:06,966 DEBUG test6c:   Done in 0.000s
+2006-02-28 18:02:38,967 DEBUG test6c: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=420597366946611411461386450
+	Page 4: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 18:02:40,358 DEBUG test6c:  Done in 1.391s
+2006-02-28 18:02:40,367 DEBUG test6c:  Load redirect link: http://adacgh.bioinfo.cnio.es/tmp/420597366946611411461386450/results.html
+2006-02-28 18:02:40,372 DEBUG test6c:  Done in 0.006s
+2006-02-28 18:02:40,373 DEBUG test6c:  Load css and images...
+2006-02-28 18:02:40,467 DEBUG test6c:   Done in 0.014s
+2006-02-28 18:02:40,476 DEBUG test6c: tearDown.
+
+2006-02-28 18:02:40,477 INFO test7: [test7] description not found
+2006-02-28 18:02:40,477 DEBUG test7: Starting -----------------------------------
+	
+2006-02-28 18:02:40,477 DEBUG test7: setUp
+2006-02-28 18:02:40,478 DEBUG test7: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-28 18:02:40,483 DEBUG test7:  Done in 0.005s
+2006-02-28 18:02:40,483 DEBUG test7:  Load css and images...
+2006-02-28 18:02:40,567 DEBUG test7:   Done in 0.027s
+2006-02-28 18:02:40,577 DEBUG test7: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'One.file', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0x40659f4c>, 'PSW.prec': '100', 'centering': 'Median', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0x40684d0c>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0x40684e6c>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'WS', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: WS, min < -1000 ...
+2006-02-28 18:02:40,894 DEBUG test7:  Done in 0.317s
+2006-02-28 18:02:40,897 DEBUG test7:  Load redirect link: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=85399169909911411462049870
+2006-02-28 18:02:40,953 DEBUG test7:  Done in 0.056s
+2006-02-28 18:02:40,953 DEBUG test7:  Load css and images...
+2006-02-28 18:02:40,954 DEBUG test7:   Done in 0.000s
+2006-02-28 18:03:12,957 DEBUG test7: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=85399169909911411462049870
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 18:03:13,093 DEBUG test7:  Done in 0.136s
+2006-02-28 18:03:13,096 DEBUG test7:  Load redirect link: http://adacgh.bioinfo.cnio.es/tmp/85399169909911411462049870/results.html
+2006-02-28 18:03:13,102 DEBUG test7:  Done in 0.006s
+2006-02-28 18:03:13,103 DEBUG test7:  Load css and images...
+2006-02-28 18:03:13,117 DEBUG test7:   Done in 0.006s
+2006-02-28 18:03:13,126 DEBUG test7: tearDown.
+
+2006-02-28 18:03:13,127 INFO test8: [test8] description not found
+2006-02-28 18:03:13,127 DEBUG test8: Starting -----------------------------------
+	
+2006-02-28 18:03:13,127 DEBUG test8: setUp
+2006-02-28 18:03:13,127 DEBUG test8: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-28 18:03:13,133 DEBUG test8:  Done in 0.005s
+2006-02-28 18:03:13,133 DEBUG test8:  Load css and images...
+2006-02-28 18:03:13,217 DEBUG test8:   Done in 0.026s
+2006-02-28 18:03:13,227 DEBUG test8: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'Two.files', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0x4064e7cc>, 'PSW.prec': '100', 'centering': 'Median', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0x40680d8c>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0x40684d6c>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'PSW', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: PSW; many < -300 ...
+2006-02-28 18:03:13,573 DEBUG test8:  Done in 0.347s
+2006-02-28 18:03:13,576 DEBUG test8:  Load redirect link: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=4535321661282611411462376723
+2006-02-28 18:03:13,655 DEBUG test8:  Done in 0.079s
+2006-02-28 18:03:13,656 DEBUG test8:  Load css and images...
+2006-02-28 18:03:13,657 DEBUG test8:   Done in 0.000s
+2006-02-28 18:03:45,667 DEBUG test8: GET: http://adacgh.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=4535321661282611411462376723
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-28 18:03:45,800 DEBUG test8:  Done in 0.133s
+2006-02-28 18:03:45,807 DEBUG test8:  Load redirect link: http://adacgh.bioinfo.cnio.es/tmp/4535321661282611411462376723/results.html
+2006-02-28 18:03:45,812 DEBUG test8:  Done in 0.005s
+2006-02-28 18:03:45,812 DEBUG test8:  Load css and images...
+2006-02-28 18:03:45,827 DEBUG test8:   Done in 0.005s
+2006-02-28 18:03:45,836 DEBUG test8: tearDown.
+
+2006-10-06 15:27:58,109 INFO test1: [test1] description not found
+2006-10-06 15:27:58,133 DEBUG test1: Starting -----------------------------------
+	
+2006-10-06 15:27:58,133 DEBUG test1: setUp
+2006-10-06 15:27:58,134 DEBUG test1: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-10-06 15:27:58,467 DEBUG test1:  Done in 0.333s
+2006-10-06 15:27:58,468 DEBUG test1:  Load css and images...
+2006-10-06 15:27:59,184 DEBUG test1:   Done in 0.691s
+2006-10-06 15:27:59,189 DEBUG test1: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'None', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'Two.files', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0xa790328c>, 'PSW.prec': '100', 'centering': 'Median', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0xa790358c>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0xa790364c>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'CBS', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'None'}
+	Page 2: CBS ...
+2006-10-06 15:28:25,785 DEBUG test1:  Done in 26.596s
+2006-10-06 15:28:25,786 DEBUG test1:  Load css and images...
+2006-10-06 15:28:25,787 DEBUG test1:   Done in 0.000s
+2006-10-06 15:28:25,797 DEBUG test1: tearDown.
+
+2006-10-06 15:28:25,820 INFO test2: [test2] description not found
+2006-10-06 15:28:25,821 DEBUG test2: Starting -----------------------------------
+	
+2006-10-06 15:28:25,821 DEBUG test2: setUp
+2006-10-06 15:28:25,821 DEBUG test2: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-10-06 15:28:26,129 DEBUG test2:  Done in 0.307s
+2006-10-06 15:28:26,129 DEBUG test2:  Load css and images...
+2006-10-06 15:28:26,853 DEBUG test2:   Done in 0.694s
+2006-10-06 15:28:26,858 DEBUG test2: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'One.file', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0xa790358c>, 'PSW.prec': '100', 'centering': 'Median', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0xa790328c>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0xa7903ccc>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'WS', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: WS ...
+2006-10-06 15:28:36,304 DEBUG test2:  Done in 9.446s
+2006-10-06 15:28:36,305 DEBUG test2:  Load css and images...
+2006-10-06 15:28:36,307 DEBUG test2:   Done in 0.000s
+2006-10-06 15:28:36,317 DEBUG test2: tearDown.
+
+2006-10-06 15:28:36,320 INFO test3: [test3] description not found
+2006-10-06 15:28:36,321 DEBUG test3: Starting -----------------------------------
+	
+2006-10-06 15:28:36,321 DEBUG test3: setUp
+2006-10-06 15:28:36,321 DEBUG test3: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-10-06 15:28:36,638 DEBUG test3:  Done in 0.317s
+2006-10-06 15:28:36,639 DEBUG test3:  Load css and images...
+2006-10-06 15:28:37,374 DEBUG test3:   Done in 0.709s
+2006-10-06 15:28:37,379 DEBUG test3: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'One.file', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0xa790328c>, 'PSW.prec': '100', 'centering': 'Median', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0xa790358c>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0xa7903ccc>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'PSW', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: PSW ...
+2006-10-06 15:28:46,985 DEBUG test3:  Done in 9.606s
+2006-10-06 15:28:46,986 DEBUG test3:  Load css and images...
+2006-10-06 15:28:46,988 DEBUG test3:   Done in 0.000s
+2006-10-06 15:28:46,998 DEBUG test3: tearDown.
+
+2006-10-06 15:28:47,001 INFO test4: [test4] description not found
+2006-10-06 15:28:47,001 DEBUG test4: Starting -----------------------------------
+	
+2006-10-06 15:28:47,001 DEBUG test4: setUp
+2006-10-06 15:28:47,002 DEBUG test4: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-10-06 15:28:47,311 DEBUG test4:  Done in 0.308s
+2006-10-06 15:28:47,312 DEBUG test4:  Load css and images...
+2006-10-06 15:28:48,023 DEBUG test4:   Done in 0.685s
+2006-10-06 15:28:48,028 DEBUG test4: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'Two.files', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0xa790358c>, 'PSW.prec': '100', 'centering': 'Mean', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0xa790328c>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0xa7903ccc>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'ACE', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: ACE, many arrays ...
+2006-10-06 15:29:14,997 DEBUG test4:  Done in 26.969s
+2006-10-06 15:29:14,998 DEBUG test4:  Load css and images...
+2006-10-06 15:29:15,000 DEBUG test4:   Done in 0.000s
+2006-10-06 15:29:15,007 DEBUG test4: tearDown.
+
+2006-10-06 15:29:15,011 INFO test5: [test5] description not found
+2006-10-06 15:29:15,011 DEBUG test5: Starting -----------------------------------
+	
+2006-10-06 15:29:15,011 DEBUG test5: setUp
+2006-10-06 15:29:15,012 DEBUG test5: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-10-06 15:29:15,354 DEBUG test5:  Done in 0.342s
+2006-10-06 15:29:15,355 DEBUG test5:  Load css and images...
+2006-10-06 15:29:16,444 DEBUG test5:   Done in 1.063s
+2006-10-06 15:29:16,449 DEBUG test5: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'Two.files', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0xa790328c>, 'PSW.prec': '100', 'centering': 'Mean', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0xa790358c>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0xa7903ccc>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'ACE', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: ACE, single array ...
+2006-10-06 15:29:23,920 DEBUG test5:  Done in 7.470s
+2006-10-06 15:29:23,921 DEBUG test5:  Load css and images...
+2006-10-06 15:29:23,923 DEBUG test5:   Done in 0.000s
+2006-10-06 15:29:23,932 DEBUG test5: tearDown.
+
+2006-10-06 15:29:23,935 INFO test5B: [test5B] description not found
+2006-10-06 15:29:23,935 DEBUG test5B: Starting -----------------------------------
+	
+2006-10-06 15:29:23,936 DEBUG test5B: setUp
+2006-10-06 15:29:23,936 DEBUG test5B: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-10-06 15:29:24,287 DEBUG test5B:  Done in 0.350s
+2006-10-06 15:29:24,287 DEBUG test5B:  Load css and images...
+2006-10-06 15:29:25,057 DEBUG test5B:   Done in 0.745s
+2006-10-06 15:29:25,062 DEBUG test5B: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'One.file', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0xa790358c>, 'PSW.prec': '100', 'centering': 'Mean', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0xa790328c>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0xa7903ccc>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'ACE', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: ACE, single array, B ...
+2006-10-06 15:29:30,782 DEBUG test5B:  Done in 5.720s
+2006-10-06 15:29:30,783 DEBUG test5B:  Load css and images...
+2006-10-06 15:29:30,785 DEBUG test5B:   Done in 0.000s
+2006-10-06 15:29:30,792 DEBUG test5B: tearDown.
+
+2006-10-06 15:29:30,795 INFO test6: [test6] description not found
+2006-10-06 15:29:30,796 DEBUG test6: Starting -----------------------------------
+	
+2006-10-06 15:29:30,796 DEBUG test6: setUp
+2006-10-06 15:29:30,796 DEBUG test6: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-10-06 15:29:31,105 DEBUG test6:  Done in 0.308s
+2006-10-06 15:29:31,105 DEBUG test6:  Load css and images...
+2006-10-06 15:29:31,817 DEBUG test6:   Done in 0.687s
+2006-10-06 15:29:31,822 DEBUG test6: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'One.file', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0xa790328c>, 'PSW.prec': '100', 'centering': 'Median', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0xa790358c>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0xa7903ccc>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'CBS', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: CBS, single array ...
+2006-10-06 15:29:37,544 DEBUG test6:  Done in 5.721s
+2006-10-06 15:29:37,545 DEBUG test6:  Load css and images...
+2006-10-06 15:29:37,547 DEBUG test6:   Done in 0.000s
+2006-10-06 15:29:37,557 DEBUG test6: tearDown.
+
+2006-10-06 15:29:37,560 INFO test6b: [test6b] description not found
+2006-10-06 15:29:37,560 DEBUG test6b: Starting -----------------------------------
+	
+2006-10-06 15:29:37,561 DEBUG test6b: setUp
+2006-10-06 15:29:37,561 DEBUG test6b: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-10-06 15:29:37,872 DEBUG test6b:  Done in 0.310s
+2006-10-06 15:29:37,873 DEBUG test6b:  Load css and images...
+2006-10-06 15:29:38,678 DEBUG test6b:   Done in 0.779s
+2006-10-06 15:29:38,683 DEBUG test6b: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'One.file', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0xa790358c>, 'PSW.prec': '100', 'centering': 'Median', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0xa790328c>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0xa7903ccc>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'WS', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: WS, single array ...
+2006-10-06 15:29:44,521 DEBUG test6b:  Done in 5.838s
+2006-10-06 15:29:44,522 DEBUG test6b:  Load css and images...
+2006-10-06 15:29:44,523 DEBUG test6b:   Done in 0.000s
+2006-10-06 15:29:44,533 DEBUG test6b: tearDown.
+
+2006-10-06 15:29:44,536 INFO test6c: [test6c] description not found
+2006-10-06 15:29:44,537 DEBUG test6c: Starting -----------------------------------
+	
+2006-10-06 15:29:44,537 DEBUG test6c: setUp
+2006-10-06 15:29:44,537 DEBUG test6c: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-10-06 15:29:44,848 DEBUG test6c:  Done in 0.310s
+2006-10-06 15:29:44,849 DEBUG test6c:  Load css and images...
+2006-10-06 15:29:45,590 DEBUG test6c:   Done in 0.716s
+2006-10-06 15:29:45,595 DEBUG test6c: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'One.file', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0xa790328c>, 'PSW.prec': '100', 'centering': 'Median', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0xa790358c>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0xa7903ccc>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'PSW', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: PSW, single array ...
+2006-10-06 15:29:51,380 DEBUG test6c:  Done in 5.784s
+2006-10-06 15:29:51,381 DEBUG test6c:  Load css and images...
+2006-10-06 15:29:51,382 DEBUG test6c:   Done in 0.000s
+2006-10-06 15:29:51,390 DEBUG test6c: tearDown.
+
+2006-10-06 15:29:51,393 INFO test7: [test7] description not found
+2006-10-06 15:29:51,393 DEBUG test7: Starting -----------------------------------
+	
+2006-10-06 15:29:51,393 DEBUG test7: setUp
+2006-10-06 15:29:51,394 DEBUG test7: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-10-06 15:29:51,702 DEBUG test7:  Done in 0.308s
+2006-10-06 15:29:51,703 DEBUG test7:  Load css and images...
+2006-10-06 15:29:52,419 DEBUG test7:   Done in 0.689s
+2006-10-06 15:29:52,424 DEBUG test7: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'One.file', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0xa790358c>, 'PSW.prec': '100', 'centering': 'Median', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0xa790328c>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0xa7903ccc>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'WS', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: WS, min < -1000 ...
+2006-10-06 15:29:59,960 DEBUG test7:  Done in 7.536s
+2006-10-06 15:29:59,961 DEBUG test7:  Load css and images...
+2006-10-06 15:29:59,962 DEBUG test7:   Done in 0.000s
+2006-10-06 15:29:59,970 DEBUG test7: tearDown.
+
+2006-10-06 15:29:59,973 INFO test8: [test8] description not found
+2006-10-06 15:29:59,974 DEBUG test8: Starting -----------------------------------
+	
+2006-10-06 15:29:59,974 DEBUG test8: setUp
+2006-10-06 15:29:59,974 DEBUG test8: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-10-06 15:30:00,283 DEBUG test8:  Done in 0.308s
+2006-10-06 15:30:00,284 DEBUG test8:  Load css and images...
+2006-10-06 15:30:00,999 DEBUG test8:   Done in 0.688s
+2006-10-06 15:30:01,004 DEBUG test8: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'ug', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'Two.files', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0xa790328c>, 'PSW.prec': '100', 'centering': 'Median', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0xa790358c>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0xa7903ccc>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'PSW', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'Hs'}
+	Page 2: PSW; many < -300 ...
+2006-10-06 15:30:09,714 DEBUG test8:  Done in 8.709s
+2006-10-06 15:30:09,715 DEBUG test8:  Load css and images...
+2006-10-06 15:30:09,716 DEBUG test8:   Done in 0.000s
+2006-10-06 15:30:09,727 DEBUG test8: tearDown.
+
+2006-10-06 15:30:09,730 INFO testKMLau: [testKMLau] description not found
+2006-10-06 15:30:09,730 DEBUG testKMLau: Starting -----------------------------------
+	
+2006-10-06 15:30:09,731 DEBUG testKMLau: setUp
+2006-10-06 15:30:09,731 DEBUG testKMLau: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-10-06 15:30:10,043 DEBUG testKMLau:  Done in 0.311s
+2006-10-06 15:30:10,044 DEBUG testKMLau:  Load css and images...
+2006-10-06 15:30:10,756 DEBUG testKMLau:   Done in 0.686s
+2006-10-06 15:30:10,761 DEBUG testKMLau: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'None', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'Two.files', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0xa790358c>, 'PSW.prec': '100', 'centering': 'Median', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0xa790328c>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0xa7903ccc>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'methodaCGH': 'CBS', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'organism': 'None'}
+	Page 2: Position Info with extra blank fields at end ...
+2006-10-06 15:31:15,115 DEBUG testKMLau:  Done in 64.354s
+2006-10-06 15:31:15,116 DEBUG testKMLau:  Load css and images...
+2006-10-06 15:31:15,118 DEBUG testKMLau:   Done in 0.000s
+2006-10-06 15:31:15,127 DEBUG testKMLau: tearDown.
+
+2006-10-06 15:31:15,130 INFO testMCR: [testMCR] description not found
+2006-10-06 15:31:15,130 DEBUG testMCR: Starting -----------------------------------
+	
+2006-10-06 15:31:15,131 DEBUG testMCR: setUp
+2006-10-06 15:31:15,131 DEBUG testMCR: GET: http://adacgh.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-10-06 15:31:15,454 DEBUG testMCR:  Done in 0.323s
+2006-10-06 15:31:15,455 DEBUG testMCR:  Load css and images...
+2006-10-06 15:31:16,188 DEBUG testMCR:   Done in 0.705s
+2006-10-06 15:31:16,193 DEBUG testMCR: POST: http://adacgh.bioinfo.cnio.es/cgi-bin/adacghR.cgi {'Wave.minDiff': '0.25', 'PSW.nIter': '1000', 'idtype': 'None', 'DNA.nmin': '200', 'DNA.overlap': '0.25', 'twofiles': 'One.files', 'DNA.nperm': '10000', 'acghData': <webunit.utility.Upload instance at 0xa790328c>, 'PSW.prec': '100', 'centering': 'None', 'DNA.kmax': '25', 'DNA.smooth.region': '2', 'positionInfo': <webunit.utility.Upload instance at 0xa790358c>, 'DNA.smooth.SD.scale': '2', 'ACE.fdr': '0.15', 'acghAndPosition': <webunit.utility.Upload instance at 0xa7903ccc>, 'DNA.trim': '0.025', 'PSW.p.crit': '0.15', 'MCR.gain': '0.5', 'methodaCGH': 'CBS', 'DNA.outlier.SD.scale': '4', 'DNA.undo.prune': '0.05', 'DNA.copy.alpha': '0.01', 'MCR.loss': '-0.5', 'organism': 'None'}
+	Page 2: Minimal common regions ...
+2006-10-06 15:31:30,553 DEBUG testMCR:  Done in 14.359s
+2006-10-06 15:31:30,554 DEBUG testMCR:  Load css and images...
+2006-10-06 15:31:30,555 DEBUG testMCR:   Done in 0.000s
+2006-10-06 15:31:30,564 DEBUG testMCR: tearDown.
+

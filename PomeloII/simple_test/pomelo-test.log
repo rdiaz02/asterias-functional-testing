@@ -1,0 +1,24 @@
+2006-02-21 19:12:27,660 DEBUG test_pomelo: Starting -----------------------------------
+	XXX the test case description
+2006-02-21 19:12:27,661 DEBUG test_pomelo: setUp
+2006-02-21 19:12:27,661 DEBUG test_pomelo: GET: http://pomelo2.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-21 19:12:27,668 DEBUG test_pomelo:  Done in 0.007s
+2006-02-21 19:12:27,884 DEBUG test_pomelo:  Load css and images...
+2006-02-21 19:12:27,916 DEBUG test_pomelo:   Done in 0.009s
+2006-02-21 19:12:27,926 DEBUG test_pomelo: POST: http://pomelo2.bioinfo.cnio.es/cgi-bin/pomeloII.cgi {'idtype': 'None', 'covariate': <webunit.utility.Upload instance at 0x40627bcc>, 'testtype': 't', 'organism': 'None', 'class_labels': <webunit.utility.Upload instance at 0x40627b8c>, 'survival_time': <webunit.utility.Upload instance at 0x40627bac>, 'num_permut': '2000'}
+	Page 2: Post /cgi-bin/pomeloII.cgi ...
+2006-02-21 19:12:28,844 DEBUG test_pomelo:  Done in 0.917s
+2006-02-21 19:12:28,846 DEBUG test_pomelo:  Load redirect link: http://pomelo2.bioinfo.cnio.es/cgi-bin/pomelo_checkdone.cgi?newDir=99490759413511405456872353
+2006-02-21 19:12:28,894 DEBUG test_pomelo:  Done in 0.048s
+2006-02-21 19:12:29,106 DEBUG test_pomelo:  Load css and images...
+2006-02-21 19:12:29,110 DEBUG test_pomelo:   Done in 0.000s
+2006-02-21 19:12:29,116 DEBUG test_pomelo: GET: http://pomelo2.bioinfo.cnio.es/cgi-bin/pomelo_checkdone.cgi?newDir=4527100384224111405449294871
+	Page 3: Get /cgi-bin/pomelo_checkdone.cgi ...
+2006-02-21 19:12:30,926 DEBUG test_pomelo:  Done in 1.810s
+2006-02-21 19:12:30,936 DEBUG test_pomelo:  Load redirect link: http://pomelo2.bioinfo.cnio.es/tmp/4527100384224111405449294871/results.html
+2006-02-21 19:12:30,957 DEBUG test_pomelo:  Done in 0.021s
+2006-02-21 19:12:31,175 DEBUG test_pomelo:  Load css and images...
+2006-02-21 19:12:34,880 DEBUG test_pomelo:   Done in 0.000s
+2006-02-21 19:12:34,886 DEBUG test_pomelo: tearDown.
+

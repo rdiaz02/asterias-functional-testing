@@ -1,0 +1,5 @@
+<br>Classification algorithm:                         DLDA; gene selection using F statistic
+Classification algorithm:                         NN; gene selection using Wilcoxon statistic
+Classification algorithm:                         Random forest; gene selection using F statistic
+Classification algorithm:                         SVM (linear kernel); gene selection using Random Forest
+Classification algorithm:                         Shrunken centroids (PAM)

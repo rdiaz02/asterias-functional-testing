@@ -1,0 +1,650 @@
+#NAMES	C1_CD4	C2_CD4	C3_CD4	C5_CD4	C7_CD4	H1_CD4	H3_CD4	H4_CD4	H5_CD4	H6_CD4
+
+NP_000405.1_hydroxysteroid (17-beta) dehydrogenase 4 [Homo sapiens] [MASS=79686]	0	1.16E+07	0	0	0	0	0	0	0	0
+
+NP_001141.1_membrane alanine aminopeptidase precursor; microsomal aminopeptidase; aminopeptidase N; aminopeptidase M [Homo sapiens] [MASS=109511]	0	0	0	1.26E+07	0	0	0	0	0	0
+
+NP_932070.1_BH3 interacting domain death agonist isoform 1; BH3-interacting domain death agonist; apoptic death agonist [Homo sapiens] [MASS=26836]	0	0	0	0	0	0	0	0	0	1.56E+07
+
+NP_002719.3_proteoglycan 2 preproprotein; natural killer cell activator; eosinophil granule major basic protein; bone-marrow proteoglycan; eosinophil major basic protein [Homo sapiens] [MASS=25205]	0	0	0	0	0	0	0	1.88E+07	0	0
+
+NP_001805.1_cathepsin C isoform a preproprotein; dipeptidyl-peptidase I; dipeptidyl transferase; cathepsin J; Papillon-Lefevre syndrome [Homo sapiens] [MASS=51841]	0	0	1.35E+07	0	8.01E+06	0	0	0	0	0
+
+NP_003181.3_tapasin isoform 1 precursor; TAP-binding protein; TAP-associated protein [Homo sapiens] [MASS=47570]	0	2.83E+07	0	0	0	0	0	0	0	0
+
+NP_036515.3_osteoclast stimulating factor 1 [Homo sapiens] [MASS=23799]	0	0	0	0	0	0	0	0	3.20E+07	0
+
+NP_006563.2_guanine nucleotide binding protein (G protein), alpha 13 [Homo sapiens] [MASS=44049] 	0	0	0	0	3.25E+07	0	0	0	0	0
+
+NP_000388.2_cytochrome b-245, beta polypeptide (chronic granulomatous disease) [Homo sapiens] [MASS=65335] 	0	0	0	3.54E+07	0	0	0	0	0	0
+
+NP_002872.1_v-ral simian leukemia viral oncogene homolog B; GTP binding protein; RAS-like protein B [Homo sapiens] [MASS=23408]	0	0	0	3.65E+07	0	0	0	0	0	0
+
+NP_000703.2_biliverdin reductase A [Homo sapiens] [MASS=33428]	0	0	0	0	0	0	0	3.81E+07	0	0
+
+NP_002153.1_intercellular adhesion molecule 3 precursor [Homo sapiens] [MASS=59383]	0	0	0	0	4.33E+07	0	0	0	0	0
+
+NP_001944.1_endothelial cell growth factor 1 (platelet-derived); thymidine phosphorylase; gliostatin [Homo sapiens] [MASS=49955]	0	0	0	0	4.37E+07	0	0	0	0	0
+
+NP_000623.1_integrin alpha M precursor; Integrin, alpha-M (complement component receptor-3, alpha; antigen CD11B (p170); macrophage antigen, alpha polypeptide); complement component receptor 3, alpha; antigen CD11b (p170); macrophage antigen alpha polype	0	0	0	4.56E+07	0	0	0	0	0	0
+
+NP_004365.1_cytochrome c oxidase subunit VIc proprotein; cytochrome c oxidase subunit VIc preprotein [Homo sapiens] [MASS=8781]	0	0	0	4.93E+07	0	0	0	0	0	0
+
+NP_002795.2_proteasome 26S ATPase subunit 3; Tat-binding protein 1; proteasome subunit P50; human immunodeficiency virus tat transactivator binding protein-1 [Homo sapiens] [MASS=49203]	0	0	5.07E+07	0	0	0	0	0	0	0
+
+NP_001716.1_bactericidal/permeability-increasing protein precursor [Homo sapiens] [MASS=53926]	0	0	0	0	0	0	0	5.68E+07	0	0
+
+NP_000286.2_serine (or cysteine) proteinase inhibitor, clade A (alpha-1 antiproteinase, antitrypsin), member 1; protease inhibitor 1 (anti-elastase), alpha-1-antitrypsin [Homo sapiens] [MASS=46722] 	0	0	0	0	0	0	0	6.15E+07	0	0
+
+NP_005032.2_perforin 1 precursor; preforming protein; lymphocyte pore forming protein; cytolysin [Homo sapiens] [MASS=61377]	0	0	0	0	0	0	0	6.45E+07	0	0
+
+NP_001653.1_ADP-ribosylation factor 5 [Homo sapiens] [MASS=20530]	0	0	0	0	1.27E+07	0	0	0	0	5.19E+07
+
+NP_005612.1_S100 calcium-binding protein A12; calgranulin C; S100 calcium-binding protein A12 (calgranulin C) [Homo sapiens] [MASS=10575]	0	0	0	6.86E+07	0	0	0	0	0	0
+
+NP_002063.2_guanine nucleotide binding protein (G protein), q polypeptide [Homo sapiens] [MASS=42142] 	0	0	0	6.95E+07	0	0	0	0	0	0
+
+NP_068747.1_hypothetical protein FLJ22649 similar to signal peptidase SPC22/23 [Homo sapiens] [MASS=20313]	0	0	0	0	0	0	0	1.63E+07	0	5.41E+07
+
+NP_000134.2_fumarate hydratase precursor; Leiomyomatosis and renal cell cancer; Multiple hereditary cutaneous leiomyomata [Homo sapiens] [MASS=54637]	0	7.60E+07	0	0	0	0	0	0	0	0
+
+NP_002060.4_guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 1; Gi1 protein alpha subunit [Homo sapiens] [MASS=40361] 	0	2.87E+07	0	0	0	0	0	0	0	6.09E+07
+
+NP_004154.2_RAB27B, member RAS oncogene family [Homo sapiens] [MASS=24608] 	0	0	0	1.01E+08	0	0	0	0	0	0
+
+NP_000165.1_glycoprotein IX (platelet) [Homo sapiens] [MASS=19046]	0	0	0	0	0	0	0	1.07E+08	0	0
+
+NP_002874.1_Ran GTPase activating protein 1 [Homo sapiens] [MASS=63542]	0	4.76E+07	0	0	0	0	6.19E+07	0	0	0
+
+NP_001856.1_cytochrome c oxidase subunit VIIa polypeptide 2 (liver) precursor; hepatic cytochrome-c oxidase chain VIIa [Homo sapiens] [MASS=9396]	0	0	0	0	7.58E+07	0	3.62E+07	0	0	0
+
+NP_006135.1_granzyme A precursor; CTL tryptase; Granzyme A (Cytotoxic T-lymphocyte-associated serine esterase-3; Hanukah factor serine protease) [Homo sapiens] [MASS=28969]	0	0	1.14E+08	0	0	0	0	0	0	0
+
+NP_001760.1_CD9 antigen; motility related protein; leukocyte antigen MIC3; antigen defined by monoclonal antibody 602-29; p24 antigen [Homo sapiens] [MASS=25416]	0	0	0	6.10E+07	0	0	0	5.45E+07	0	0
+
+NP_004985.1_matrix metalloproteinase 9 preproprotein; type V collagenase; matrix metalloproteinase 9 (gelatinase B, 92kD gelatinase, 92kD type IV collagenase); 92kD type IV collagenase; gelatinase B; macrophage gelatinase [Homo sapiens] [MASS=78427] 	0	0	1.17E+08	0	0	0	0	0	0	0
+
+NP_112246.1_thromboxane A synthase 1 (platelet, cytochrome P450, family 5, subfamily A) isoform TXS-II; TXA synthase; thromboxane A synthase 1 (platelet, cytochrome P450, subfamily V) [Homo sapiens] [MASS=52443] 	0	0	0	1.17E+08	0	0	0	0	0	0
+
+NP_002808.2_proteasome 26S non-ATPase subunit 13 isoform 1; 26S proteasome subunit p40.5; 26S proteasome regulatory subunit S11 [Homo sapiens] [MASS=42918]	0	0	0	0	0	7.00E+07	0	0	0	5.21E+07
+
+NP_036277.2_deoxythymidylate kinase (thymidylate kinase); thymidylate kinase [Homo sapiens] [MASS=23819]	0	0	0	0	1.32E+08	0	0	0	0	0
+
+NP_002487.1_NADH dehydrogenase (ubiquinone) Fe-S protein 8, 23kDa (NADH-coenzyme Q reductase); NADH dehydrogenase (ubiquinone) Fe-S protein 8 (23kD) (NADH-coenzyme Q; NADH dehydrogenase (ubiquinone) Fe-S protein 8 (23kD) (NADH-coenzyme Q reductase) [Homo	0	0	0	0	1.49E+07	0	1.25E+08	0	0	0
+
+NP_116235.2_RAB2B protein; RAS family, member RAB2B [Homo sapiens] [MASS=24214] 	5.15E+07	0	0	0	2.28E+07	0	0	0	0	7.97E+07
+
+NP_004571.2_Ras-related protein Rab-27A; GTP-binding protein Ram [Homo sapiens] [MASS=24868]	0	0	0	0	0	0	0	5.34E+07	0	1.04E+08
+
+NP_000543.1_von Willebrand factor precursor; Coagulation factor VIII VWF (von Willebrand factor) [Homo sapiens] [MASS=309298]	0	0	0	1.58E+08	0	0	0	0	0	0
+
+NP_002725.1_cAMP-dependent protein kinase, regulatory subunit alpha 1; tissue-specific extinguisher 1; cAMP-dependent protein kinase type I-alpha regulatory chain; cAMP-dependent protein kinase regulatory subunit RIalpha [Homo sapiens] [MASS=42981] 	0	0	0	0	0	1.67E+08	0	0	0	0
+
+NP_055179.1_glyceraldehyde-3-phosphate dehydrogenase, spermatogenic; glyceraldehyde-3-phosphate dehydrogenase, testis-specific [Homo sapiens] [MASS=44501] 	0	0	0	0	4.81E+07	0	0	0	0	1.23E+08
+
+NP_839943.2_IQ motif containing GTPase activating protein 3 [Homo sapiens] [MASS=184598]	0	0	0	0	0	0	0	0	0	1.74E+08
+
+NP_002873.1_RAN binding protein 1 [Homo sapiens] [MASS=23310]	0	8.64E+07	0	0	2.49E+07	0	0	0	0	7.67E+07
+
+NP_000398.1_glycoprotein Ib beta polypeptide precursor [Homo sapiens] [MASS=21718]	0	0	0	0	0	0	0	1.90E+08	0	0
+
+NP_001203.1_complement component 1, q subcomponent binding protein precursor; C1q globular domain-binding protein; hyaluronan-binding protein 1; splicing factor SF2-associated protein [Homo sapiens] [MASS=31362] 	0	7.91E+07	0	1.00E+07	0	0	0	0	0	1.02E+08
+
+NP_872590.1_proliferating cell nuclear antigen; cyclin; DNA polymerase delta auxiliary protein [Homo sapiens] [MASS=28769]	6.45E+07	3.53E+07	3.81E+07	0	0	3.65E+07	0	0	0	2.63E+07
+
+NP_000681.2_mitochondrial aldehyde dehydrogenase 2 precursor; acetaldehyde dehydrogenase 2; nucleus-encoded mitochondrial aldehyde dehydrogenase 2; liver mitochondrial ALDH; ALDH class 2 [Homo sapiens] [MASS=56381]	0	0	0	2.08E+08	0	0	0	0	0	0
+
+NP_003680.2_aldo-keto reductase family 7, member A2; aflatoxin beta1 aldehyde reductase; aldoketoreductase 7 [Homo sapiens] [MASS=39589] 	0	8.03E+07	0	2.24E+07	0	1.10E+08	0	0	0	0
+
+NP_006102.1_acetyl-coenzyme A acyltransferase 2; mitochondrial 3-oxoacyl-CoA thiolase; beta ketothiolase [Homo sapiens] [MASS=42039]	0	1.81E+08	0	0	1.88E+07	1.86E+07	0	0	0	0
+
+NP_005110.1_thyroid hormone receptor associated protein 3; thyroid hormone receptor-associated protein, 150 kDa subunit [Homo sapiens] [MASS=108693] 	7.89E+07	1.27E+07	0	0	1.28E+08	0	0	0	0	0
+
+NP_002856.1_RAB2, member RAS oncogene family [Homo sapiens] [MASS=23545] 	0	8.71E+07	0	1.05E+08	2.79E+07	0	0	0	0	0
+
+NP_005318.1_L-3-hydroxyacyl-Coenzyme A dehydrogenase, short chain; L-3-hydroxyacyl-CoA dehydrogenase, short chain [Homo sapiens] [MASS=34286] 	1.02E+08	7.69E+07	0	0	4.96E+07	0	0	0	0	0
+
+NP_002834.2_protein tyrosine phosphatase, receptor type, J precursor; protein tyrosine phosphatase, receptor type, J polypeptide; human density enhanced phosphatase-1; CD148 antigen [Homo sapiens] [MASS=145926] 	0	0	0	3.60E+07	0	0	0	1.93E+08	0	0
+
+NP_057370.1_dicarbonyl/L-xylulose reductase; carbonyl reductase; kidney dicarbonyl reductase; carbonyl reductase II [Homo sapiens] [MASS=25913]	0	0	0	0	5.62E+07	0	0	0	0	1.80E+08
+
+NP_055140.1_coronin, actin binding protein, 1C; coronin, actin-binding protein, 1C; coronin 1C [Homo sapiens] [MASS=53249] 	0	0	0	0	0	2.39E+08	0	0	0	0
+
+NP_002622.2_phosphogluconate dehydrogenase; 6-phosphogluconate dehydrogenase [Homo sapiens] [MASS=53140]	0	0	0	0	8.47E+07	0	5.54E+07	0	0	1.01E+08
+
+NP_055615.8_engulfment and cell motility 1 isoform 1; ced-12 homolog 1 [Homo sapiens] [MASS=83829]	0	8.13E+07	0	0	0	1.60E+08	0	0	1.45E+07	0
+
+NP_002096.1_H2A histone family, member X; H2AX histone [Homo sapiens] [MASS=15144] 	2.60E+08	0	0	0	0	0	0	0	0	0
+
+NP_066552.1_NADH dehydrogenase (ubiquinone) flavoprotein 2, 24kDa; NADH dehydrogenase (ubiquinone) flavoprotein 2 (24kD) [Homo sapiens] [MASS=27363] 	1.35E+08	1.26E+08	0	0	0	0	0	0	0	0
+
+NP_066268.1_guanine nucleotide binding protein (G protein), alpha activating activity polypeptide O [Homo sapiens] [MASS=40050] 	0	0	0	0	0	0	0	0	0	2.62E+08
+
+NP_002655.1_pleckstrin [Homo sapiens] [MASS=40083]	0	0	0	2.72E+08	0	0	0	0	0	0
+
+NP_001651.1_ADP-ribosylation factor 4 [Homo sapiens] [MASS=20511]	0	0	0	2.74E+08	0	0	0	0	0	0
+
+NP_065385.2_pre-B-cell leukemia transcription factor interacting protein 1; hematopoietic PBX-interacting protein [Homo sapiens] [MASS=80643]	0	0	0	0	1.23E+08	0	1.51E+08	0	0	0
+
+NP_006852.1_RAB35, member RAS oncogene family; ras-related protein rab-1c (GTP-binding protein ray) [Homo sapiens] [MASS=23025] 	0	1.28E+08	0	0	1.75E+07	0	0	0	0	1.32E+08
+
+NP_004976.2_c-K-ras2 protein isoform b; Kirsten rat sarcoma-2 viral (v-Ki-ras2) oncogene homolog; transforming protein p21; c-Kirsten-ras protein; K-ras p21 protein; oncogene KRAS2; c-K-ras protein; PR310 c-K-ras oncogene; cellular c-Ki-ras2 proto-oncogen	5.94E+07	6.41E+07	0	0	1.58E+08	0	0	0	0	0
+
+NP_002859.1_RAB5B, member RAS oncogene family [Homo sapiens] [MASS=23707] 	0	6.36E+07	0	3.07E+07	4.74E+07	0	0	6.66E+07	0	7.54E+07
+
+NP_683877.1_proteasome alpha 1 subunit isoform 1; proteasome subunit, alpha-type, 1; proteasome subunit nu; macropain subunit nu; protein P30-33K; proteasome component C2; multicatalytic endopeptidase complex subunit C2; proteasome nu chain; 30 kDa proso	0	7.38E+07	0	9.28E+07	0	0	0	0	0	1.27E+08
+
+NP_061916.2_amyloid beta (A4) precursor protein-binding, family B, member 1 interacting protein; proline-rich protein 73; Rap1-interacting adaptor molecule [Homo sapiens] [MASS=73085] 	8.64E+07	1.41E+08	0	0	6.85E+07	0	0	0	0	0
+
+NP_003357.1_ubiquinol-cytochrome c reductase core protein II [Homo sapiens] [MASS=48470]	0	1.25E+08	0	1.44E+07	1.17E+08	0	0	0	0	4.62E+07
+
+NP_005325.1_host cell factor C1 (VP16-accessory protein) [Homo sapiens] [MASS=198471]	0	0	0	0	5.76E+07	1.09E+08	0	0	0	1.46E+08
+
+NP_006273.1_serine/threonine kinase 4; mammalian sterile 20-like 1; yeast Ste20-like; kinase responsive to stress 2 [Homo sapiens] [MASS=55630]	0	2.83E+07	0	0	1.09E+08	1.80E+08	0	0	0	0
+
+NP_001335.1_defender against cell death 1 [Homo sapiens] [MASS=12497]	0	1.09E+08	0	0	0	0	0	0	1.68E+08	4.06E+07
+
+NP_005994.1_ubiquinol-cytochrome c reductase, Rieske iron-sulfur polypeptide 1 [Homo sapiens] [MASS=29652] 	2.03E+08	1.02E+08	0	0	0	2.02E+07	0	0	0	0
+
+NP_002107.3_major histocompatibility complex, class I, A precursor; HLA-A1 class I antigen [Homo sapiens] [MASS=40840] 	0	0	0	0	1.35E+08	0	8.76E+07	0	0	1.09E+08
+
+NP_002717.3_prolyl endopeptidase; prolyl oligopeptidase; post-proline cleaving enzyme [Homo sapiens] [MASS=80699]	0	1.34E+08	0	0	0	0	0	0	0	1.99E+08
+
+NP_004441.1_enhancer of rudimentary homolog [Homo sapiens] [MASS=12259]	1.68E+08	0	0	6.38E+07	5.58E+07	0	0	0	0	5.54E+07
+
+NP_000099.1_dihydrolipoamide dehydrogenase precursor; E3 component of pyruvate dehydrogenase [Homo sapiens] [MASS=54150]	0	0	9.39E+06	0	0	0	3.36E+08	0	0	0
+
+NP_001354.1_dyskerin [Homo sapiens] [MASS=57674]	0	0	0	0	3.11E+08	0	0	0	3.50E+07	0
+
+NP_004539.1_NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 10, 22kDa; NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 10 (22kD, PDSW) [Homo sapiens] [MASS=20777] 	6.60E+07	1.59E+08	0	0	5.67E+07	0	0	0	0	7.32E+07
+
+NP_002736.2_mitogen-activated protein kinase 1; protein tyrosine kinase ERK2; extracellular signal-regulated kinase 2; mitogen-activated protein kinase 2 [Homo sapiens] [MASS=41404]	7.61E+07	0	8.96E+07	0	0	1.90E+08	0	0	0	0
+
+NP_003356.2_ubiquinol-cytochrome c reductase core protein I [Homo sapiens] [MASS=52645]	2.23E+08	5.15E+07	0	0	0	8.30E+07	0	0	0	0
+
+NP_001852.1_cytochrome c oxidase subunit IV isoform 1 precursor [Homo sapiens] [MASS=19577]	1.25E+08	0	0	0	0	0	0	9.76E+07	0	1.45E+08
+
+NP_055115.1_signal peptidase complex (18kD) [Homo sapiens] [MASS=20625]	1.51E+07	0	3.31E+07	1.61E+08	1.22E+08	0	0	0	0	4.16E+07
+
+NP_001327.2_cathepsin Z preproprotein; cathepsin X precursor; preprocathepsin P; cathepsin Z precursor [Homo sapiens] [MASS=33868]	0	0	0	3.78E+08	0	0	0	0	0	0
+
+NP_005723.2_RAD50 homolog isoform 1; RAD50 (S. cerevisiae) homolog [Homo sapiens] [MASS=153891]	0	0	0	0	0	0	0	0	3.94E+08	0
+
+NP_002065.1_guanine nucleotide-binding protein, beta-1 subunit; G protein, beta-1 subunit; transducin beta chain 1; guanine nucleotide-binding protein G(I)/G(S)/G(T) beta subunit 1; beta subunit, signal-transducing proteins GS/GI [Homo sapiens] [MASS=373	9.54E+07	1.20E+08	0	0	3.54E+07	4.94E+07	0	1.04E+08	0	0
+
+NP_055165.1_tumor necrosis factor, alpha-induced protein 8; TNF-induced protein [Homo sapiens] [MASS=22047] 	0	3.68E+08	0	0	1.12E+07	0	0	0	0	2.86E+07
+
+NP_002479.1_NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 2, 8kDa; NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 2 (8kD, B8) [Homo sapiens] [MASS=10921] 	4.73E+07	1.79E+08	0	0	0	4.48E+07	0	0	1.37E+08	0
+
+NP_001654.1_ADP-ribosylation factor 6 [Homo sapiens] [MASS=20082]	1.01E+08	9.48E+07	0	7.44E+07	1.03E+08	0	0	0	0	3.86E+07
+
+NP_056991.2_leucine aminopeptidase; peptidase S [Homo sapiens] [MASS=56166]	0	2.18E+08	0	0	0	0	0	0	0	1.98E+08
+
+NP_001081.1_ATP-binding cassette, sub-family F, member 1; ATP-binding cassette 50; ATP-binding cassette 50 (TNF-alpha stimulated) [Homo sapiens] [MASS=91680] 	2.46E+07	0	0	0	2.05E+08	0	3.50E+07	0	0	1.54E+08
+
+NP_003143.2_signal transducer and activator of transcription 5A [Homo sapiens] [MASS=90646]	0	0	0	0	1.07E+08	2.17E+08	0	0	0	9.97E+07
+
+NP_004153.2_RAB5A, member RAS oncogene family; RAS-associated protein RAB5A [Homo sapiens] [MASS=23659] 	0	0	0	2.42E+08	1.65E+07	0	0	0	0	1.73E+08
+
+NP_009148.2_programmed cell death 10; apoptosis-related protein 15 [Homo sapiens] [MASS=24701]	1.44E+08	0	0	0	1.28E+08	0	0	0	0	1.65E+08
+
+NP_056461.1_RAP1B, member of RAS oncogene family; RAS-related protein RAP1B; K-REV [Homo sapiens] [MASS=20825] 	0	0	0	3.24E+08	1.22E+08	0	0	0	0	0
+
+NP_000704.1_biliverdin reductase B (flavin reductase (NADPH)); Biliverdin reductase B; flavin reductase (NADPH) [Homo sapiens] [MASS=22119]	0	0	8.30E+07	4.56E+07	5.39E+07	0	0	2.59E+08	0	6.22E+06
+
+NP_001631.3_N-acylaminoacyl-peptide hydrolase; acylaminoacyl-peptidase; oxidized protein hydrolase [Homo sapiens] [MASS=81224]	0	7.23E+07	0	0	0	2.12E+08	1.69E+08	0	0	0
+
+NP_001657.2_Rho GTPase activating protein 4; Rho-GAP hematopoietic protein C1; p115 [Homo sapiens] [MASS=105055]	1.16E+08	0	0	0	1.10E+08	0	0	0	0	2.28E+08
+
+NP_001070.2_zeta-chain associated protein kinase 70kDa isoform 1; zeta-chain (TCR) associated protein kinase (70 kD); syk-related tyrosine kinase; truncated ZAP kinase; zeta-chain associated protein kinase, 70kD [Homo sapiens] [MASS=69872] 	0	0	0	0	9.37E+07	0	0	0	0	3.70E+08
+
+NP_002706.1_protein phosphatase 2 (formerly 2A), catalytic subunit, alpha isoform [Homo sapiens] [MASS=35594] 	0	2.17E+08	0	0	1.58E+08	0	0	0	0	9.10E+07
+
+NP_002202.2_integrin beta 1 isoform 1A precursor; integrin VLA-4 beta subunit; fibronectin receptor beta subunit [Homo sapiens] [MASS=88415]	0	0	0	2.59E+08	0	2.11E+08	0	0	0	0
+
+NP_004801.1_GRB2-related adaptor protein 2; growth factor receptor-bound protein 2-related adaptor protein 2; GRB-2-like protein; hematopoietic cell-associated adaptor protein GRPL; GRB2-related protein with insert domain; SH3-SH2-SH3 adaptor molecule; gr	5.42E+07	6.66E+07	0	0	4.83E+07	2.33E+08	0	0	0	6.89E+07
+
+NP_000572.2_glutathione peroxidase 1 isoform 1 [Homo sapiens] [MASS=21938]	2.21E+08	8.00E+07	0	1.27E+08	5.11E+07	0	0	0	0	0
+
+NP_061820.1_cytochrome c [Homo sapiens] [MASS=11749]	1.71E+08	3.09E+08	0	0	8.81E+06	0	0	0	0	0
+
+NP_061936.2_echinoderm microtubule associated protein like 4; chromosome 2 open reading frame 2 [Homo sapiens] [MASS=108902]	0	0	0	0	1.51E+08	0	0	0	1.58E+08	1.86E+08
+
+NP_003320.1_thioredoxin [Homo sapiens] [MASS=11693]	0	1.09E+08	0	0	0	0	1.93E+08	0	0	2.10E+08
+
+NP_002387.1_malic enzyme 2, NAD(+)-dependent, mitochondrial; malate dehydrogenase; Malic enzyme, mitochondrial; malic enzyme 2, mitochondrial; pyruvic-malic carboxylase [Homo sapiens] [MASS=65443] 	0	0	0	0	0	5.23E+08	0	0	0	0
+
+NP_008996.1_CDC37 homolog; CDC37 (cell division cycle 37, S. cerevisiae, homolog) [Homo sapiens] [MASS=44468] 	1.32E+08	1.15E+08	0	0	0	2.88E+08	0	0	0	0
+
+NP_037415.1_methionine adenosyltransferase II, beta isoform 1; beta regulatory subunit of methionine adenosyltransferase; dTDP-4-keto-6-deoxy-D-glucose 4-reductase [Homo sapiens] [MASS=37552] 	0	0	0	0	0	8.31E+07	0	0	4.58E+08	0
+
+NP_002076.1_glutathione peroxidase 4; phospholipid hydroperoxidase; sperm nucleus glutathione peroxidase [Homo sapiens] [MASS=22138]	2.88E+07	2.24E+08	0	0	8.92E+07	0	6.69E+06	0	1.51E+08	4.57E+07
+
+NP_000382.3_tripeptidyl-peptidase I precursor [Homo sapiens] [MASS=61247]	0	2.53E+08	1.66E+08	6.33E+07	6.58E+07	0	0	0	0	0
+
+NP_036335.1_glyoxylate reductase/hydroxypyruvate reductase [Homo sapiens] [MASS=35668]	0	2.58E+08	9.14E+07	0	1.51E+08	5.76E+07	0	0	0	0
+
+NP_002780.1_proteasome alpha 4 subunit; proteasome component C9; proteasome subunit HC9; proteasome subunit L; macropain subunit C9; multicatalytic endopeptidase complex subunit C9 [Homo sapiens] [MASS=29484]	0	8.28E+07	0	0	0	0	2.47E+08	2.49E+08	0	0
+
+NP_001302.1_cysteine-rich protein 1 (intestinal) [Homo sapiens] [MASS=8533]	1.56E+08	1.71E+08	0	0	1.10E+08	0	0	0	1.44E+08	0
+
+NP_057215.2_ras-related GTP-binding protein RAB10; ras-related GTP-binding protein [Homo sapiens] [MASS=22469]	0	6.23E+07	0	4.19E+08	0	0	0	0	0	1.02E+08
+
+NP_055439.1_S100 calcium-binding protein A6; prolactin receptor-associated protein; calcyclin; S100 calcium-binding protein A6 (calcyclin) [Homo sapiens] [MASS=10180]	7.63E+07	9.90E+07	1.79E+08	1.04E+08	1.32E+08	0	0	0	0	0
+
+NP_004111.2_guanylate binding protein 2, interferon-inducible [Homo sapiens] [MASS=67209] 	0	0	2.38E+08	0	1.23E+08	0	0	0	0	2.44E+08
+
+NP_056375.1_optic atrophy 1 isoform 1 [Homo sapiens] [MASS=111657]	0	0	0	0	6.06E+08	0	0	0	0	0
+
+NP_037459.2_parvin, beta isoform b; beta-parvin; affixin [Homo sapiens] [MASS=41714] 	0	0	0	6.07E+08	0	0	0	0	0	0
+
+NP_689953.1_3-hydroxyisobutyrate dehydrogenase [Homo sapiens] [MASS=35329]	1.88E+08	9.01E+07	0	0	0	0	0	0	1.29E+07	3.46E+08
+
+NP_002768.2_proteinase 3 (serine proteinase, neutrophil, Wegener granulomatosis autoantigen); C-ANCA [Homo sapiens] [MASS=27863] 	0	0	6.58E+08	0	0	0	0	0	0	0
+
+NP_001853.2_cytochrome c oxidase subunit Vb precursor; cytochrome c oxidase polypeptide VB, mitochondrial precursor [Homo sapiens] [MASS=13696] 	1.79E+08	3.50E+08	0	0	0	0	0	0	0	1.36E+08
+
+NP_001854.1_cytochrome c oxidase subunit VIb; human cytochrome oxidase subunit VIb [Homo sapiens] [MASS=10192]	1.03E+08	2.03E+08	5.77E+07	0	0	0	0	0	3.07E+08	0
+
+NP_003396.1_tyrosine 3/tryptophan 5 -monooxygenase activation protein, eta polypeptide; 14-3-3 eta [Homo sapiens] [MASS=28219] 	0	7.78E+07	0	3.49E+08	7.96E+07	0	0	0	0	1.74E+08
+
+NP_002814.2_prothymosin, alpha (gene sequence 28) [Homo sapiens] [MASS=12016] 	0	3.82E+07	6.20E+08	0	2.61E+07	0	0	0	0	0
+
+NP_004346.1_invariant gamma chain; HLA-DR-gamma; Ia-associated invariant chain; gamma chain of class II antigens [Homo sapiens] [MASS=26398]	0	0	0	6.85E+08	0	0	0	0	0	0
+
+NP_000180.2_hexokinase 2; hexokinase-2, muscle [Homo sapiens] [MASS=102379] 	0	0	0	0	1.62E+08	0	2.47E+08	0	0	2.86E+08
+
+NP_001021.1_ribosomal protein S27; 40S ribosomal protein S27; metallopanstimulin 1 [Homo sapiens] [MASS=9461]	4.60E+07	0	0	0	1.94E+08	0	2.03E+08	0	0	2.52E+08
+
+NP_443070.1_septin 1; differentiation 6 (deoxyguanosine triphosphate triphosphohydrolase); serologically defined breast cancer antigen NY-BR-24 [Homo sapiens] [MASS=41971]	0	0	0	0	1.30E+08	0	0	0	0	5.66E+08
+
+NP_005262.1_glutamate dehydrogenase 1 [Homo sapiens] [MASS=61397]	0	2.00E+08	0	0	9.90E+07	2.72E+08	0	0	0	1.82E+08
+
+NP_009123.1_chromatin-specific transcription elongation factor large subunit [Homo sapiens] [MASS=119913]	0	1.48E+08	0	0	2.05E+08	1.82E+08	0	0	0	2.23E+08
+
+NP_665811.1_programmed cell death 8 isoform 2; apoptosis-inducing factor [Homo sapiens] [MASS=66294]	0	0	0	0	4.80E+08	0	0	0	0	3.19E+08
+
+NP_005331.1_histidine triad nucleotide binding protein 1; Histidine triad nucleotide-binding protein (protein kinase C inhibitor 1); histidine triad nucleotide-binding protein; protein kinase C inhibitor 1 [Homo sapiens] [MASS=13802]	3.08E+08	9.29E+07	0	0	1.96E+08	0	0	0	0	2.06E+08
+
+NP_036457.1_microtubule-associated protein, RP/EB family, member 1; adenomatous polyposis coli-binding protein EB1 [Homo sapiens] [MASS=29999] 	0	6.50E+08	0	0	1.54E+08	0	0	0	0	0
+
+NP_005142.1_ubiquitin specific protease 14 [Homo sapiens] [MASS=56069]	0	1.59E+08	5.06E+07	0	5.34E+07	5.42E+08	0	0	0	0
+
+NP_002454.1_myxovirus resistance protein 2; interferon-regulated resistance GTP-binding protein MXB; second interferon-induced protein p78; myxovirus (influenza) resistance 2, homolog of murine [Homo sapiens] [MASS=82088] 	0	1.62E+08	0	0	0	0	6.44E+08	0	0	0
+
+NP_001739.1_calpain 2, large subunit; calpain, large polypeptide L2; calcium-activated neutral proteinase [Homo sapiens] [MASS=80006] 	1.31E+08	2.11E+07	7.02E+07	0	1.78E+08	1.78E+08	5.53E+07	0	0	1.74E+08
+
+NP_067642.1_guanine nucleotide-binding protein, beta-4 subunit; guanine nucleotide binding protein beta subunit 4; G protein beta-4 subunit [Homo sapiens] [MASS=37567] 	0	0	0	1.28E+08	1.05E+08	0	0	3.38E+08	4.99E+07	2.04E+08
+
+NP_005361.2_mel transforming oncogene; ras-associated protein RAB8; mel transforming oncogene (derived from cell line NK14)- RAB8 homolog; mel transforming oncogene (RAB8 homolog); mel transforming oncogene (derived from cell line NK14) [Homo sapiens] [MA	0	0	0	4.93E+08	9.67E+07	0	0	0	1.48E+08	9.02E+07
+
+NP_004577.1_ribosomal protein S6 kinase, 90kDa, polypeptide 3; ribosomal protein S6 kinase, 90kD, polypeptide 3 [Homo sapiens] [MASS=83735] 	4.25E+07	1.37E+08	0	0	2.16E+08	1.54E+08	0	0	0	2.81E+08
+
+NP_004485.1_hepatoma-derived growth factor (high-mobility group protein 1-like); Hepatoma-derived growth factor [Homo sapiens] [MASS=26788]	0	1.69E+08	1.87E+08	0	9.72E+07	3.03E+08	0	0	0	7.59E+07
+
+NP_037364.1_programmed cell death 6; apoptosis-linked gene 2 [Homo sapiens] [MASS=21868]	1.19E+08	4.85E+08	0	0	1.05E+08	0	0	5.64E+07	0	8.40E+07
+
+NP_054861.2_nudix-type motif 5; nucleoside diphosphate linked moiety X-type motif 5 [Homo sapiens] [MASS=24327]	1.01E+08	1.63E+08	1.00E+08	0	0	0	1.85E+08	2.11E+08	0	9.33E+07
+
+NP_002055.1_glutaredoxin (thioltransferase) [Homo sapiens] [MASS=11776]	0	1.63E+08	3.33E+07	5.84E+07	6.11E+07	0	0	0	3.96E+08	1.60E+08
+
+NP_057626.2_serine/threonine protein kinase MASK; STE20-like kinase MST4 [Homo sapiens] [MASS=46528]	0	1.58E+08	0	0	1.67E+07	0	1.39E+08	0	0	5.78E+08
+
+NP_002296.1_beta-galactosidase binding lectin precursor; galectin; Lectin, galactose-binding, soluble, 1 [Homo sapiens] [MASS=14716] 	1.95E+08	2.95E+08	0	8.37E+07	1.20E+08	0	0	6.51E+07	0	1.58E+08
+
+NP_004559.4_serine (or cysteine) proteinase inhibitor, clade B (ovalbumin), member 6; protease inhibitor 6 (placental thrombin inhibitor) [Homo sapiens] [MASS=42622] 	0	0	9.63E+07	8.63E+07	2.39E+08	1.51E+08	0	1.89E+08	0	1.64E+08
+
+NP_057614.1_RAB8B, member RAS oncogene family; RAB-8b protein [Homo sapiens] [MASS=23584] 	2.94E+08	0	1.30E+08	1.66E+08	9.33E+07	0	0	8.60E+06	0	2.34E+08
+
+NP_981944.1_stathmin 1; metablastin; prosolin; oncoprotein 18; phosphoprotein 19; Pr22 protein; leukemia-associated phosphoprotein p18 [Homo sapiens] [MASS=17302]	1.89E+08	0	0	2.89E+08	1.38E+08	0	0	1.31E+08	0	1.90E+08
+
+NP_004374.1_c-src tyrosine kinase [Homo sapiens] [MASS=50704]	0	2.90E+07	0	0	1.34E+08	4.20E+08	0	0	0	3.60E+08
+
+NP_000493.1_eosinophil peroxidase [Homo sapiens] [MASS=81040]	0	0	8.63E+08	9.03E+07	0	0	0	0	0	0
+
+NP_036611.2_tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, gamma polypeptide; 14-3-3 gamma [Homo sapiens] [MASS=28302] 	1.19E+08	1.75E+08	5.38E+07	0	1.66E+08	0	1.72E+08	5.44E+07	0	2.15E+08
+
+NP_000009.1_acyl-Coenzyme A dehydrogenase, very long chain precursor [Homo sapiens] [MASS=70390] 	5.07E+07	2.57E+08	0	2.92E+08	1.37E+08	1.16E+08	0	0	0	1.12E+08
+
+NP_036475.2_nicotinamide nucleotide transhydrogenase [Homo sapiens] [MASS=113995]	0	0	0	2.82E+08	1.60E+08	0	1.10E+08	0	7.25E+07	3.51E+08
+
+NP_002806.2_proteasome 26S non-ATPase subunit 11; 26S proteasome regulatory subunit 9 [Homo sapiens] [MASS=47463]	6.33E+08	1.06E+08	0	0	0	0	0	0	0	2.37E+08
+
+NP_000389.1_cytochrome b5 reductase membrane-bound isoform [Homo sapiens] [MASS=34235]	0	1.29E+07	0	8.78E+08	8.66E+07	0	0	0	0	0
+
+NP_005947.2_methylenetetrahydrofolate dehydrogenase 1; 5,10-methylenetetrahydrofolate dehydrogenase, 5,10-methylenetetrahydrofolate cyclohydrolase, 10-formyltetrahydrofolate synthetase; NADP-dependent cyclohydrolase/formyltetrahydrofolate synthetase; cyt	2.30E+08	0	0	5.09E+07	9.90E+07	4.22E+08	0	0	0	1.76E+08
+
+NP_003282.1_tripeptidyl peptidase II [Homo sapiens] [MASS=138448]	1.01E+08	5.83E+07	0	0	3.30E+08	0	0	0	5.14E+08	0
+
+NP_003452.1_zyxin [Homo sapiens] [MASS=61277]	2.38E+08	2.82E+08	0	1.16E+08	0	2.11E+08	1.02E+08	0	5.47E+07	0
+
+NP_054782.2_drebrin-like; src homology 3 domain-containing protein HIP-55 [Homo sapiens] [MASS=48294]	1.25E+08	5.97E+08	0	0	6.71E+07	0	0	0	1.26E+07	2.08E+08
+
+NP_620116.1_BCL2-associated X protein isoform alpha; apoptosis regulator BAX [Homo sapiens] [MASS=21184]	1.64E+08	1.08E+08	2.02E+08	5.69E+07	8.68E+07	0	2.25E+08	0	0	1.74E+08
+
+NP_000723.1_CD3D antigen, delta polypeptide (TiT3 complex) [Homo sapiens] [MASS=18929] 	5.50E+08	1.35E+08	0	0	7.78E+07	0	0	0	1.66E+08	8.81E+07
+
+NP_036424.2_minor histocompatibility antigen HA-1 [Homo sapiens] [MASS=124613]	5.78E+08	1.68E+08	0	9.75E+07	8.79E+07	8.18E+07	0	0	0	1.55E+07
+
+NP_002423.1_myeloid cell nuclear differentiation antigen [Homo sapiens] [MASS=45836]	0	0	0	5.46E+08	0	0	0	4.94E+08	0	0
+
+NP_005017.2_phosphoinositide-3-kinase, catalytic, delta polypeptide; phosphatidylinositol 3-kinase, catalytic, delta polypeptide [Homo sapiens] [MASS=119505] 	6.34E+08	0	0	0	0	0	0	0	0	4.08E+08
+
+NP_002799.3_proteasome 26S non-ATPase subunit 2; tumor necrosis factor receptor-associated protein 2; TNFR-associated protein 2; 55.11 protein; 26S proteasome non-ATPase regulatory subunit 2; 26S proteasome regulatory subunit S2; 26S proteasome subunit p9	7.91E+07	1.48E+07	1.23E+08	0	3.28E+08	0	2.28E+07	0	3.24E+08	1.95E+08
+
+NP_057406.2_GTPase Rab14; F protein-binding protein 1 [Homo sapiens] [MASS=23897]	6.05E+07	2.42E+08	0	7.47E+08	3.23E+07	0	0	0	0	1.97E+07
+
+NP_000724.1_CD3E antigen, epsilon polypeptide (TiT3 complex) [Homo sapiens] [MASS=23147] 	1.73E+08	4.58E+08	0	0	9.59E+07	0	2.76E+08	0	0	1.26E+08
+
+NP_899236.1_bullous pemphigoid antigen 1 isoform 1; bullous pemphigoid antigen 1 (230/240kD); hemidesmosomal plaque protein; bullous pemphigoid antigen 1, 230/240kDa [Homo sapiens] [MASS=629782] 	0	0	0	0	0	0	0	0	0	1.13E+09
+
+NP_149972.1_lactate dehydrogenase A-like 6B; lactate dehydrogenase A -like; lactate dehydrogenase A-like 6 [Homo sapiens] [MASS=41943]	0	0	7.53E+06	0	0	0	1.13E+09	0	0	0
+
+NP_004574.2_RAB5C, member RAS oncogene family isoform b; RAB, member of RAS oncogene family-like; RAB5C, member of RAS oncogene family [Homo sapiens] [MASS=23482] 	1.85E+08	2.60E+08	0	4.58E+08	7.70E+07	0	0	0	0	1.60E+08
+
+NP_006319.1_RNA binding motif protein 14; coactivator activator; SYT interacting protein [Homo sapiens] [MASS=69491]	3.26E+08	7.45E+07	0	0	9.05E+07	4.10E+08	0	0	0	2.65E+08
+
+NP_003671.1_tyrosyl-tRNA synthetase; tyrosyl-tRNA synthetase; tyrosyl tRNA ligase [Homo sapiens] [MASS=59143]	0	0	4.59E+08	0	2.26E+08	4.92E+08	0	0	0	0
+
+NP_000164.3_platelet glycoprotein Ib alpha polypeptide precursor; platelet membrane glycoprotein 1b-alpha subunit [Homo sapiens] [MASS=68955]	0	0	0	1.16E+09	0	0	0	5.65E+07	0	0
+
+NP_001951.2_eukaryotic translation elongation factor 1 delta isoform 2; guanine nucleotide exchange protein [Homo sapiens] [MASS=31122]	2.20E+08	1.32E+08	5.26E+07	0	2.43E+08	0	2.66E+08	0	1.49E+08	1.64E+08
+
+NP_002786.2_proteasome beta 3 subunit; proteasome theta chain; proteasome chain 13; proteasome component C10-II [Homo sapiens] [MASS=22949]	1.00E+08	3.50E+08	2.86E+08	6.83E+07	7.11E+07	0	2.03E+08	4.34E+07	0	1.06E+08
+
+NP_005436.1_chondroitin sulfate proteoglycan 6 (bamacan); human chromosome-associated polypeptide (bamacan); SMC3 structural maintenance of chromosomes 3-like 1 (yeast) [Homo sapiens] [MASS=141541]	4.28E+08	0	0	0	6.26E+08	2.27E+08	0	0	0	0
+
+NP_665807.1_myotrophin; granule cell differentiation protein [Homo sapiens] [MASS=12895]	2.62E+08	2.34E+08	1.48E+08	3.49E+08	3.36E+07	0	0	0	0	2.69E+08
+
+NP_002792.1_proteasome beta 10 subunit proprotein; proteasome MECl-1; macropain subunit MECl-1; multicatalytic endopeptidase complex subunit MECl-1; proteasome catalytic subunit 2i; proteasome subunit beta 7i; proteasome subunit MECL1 [Homo sapiens] [MASS	0	1.69E+08	3.87E+07	0	2.51E+08	0	0	0	0	8.58E+08
+
+NP_000091.1_cystatin B; stefin B; liver thiol proteinase inhibitor; CPI-B [Homo sapiens] [MASS=11140]	8.52E+07	1.76E+08	0	0	2.96E+08	0	0	0	6.20E+08	1.51E+08
+
+NP_004243.1_solute carrier family 9 (sodium/hydrogen exchanger), isoform 3 regulator 1; solute carrier family 9 (sodium/hydrogen exchanger), isoform 3 regulatory factor 1 [Homo sapiens] [MASS=38868] 	0	4.93E+08	0	0	1.30E+08	7.53E+08	0	0	0	0
+
+NP_001656.2_ras homolog gene family, member G [Homo sapiens] [MASS=21308] 	1.98E+08	3.81E+08	1.68E+08	0	7.04E+07	0	3.72E+08	0	0	2.15E+08
+
+NP_004997.4_NADH dehydrogenase (ubiquinone) Fe-S protein 1, 75kDa precursor; NADH dehydrogenase (ubiquinone), Fe-S protein-1 (75kD); NADH-coenzyme Q reductase; complex I, mitochondrial respiratory chain, 75-kD subunit; NADH dehydrogenase (ubiquinone) Fe-	1.01E+09	4.23E+07	0	0	0	2.32E+08	0	0	0	1.40E+08
+
+NP_002610.1_platelet factor 4 (chemokine (C-X-C motif) ligand 4) [Homo sapiens] [MASS=10845]	4.66E+08	0	0	9.68E+08	0	0	0	0	0	0
+
+NP_000203.2_integrin beta chain, beta 3 precursor; platelet glycoprotein IIIa precursor [Homo sapiens] [MASS=87057] 	0	0	0	1.47E+09	0	0	0	0	0	0
+
+NP_697021.1_aldo-keto reductase family 1, member A1; aldehyde reductase; alcohol dehydrogenase [Homo sapiens] [MASS=36573] 	0	2.85E+08	1.19E+08	0	2.81E+08	0	6.35E+08	0	0	1.50E+08
+
+NP_004999.1_NHP2 non-histone chromosome protein 2-like 1; non-histone chromosome protein 2 (S. cerevisiae)-like 1; [U4/U6.U5] tri-snRNP 15.5 kD RNA binding protein; high mobility group-like nuclear protein 2 homolog 1 [Homo sapiens] [MASS=14173]	3.29E+08	6.81E+08	0	4.63E+07	8.03E+07	0	0	0	0	3.40E+08
+
+NP_005736.3_B-cell receptor-associated protein 31; accessory protein BAP31 [Homo sapiens] [MASS=27991]	0	1.60E+08	1.23E+08	1.39E+08	9.53E+07	0	4.07E+08	0	3.57E+08	2.08E+08
+
+NP_060705.1_CNDP dipeptidase 2 (metallopeptidase M20 family); cytosolic nonspecific dipeptidase (EC 3.4.13.18); peptidase A [Homo sapiens] [MASS=52779]	2.38E+08	2.55E+08	1.62E+08	4.90E+07	2.94E+08	1.72E+08	0	0	0	3.20E+08
+
+NP_037506.2_programmed cell death 6 interacting protein; ALG-2 interacting protein 1; programmed cell death 6-interacting protein [Homo sapiens] [MASS=96022]	3.28E+08	9.24E+07	0	0	3.05E+08	1.26E+08	3.24E+08	0	0	3.18E+08
+
+NP_004159.1_succinate dehydrogenase complex, subunit A, flavoprotein precursor; succinate dehydrogenase complex flavoprotein subunit precursor [Homo sapiens] [MASS=72689] 	0	7.52E+08	1.58E+08	1.30E+08	2.68E+08	0	0	0	0	1.92E+08
+
+NP_620150.1_ADP-ribosylation factor-like 10B; small G protein indispensable for equal chromosome segregation 2 [Homo sapiens] [MASS=21416]	2.90E+08	0	0	0	5.57E+08	0	0	5.20E+08	0	1.33E+08
+
+NP_057421.1_Enah/Vasp-like [Homo sapiens] [MASS=44792]	1.44E+08	6.16E+08	0	0	2.13E+08	1.60E+08	0	0	0	3.72E+08
+
+NP_004039.1_beta-2-microglobulin precursor [Homo sapiens] [MASS=13714]	1.01E+08	5.61E+07	3.63E+08	4.08E+08	2.88E+08	0	0	9.53E+07	0	2.22E+08
+
+NP_001748.1_carbonyl reductase 1; carbonyl reductase (NADPH) 1; carbonyl reductase (NADPH) [Homo sapiens] [MASS=30375]	2.61E+08	3.35E+08	4.52E+07	0	1.10E+08	0	0	0	1.43E+08	6.56E+08
+
+NP_003463.1_DEK oncogene (DNA binding); DEK gene [Homo sapiens] [MASS=42674]	0	2.14E+08	3.48E+08	0	2.67E+08	0	0	0	0	7.35E+08
+
+NP_006592.3_unactive progesterone receptor, 23 kD; likely ortholog of mouse telomerase binding protein, p23 [Homo sapiens] [MASS=18697] 	9.50E+07	5.12E+08	7.33E+07	0	8.56E+07	0	3.63E+08	1.73E+08	1.95E+08	7.14E+07
+
+NP_001336.2_diacylglycerol kinase, alpha 80kDa; diacylglycerol kinase, alpha (80kD) [Homo sapiens] [MASS=82630] 	3.10E+08	2.57E+08	0	0	2.70E+08	0	3.52E+08	0	9.49E+06	3.76E+08
+
+NP_000174.1_hydroxyacyl dehydrogenase, subunit B; 3-ketoacyl-Coenzyme A thiolase; trifunctional protein, beta subunit [Homo sapiens] [MASS=51294] 	1.19E+08	7.53E+07	0	4.47E+08	2.20E+08	2.15E+08	0	0	2.15E+08	3.09E+08
+
+NP_001743.1_catalase [Homo sapiens] [MASS=59756]	0	0	2.75E+08	4.59E+08	1.53E+08	0	0	8.32E+08	0	0
+
+NP_006817.1_tyrosine 3/tryptophan 5 -monooxygenase activation protein, theta polypeptide; 14-3-3 protein tau [Homo sapiens] [MASS=27764] 	3.22E+08	2.26E+08	4.83E+08	1.79E+08	1.61E+08	0	0	1.26E+08	0	2.30E+08
+
+NP_002785.1_proteasome beta 2 subunit; proteasome subunit, beta type, 2; macropain subunit C7-I; multicatalytic endopeptidase complex subunit C7-1; proteasome component C7-I [Homo sapiens] [MASS=22836] 	3.34E+08	3.76E+08	1.78E+08	4.62E+07	7.96E+07	0	0	0	6.99E+08	5.01E+07
+
+NP_004936.1_dynamin 2; Dynamin II [Homo sapiens] [MASS=97605]	0	6.28E+07	1.69E+08	0	1.54E+09	0	0	0	0	0
+
+NP_002784.1_proteasome beta 1 subunit; proteasome subunit HC5; proteasome component C5; macropain subunit C5; proteasome gamma chain; multicatalytic endopeptidase complex subunit C5 [Homo sapiens] [MASS=26489]	5.34E+08	3.17E+08	2.72E+08	3.57E+08	1.28E+08	0	0	0	0	1.67E+08
+
+NP_000909.2_prolyl 4-hydroxylase, beta subunit; v-erb-a avian erythroblastic leukemia viral oncogene homolog 2-like; disulfide isomerase; protein disulfide isomerase/oxidoreductase; thyroid hormone-binding protein p55; glutathione-insulin transhydrogenas	0	3.10E+08	4.42E+08	4.89E+08	7.05E+07	2.24E+08	0	0	0	2.45E+08
+
+NP_003237.2_thrombospondin 1 precursor [Homo sapiens] [MASS=129382]	5.23E+08	0	0	1.29E+09	0	0	0	0	0	0
+
+NP_004823.1_glutathione-S-transferase omega 1; glutathione-S-transferase like; glutathione transferase omega [Homo sapiens] [MASS=27566]	2.46E+08	2.33E+08	2.65E+08	5.59E+08	1.58E+08	0	0	0	0	3.57E+08
+
+NP_002695.1_pro-platelet basic protein precursor; connective tissue-activating peptide III; beta-thromboglobulin; neutrophil-activating peptide-2; CXC chemokine ligand 7; small inducible cytokine subfamily B, member 7; thromboglobulin, beta-1; thrombocid	1.45E+08	0	0	1.69E+09	0	0	0	0	0	0
+
+NP_002781.2_proteasome alpha 5 subunit; proteasome component 5; macropain subunit zeta; proteasome subunit zeta; proteasome zeta chain; macropain zeta chain; multicatalytic endopeptidase complex zeta chain [Homo sapiens] [MASS=26411]	3.60E+08	8.30E+07	3.73E+08	0	3.10E+08	0	4.00E+08	1.31E+08	0	2.07E+08
+
+NP_001900.1_cathepsin D preproprotein [Homo sapiens] [MASS=44552]	0	2.35E+08	6.78E+08	2.82E+08	7.50E+07	0	3.39E+08	0	0	2.59E+08
+
+NP_056189.1_unc-84 homolog B; Sad1 unc-84 domain protein 2 [Homo sapiens] [MASS=80310]	2.91E+08	3.83E+08	1.70E+07	0	4.41E+08	3.32E+08	4.90E+08	0	0	0
+
+NP_002159.2_isocitrate dehydrogenase 2 (NADP+), mitochondrial precursor; isocitrate dehydrogenase, mitochondrial; oxalosuccinate decarboxylase; NADP+-specific ICDH [Homo sapiens] [MASS=50909] 	8.23E+07	5.11E+07	0	1.75E+08	1.82E+08	2.71E+08	8.51E+08	5.78E+07	0	2.93E+08
+
+NP_001734.1_calmodulin 2; phosphorylase kinase delta [Homo sapiens] [MASS=16838]	0	2.67E+08	3.98E+07	3.66E+08	5.81E+08	0	0	0	0	7.34E+08
+
+NP_955367.1_FYN binding protein (FYB-120/130); FYN-binding protein (FYB-120/130) [Homo sapiens] [MASS=85386]	5.27E+08	2.73E+08	0	0	2.02E+08	1.84E+08	6.63E+07	0	4.46E+08	3.21E+08
+
+NP_006182.1_proliferation-associated 2G4, 38kDa; ErbB-3 binding protein [Homo sapiens] [MASS=43813] 	4.20E+08	4.03E+08	3.78E+08	0	2.71E+08	1.77E+08	0	0	0	3.97E+08
+
+NP_002108.3_major histocompatibility complex, class I, C precursor; HLA class I histocompatibility antigen, C alpha chain; Cw1 antigen [Homo sapiens] [MASS=40995] 	1.39E+08	5.39E+08	2.54E+08	0	4.09E+08	0	0	0	0	7.22E+08
+
+NP_002480.1_NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 4, 9kDa; NADH-ubiquinone oxidoreductase MLRQ subunit; NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 4 (9kD, MLRQ) [Homo sapiens] [MASS=9370] 	0	3.95E+08	2.41E+08	5.59E+07	2.32E+07	0	2.61E+08	0	9.96E+08	1.07E+08
+
+NP_665906.1_high mobility group AT-hook 1 isoform a; nonhistone chromosomal high-mobility group protein HMG-I/HMG-Y; high-mobility group (nonhistone chromosomal) protein isoforms I and Y [Homo sapiens] [MASS=11676]	6.03E+08	4.76E+08	0	5.02E+08	1.29E+08	0	0	0	2.94E+08	7.86E+07
+
+NP_001880.2_crystallin, zeta; NADPH:quinone reductase [Homo sapiens] [MASS=35206] 	1.94E+08	2.38E+08	5.20E+08	0	1.29E+08	1.64E+07	1.99E+08	8.13E+08	0	3.45E+07
+
+NP_005224.2_ephrin receptor EphA3 isoform a precursor; eph-like tyrosine kinase 1; human embryo kinase 1; TYRO4 protein tyrosine kinase [Homo sapiens] [MASS=110130]	0	5.40E+08	0	1.49E+08	8.68E+08	0	0	0	0	5.87E+08
+
+NP_002787.2_proteasome beta 4 subunit; proteasome subunit, beta type, 4; proteasome subunit HsN3; proteasome beta chain; macropain beta chain; proteasome chain 3; multicatalytic endopeptidase complex beta chain [Homo sapiens] [MASS=29204] 	7.50E+07	2.75E+08	1.95E+08	3.51E+08	1.75E+08	0	2.50E+08	1.46E+08	2.59E+08	4.81E+08
+
+NP_006297.2_SMC1 structural maintenance of chromosomes 1-like 1; segregation of mitotic chromosomes 1; SMC1 (structural maintenance of chromosomes 1, yeast)-like 1 [Homo sapiens] [MASS=143232] 	3.27E+08	0	0	3.02E+08	2.52E+08	2.21E+08	0	2.41E+08	4.69E+08	4.31E+08
+
+NP_001619.1_aldo-keto reductase family 1, member B1; aldehyde reductase 1; aldose reductase; low Km aldose reductase; Lii5-2 CTCL tumor antigen [Homo sapiens] [MASS=35853] 	1.40E+08	1.07E+08	1.92E+08	0	2.98E+08	2.22E+08	4.16E+08	1.54E+08	5.15E+08	2.24E+08
+
+NP_001779.1_cell division cycle 10; CDC10 protein homolog; cell division cycle 10 (homolog to CDC10 of S.cerevisiae); CDC10 (cell division cycle 10, S. cerevisiae, homolog) [Homo sapiens] [MASS=48787] 	3.12E+08	9.38E+08	8.11E+07	0	3.98E+08	3.67E+08	0	3.76E+07	0	1.68E+08
+
+NP_001655.1_ras homolog gene family, member A; oncogene RHO H12; Aplysia ras-related homolog 12 [Homo sapiens] [MASS=21768] 	3.57E+08	4.84E+08	8.16E+07	7.31E+07	3.07E+08	0	2.37E+08	1.71E+08	3.13E+08	3.11E+08
+
+NP_001013.1_ribosomal protein S19; 40S ribosomal protein S19 [Homo sapiens] [MASS=16060]	2.80E+08	4.25E+08	0	1.69E+08	3.55E+08	0	1.08E+08	0	8.27E+08	2.11E+08
+
+NP_003365.1_voltage-dependent anion channel 1 [Homo sapiens] [MASS=30772]	2.50E+08	3.42E+08	0	5.14E+08	1.37E+08	0	2.12E+08	5.13E+08	0	4.54E+08
+
+NP_005532.2_inositol polyphosphate-5-phosphatase, 145kDa; hp51CN [Homo sapiens] [MASS=133192] 	3.09E+08	3.42E+08	0	0	4.20E+08	2.22E+08	1.21E+08	0	1.02E+09	0
+
+NP_001740.1_calpain, small subunit 1; calcium-activated neutral proteinase; calpain, small polypeptide; calpain 4, small subunit (30K); calcium-dependent protease, small subunit [Homo sapiens] [MASS=28316] 	0	4.99E+08	6.18E+08	0	0	0	1.20E+09	0	0	1.23E+08
+
+NP_002991.1_succinate dehydrogenase complex, subunit B, iron sulfur (Ip); iron-sulfur subunit [Homo sapiens] [MASS=31629] 	8.25E+08	6.42E+08	0	2.35E+08	3.24E+08	0	0	0	0	4.15E+08
+
+NP_006422.1_chaperonin containing TCP1, subunit 2 (beta); chaperonin containing t-complex polypeptide 1, beta subunit [Homo sapiens] [MASS=57488] 	4.10E+08	4.52E+08	3.13E+08	3.22E+07	3.44E+08	5.13E+08	0	0	0	3.88E+08
+
+NP_001350.1_2,4-dienoyl CoA reductase 1 precursor; 4-enoyl-CoA reductase [Homo sapiens] [MASS=36067] 	1.88E+08	4.33E+08	1.35E+08	3.89E+08	2.18E+08	0	3.86E+08	0	2.02E+08	5.52E+08
+
+NP_002334.1_lactotransferrin; lactoferrin [Homo sapiens] [MASS=78372]	1.74E+07	0	1.70E+09	2.40E+08	0	0	0	5.83E+08	0	0
+
+NP_006631.1_MLL septin-like fusion; septin D1; MLL septin-like fusion (NOTE: non-standard symbol and name) [Homo sapiens] [MASS=63633]	1.54E+08	3.28E+08	3.94E+08	0	2.02E+08	4.28E+08	0	4.71E+08	0	5.87E+08
+
+NP_004654.1_Ras-related protein Rab-11A; RAB 11A, member oncogene family [Homo sapiens] [MASS=24393] 	2.25E+08	2.47E+08	9.45E+07	1.08E+09	1.18E+08	0	0	3.56E+08	0	4.47E+08
+
+NP_000202.1_integrin beta chain, beta 2 precursor; Integrin, beta-2 (antigen CD18 (p95), lymphocyte function-associated; cell surface adhesion glycoprotein (LFA-1/CR3/P150,959 beta subunit precursor) [Homo sapiens] [MASS=84790] 	3.76E+08	2.75E+08	1.45E+07	3.66E+08	7.00E+08	4.52E+08	1.14E+08	0	0	2.83E+08
+
+NP_002778.1_proteasome alpha 2 subunit; proteasome subunit HC3; proteasome component C3; macropain subunit C3; multicatalytic endopeptidase complex subunit C3 [Homo sapiens] [MASS=25898]	3.92E+08	7.28E+08	2.13E+08	4.17E+07	1.52E+08	0	5.01E+08	9.36E+07	3.96E+08	1.04E+08
+
+NP_536846.1_cytochrome c oxidase subunit II [Homo sapiens] [MASS=25565]	4.10E+08	5.85E+08	3.33E+08	3.52E+07	3.08E+08	0	3.51E+08	0	2.59E+08	3.44E+08
+
+NP_057001.1_glutathione transferase kappa 1; glutathione S-transferase subunit 13 homolog [Homo sapiens] [MASS=25497]	2.59E+08	1.29E+09	2.13E+08	2.80E+08	4.02E+08	0	0	0	0	1.91E+08
+
+NP_426359.1_cell division cycle 42 isoform 2; cell division cycle 42 (GTP-binding protein, 25kD); cell division cycle 42 (GTP binding protein, 25kD); GTP-binding protein, 25kD [Homo sapiens] [MASS=21310] 	4.19E+08	5.18E+08	2.45E+08	0	1.39E+08	0	6.15E+08	4.93E+08	0	2.41E+08
+
+NP_006296.1_acidic (leucine-rich) nuclear phosphoprotein 32 family, member A; putative human HLA class II associated protein I; cerebellar leucine rich acidic nuclear protein; inhibitor-1 of protein phosphatase-2A; mapmodulin [Homo sapiens] [MASS=28585]	9.72E+07	1.08E+09	6.08E+08	1.16E+08	3.31E+08	0	0	4.60E+08	0	0
+
+NP_004896.1_peroxiredoxin 6; antioxidant protein 2; non-selenium glutathione peroxidase; acidic calcium-independent phospholipase A2; 1-Cys peroxiredoxin [Homo sapiens] [MASS=25035]	1.23E+08	3.80E+08	2.78E+08	5.55E+08	2.16E+08	0	0	6.76E+08	0	4.65E+08
+
+NP_001484.1_GDP dissociation inhibitor 1; mental retardation, X-linked 41; mental retardation, X-linked 48; rab GDP-dissociation inhibitor, alpha [Homo sapiens] [MASS=50582] 	0	9.45E+08	2.30E+08	7.95E+07	4.92E+08	8.89E+08	0	0	0	7.16E+07
+
+NP_067022.1_sulfide dehydrogenase like; sulfide dehydrogenase like (yeast) [Homo sapiens] [MASS=49960]	4.47E+08	3.11E+08	1.15E+08	3.97E+07	1.57E+08	8.11E+08	5.15E+08	0	0	3.25E+08
+
+NP_000628.1_glutathione reductase [Homo sapiens] [MASS=51700]	2.25E+08	3.24E+08	3.91E+08	5.76E+07	3.03E+08	3.91E+08	7.03E+08	9.33E+07	5.97E+07	2.33E+08
+
+NP_006624.1_IQ motif containing GTPase activating protein 2 [Homo sapiens] [MASS=180611]	7.78E+08	3.90E+08	0	0	4.44E+08	5.83E+08	0	0	0	5.89E+08
+
+NP_036350.2_interleukin enhancer binding factor 3 isoform a; M-phase phosphoprotein 4; double-stranded RNA-binding protein, 76 kD; nuclear factor associated with dsRNA; nuclear factor of activated T-cells, 90 kD; translational control protein 80 [Homo sa	8.01E+07	1.88E+08	0	0	8.79E+08	8.28E+08	1.02E+08	0	7.77E+07	6.75E+08
+
+NP_005505.2_major histocompatibility complex, class I, B; HLA class I histocompatibility antigen, B alpha chain [Homo sapiens] [MASS=40460] 	0	3.17E+08	2.79E+08	9.68E+07	7.03E+08	0	1.26E+09	0	0	2.14E+08
+
+NP_004628.4_RAB7, member RAS oncogene family; Ras-associated protein RAB7 [Homo sapiens] [MASS=23490] 	3.28E+08	5.62E+08	1.56E+08	4.63E+08	1.55E+08	0	2.76E+08	9.51E+07	5.94E+08	2.51E+08
+
+NP_004484.1_hydroxyacyl-Coenzyme A dehydrogenase, type II; type 10 17b-HSD; type 10 17beta-hydroxysteroid dehydrogenase; AB-binding alcohol dehydrogenase [Homo sapiens] [MASS=26923] 	5.94E+08	9.39E+08	1.64E+07	1.59E+08	2.30E+08	0	8.46E+08	7.82E+07	0	1.70E+08
+
+NP_002782.1_proteasome alpha 6 subunit; macropain subunit iota; prosomal P27K protein; proteasome subunit iota; proteasome iota chain; macropain iota chain; multicatalytic endopeptidase complex iota chain; 27 kDa prosomal protein [Homo sapiens] [MASS=2739	5.00E+08	1.25E+08	8.90E+07	1.70E+08	6.64E+08	0	3.52E+08	3.74E+08	3.11E+08	4.48E+08
+
+NP_000687.2_aldehyde dehydrogenase 9A1; gamma-aminobutyraldehyde dehydrogenase; 4-trimethylaminobutyraldehyde dehydrogenase; aldehyde dehydrogenase E3 isozyme; aldehyde dehydrogenase (NAD+); R-aminobutyraldehyde dehydrogenase [Homo sapiens] [MASS=53802]	0	9.27E+07	0	0	5.05E+08	6.29E+08	1.12E+09	0	0	8.44E+08
+
+NP_001804.1_centromere protein E; Centromere autoantigen E (312kD); centromere protein E (312kD); kinesin family member 10 [Homo sapiens] [MASS=312088]	0	1.34E+09	0	1.87E+09	0	0	0	0	0	0
+
+NP_006301.2_aminopeptidase puromycin sensitive; puromycin-sensitive aminopeptidase; metalloproteinase MP100 [Homo sapiens] [MASS=98503]	1.12E+09	4.86E+08	1.01E+08	0	5.18E+08	2.87E+08	3.25E+08	3.10E+07	0	3.59E+08
+
+NP_002406.1_macrophage migration inhibitory factor (glycosylation-inhibiting factor); phenylpyruvate tautomerase; glycosylation-inhibiting factor [Homo sapiens] [MASS=12476]	6.82E+08	6.48E+08	2.93E+08	0	2.81E+08	4.36E+07	3.32E+08	0	1.60E+08	8.71E+08
+
+NP_004300.1_Rho GDP dissociation inhibitor (GDI) alpha [Homo sapiens] [MASS=23207]	2.19E+08	1.69E+09	7.26E+08	7.82E+07	4.20E+08	0	0	3.53E+07	0	3.23E+08
+
+NP_005177.2_calpain 1, large subunit; calcium-activated neutral proteinase; calpain, large polypeptide L1 [Homo sapiens] [MASS=81889] 	5.20E+08	1.85E+08	4.50E+08	2.26E+08	4.12E+08	5.55E+08	8.35E+08	0	0	3.10E+08
+
+NP_002625.1_prohibitin [Homo sapiens] [MASS=29804]	2.24E+08	7.55E+08	0	7.43E+07	2.48E+08	0	1.03E+09	2.57E+08	1.45E+08	8.25E+08
+
+NP_006421.2_chaperonin containing TCP1, subunit 4 (delta); chaperonin containing t-complex polypeptide 1, delta subunit [Homo sapiens] [MASS=57924] 	6.76E+08	1.92E+08	2.17E+08	7.63E+08	1.73E+08	5.41E+08	6.21E+08	2.40E+08	5.11E+07	1.48E+08
+
+NP_036216.2_glutamate dehydrogenase 2; glutamate dehydrogenase pseudogene 1 [Homo sapiens] [MASS=61434]	3.67E+08	3.56E+08	1.68E+08	4.43E+07	5.04E+08	6.41E+08	7.56E+08	7.55E+07	7.10E+07	6.50E+08
+
+NP_112243.1_RAB1B, member RAS oncogene family; small GTP-binding protein [Homo sapiens] [MASS=22171] 	1.43E+08	7.94E+08	2.16E+08	1.33E+09	1.28E+08	0	3.53E+08	1.78E+08	1.72E+08	3.78E+08
+
+NP_002699.1_protein phosphatase 1, catalytic subunit, alpha isoform 1; serine/threonine protein phosphatase PP1-alpha 1 catalytic subunit [Homo sapiens] [MASS=37512] 	2.40E+09	3.47E+08	2.13E+08	5.86E+07	1.39E+08	2.61E+08	1.41E+08	2.10E+08	0	1.91E+08
+
+NP_001367.2_dynein, cytoplasmic, heavy polypeptide 1; dynein, cytoplasmic-like; dynein heavy chain, cytosolic [Homo sapiens] [MASS=532404] 	4.39E+08	1.84E+08	0	5.75E+08	1.83E+08	1.13E+09	5.07E+07	0	6.38E+08	8.19E+08
+
+NP_006089.1_guanine nucleotide binding protein (G protein), beta polypeptide 2-like 1; protein homologous to chicken B complex protein, guanine nucleotide binding [Homo sapiens] [MASS=35076] 	2.61E+08	7.87E+08	1.72E+08	0	3.51E+08	0	0	1.78E+09	0	7.43E+08
+
+NP_002330.1_lymphocyte-specific protein 1; Lymphocyte-specific protein pp52 [Homo sapiens] [MASS=37191]	6.49E+08	7.77E+08	7.21E+07	2.31E+07	2.61E+08	1.32E+09	4.25E+08	0	3.69E+08	3.71E+08
+
+NP_004542.1_NADH dehydrogenase (ubiquinone) Fe-S protein 3, 30kDa (NADH-coenzyme Q reductase); NADH dehydrogenase (ubiquinone) Fe-S protein 3 (30kD) (NADH-coenzyme Q reductase) [Homo sapiens] [MASS=30241] 	9.20E+08	1.41E+09	0	6.97E+08	4.59E+08	0	0	2.10E+08	0	6.94E+08
+
+NP_001649.1_ADP-ribosylation factor 1 [Homo sapiens] [MASS=20697]	3.41E+08	7.11E+08	1.33E+08	1.02E+09	3.64E+08	0	5.04E+08	9.32E+08	2.50E+08	2.22E+08
+
+NP_009193.2_RNA-binding protein regulatory subunit; oncogene DJ1 [Homo sapiens] [MASS=19891]	2.74E+08	1.53E+09	3.05E+08	3.17E+08	4.05E+08	0	8.19E+08	1.35E+08	4.19E+08	6.41E+08
+
+NP_002061.1_guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 2 [Homo sapiens] [MASS=40451] 	5.79E+08	9.76E+08	3.81E+08	3.51E+08	3.17E+08	8.03E+08	4.02E+08	7.13E+07	3.50E+08	7.02E+08
+
+NP_002809.2_proteasome activator subunit 2; proteasome activator hPA28 subunit beta; proteasome activator 28-beta; 11S regulator complex beta subunit; MCP activator, 31-kD subunit; activator of multicatalytic protease subunit 2 [Homo sapiens] [MASS=27401	1.12E+09	4.46E+08	1.51E+09	0	3.17E+08	0	1.08E+09	3.03E+08	0	2.81E+08
+
+NP_004504.3_interleukin 16 isoform 1 proprotein [Homo sapiens] [MASS=66646]	6.65E+08	6.71E+08	2.93E+08	1.83E+08	5.76E+08	8.45E+08	8.18E+08	4.43E+07	3.84E+08	6.75E+08
+
+NP_942126.1_ras-related C3 botulinum toxin substrate 1 isoform Rac1c; rho family, small GTP binding protein Rac1 [Homo sapiens] [MASS=16797] 	8.14E+08	1.16E+09	5.47E+08	5.30E+08	4.33E+08	0	1.04E+09	0	2.99E+08	4.01E+08
+
+NP_005908.1_cytosolic malate dehydrogenase; soluble malate dehydrogenase [Homo sapiens] [MASS=36426]	4.13E+08	1.29E+09	6.01E+08	5.89E+08	3.69E+08	7.06E+08	0	5.20E+08	0	8.07E+08
+
+NP_000173.2_hydroxyacyl dehydrogenase, subunit A; trifunctional protein, alpha subunit; mitochondrial trifunctional protein, alpha subunit; long-chain hydroxyacyl-CoA dehydrogenase [Homo sapiens] [MASS=82999] 	3.74E+08	1.57E+09	3.14E+07	7.31E+08	3.35E+08	1.05E+09	5.38E+08	0	0	6.75E+08
+
+NP_683720.1_proteasome beta 8 subunit isoform E2 proprotein; proteasome subunit, beta type, 8; proteasome catalytic subunit 3i; proteasome subunit beta 5i; proteasome subunit Y2; low molecular weight protein 7; proteasome-related gene 7; multicatalytic e	2.39E+09	1.69E+09	0	0	2.75E+08	0	0	0	0	1.04E+09
+
+NP_005326.1_hematopoietic cell-specific Lyn substrate 1 [Homo sapiens] [MASS=53998]	1.09E+09	7.87E+08	9.73E+07	1.61E+08	5.55E+08	1.31E+09	1.15E+09	0	0	4.43E+08
+
+NP_000445.1_superoxide dismutase 1, soluble; Cu/Zn superoxide dismutase; indophenoloxidase A; SOD, soluble; superoxide dismutase, cystolic [Homo sapiens] [MASS=15936] 	6.86E+08	1.10E+09	8.04E+08	1.46E+08	8.74E+08	0	8.83E+08	4.30E+08	2.97E+08	5.25E+08
+
+NP_003472.1_Ubiquitin isopeptidase T; Ubiquitin-specific protease-5 (ubiquitin isopeptidase T) [Homo sapiens] [MASS=93393]	0	2.51E+08	0	0	4.10E+09	1.66E+07	1.43E+09	0	0	0
+
+NP_665875.1_annexin A11; annexin XI; autoantigen, 56-kD; calcyclin-associated annexin 50 [Homo sapiens] [MASS=54389] 	3.89E+08	1.13E+09	7.67E+08	0	5.82E+08	3.66E+08	1.94E+09	0	0	1.05E+09
+
+NP_000166.2_glucose phosphate isomerase; neuroleukin; glucose-6-phosphate isomerase; autocrine motility factor; sperm antigen-36; phosphoglucose isomerase; phosphohexose isomerase; phosphohexomutase; hexosephosphate isomerase; hexose monophosphate isomera	0	1.17E+09	5.62E+08	3.51E+08	7.02E+08	6.55E+08	8.09E+08	5.95E+08	7.31E+08	7.21E+08
+
+NP_002286.2_laminin receptor 1; 67kD, ribosomal protein SA; laminin receptor 1 (67kD, ribosomal protein SA) [Homo sapiens] [MASS=32854] 	6.42E+08	1.99E+09	3.89E+08	2.56E+08	6.14E+08	1.62E+09	0	2.05E+08	0	6.29E+08
+
+NP_001902.1_cathepsin G preproprotein [Homo sapiens] [MASS=28837]	0	0	4.47E+09	0	0	0	0	2.14E+09	0	0
+
+NP_109591.1_serine (or cysteine) proteinase inhibitor, clade B (ovalbumin), member 1; protease inhibitor 2 (anti-elastase), monocyte/neutrophil; anti-elastase; protease inhibitor 2 (anti-elastase), monocyte/neutrophil derived [Homo sapiens] [MASS=42742]	4.18E+08	1.24E+08	1.06E+09	3.79E+08	4.13E+08	2.25E+09	1.29E+09	4.70E+08	0	5.23E+08
+
+NP_001963.1_elastase 2, neutrophil; medullasin [Homo sapiens] [MASS=28518] 	0	0	3.15E+09	0	0	0	0	3.82E+09	0	0
+
+NP_002956.1_S100 calcium-binding protein A9; calgranulin B; S100 calcium-binding protein A9 (calgranulin B) [Homo sapiens] [MASS=13242]	0	6.55E+07	1.69E+09	1.88E+09	1.51E+07	0	0	3.40E+09	0	0
+
+NP_009057.1_valosin-containing protein; yeast Cdc48p homolog; transitional endoplasmic reticulum ATPase [Homo sapiens] [MASS=89321]	9.54E+08	6.04E+08	1.38E+08	1.65E+08	1.15E+09	3.08E+09	0	0	0	1.01E+09
+
+NP_116116.1_internexin neuronal intermediate filament protein, alpha; neurofilament-66, tax-binding protein; neurofilament 5 (66kD) [Homo sapiens] [MASS=55390] 	2.07E+09	1.04E+09	0	0	1.23E+09	0	2.16E+09	0	0	6.43E+08
+
+NP_002875.1_RAP1A, member of RAS oncogene family; RAS-related protein RAP1A [Homo sapiens] [MASS=20987] 	3.33E+08	1.84E+08	4.93E+08	4.49E+09	1.84E+08	0	5.94E+08	3.62E+08	3.10E+08	2.57E+08
+
+NP_006420.1_chaperonin containing TCP1, subunit 7 (eta); chaperonin containing t-complex polypeptide 1, eta subunit [Homo sapiens] [MASS=59366] 	7.39E+08	1.47E+09	2.06E+09	2.17E+08	7.04E+08	7.66E+08	0	8.25E+08	0	5.82E+08
+
+NP_002558.1_prostatic binding protein; phosphatidylethanolamine binding protein [Homo sapiens] [MASS=21057]	8.10E+08	1.89E+09	7.27E+08	2.42E+08	7.19E+08	0	1.04E+09	2.00E+08	6.57E+08	1.09E+09
+
+NP_004146.1_serine (or cysteine) proteinase inhibitor, clade B (ovalbumin), member 9; protease inhibitor 9 (ovalbumin type) [Homo sapiens] [MASS=42403] 	1.52E+08	1.22E+08	8.77E+08	5.61E+08	9.45E+08	2.65E+09	0	9.89E+08	0	1.16E+09
+
+NP_002532.1_oxoglutarate (alpha-ketoglutarate) dehydrogenase (lipoamide); oxoglutarate dehydrogenase (lipoamide) [Homo sapiens] [MASS=113475]	0	7.37E+08	4.81E+09	9.44E+08	1.62E+08	4.53E+08	2.73E+08	0	0	1.94E+08
+
+NP_001632.2_APEX nuclease; multifunctional DNA repair enzyme; AP lyase; DNA-(apurinic or apyrimidinic site) lyase; AP endonuclease class I; deoxyribonuclease (apurinic or apyrimidinic); apurinic/apyrimidinic exonuclease; apurinic/apyrimidinic (abasic) end	6.67E+08	1.56E+09	6.52E+08	9.57E+07	2.43E+08	8.73E+08	2.24E+09	1.07E+09	0	1.86E+08
+
+NP_065777.1_neurolysin; neurotensin endopeptidase [Homo sapiens] [MASS=80651]	0	0	3.66E+09	0	3.96E+09	0	0	0	0	0
+
+NP_001691.1_azurocidin 1 preproprotein; cationic antimicrobial protein 37; heparin-binding protein; neutrophil azurocidin [Homo sapiens] [MASS=26885]	0	0	5.15E+09	0	0	0	0	2.71E+09	0	0
+
+NP_006316.1_ras-related nuclear protein [Homo sapiens] [MASS=24423]	2.27E+09	1.59E+09	6.16E+08	2.37E+08	9.41E+08	0	0	1.27E+09	0	1.01E+09
+
+NP_821133.1_beta 5-tubulin; beta Ib tubulin [Homo sapiens] [MASS=49671]	9.01E+08	1.29E+09	1.13E+09	5.23E+08	4.66E+08	2.35E+09	1.13E+09	2.02E+08	2.03E+08	8.60E+08
+
+NP_056289.2_SAM domain- and HD domain-containing protein 1; SAM domain and HD domain, 1; dendritic cell-derived IFNG-induced protein; monocyte protein 5 [Homo sapiens] [MASS=72200] 	1.28E+08	2.51E+09	2.37E+08	3.96E+08	1.46E+09	2.05E+09	8.96E+08	0	8.00E+08	1.43E+09
+
+NP_000230.1_lysozyme precursor [Homo sapiens] [MASS=16537]	1.06E+09	0	1.38E+09	5.42E+09	1.34E+08	0	0	2.84E+09	0	0
+
+NP_859047.1_peroxiredoxin 1; thioredoxin-dependent peroxide reductase 2; proliferation-associated gene A; natural killer-enhancing factor A [Homo sapiens] [MASS=22110]	1.21E+09	1.04E+09	8.75E+08	1.08E+09	8.10E+08	0	1.73E+09	8.19E+08	2.52E+09	1.06E+09
+
+NP_004508.1_integrin-linked kinase [Homo sapiens] [MASS=51419]	0	0	0	5.68E+09	0	0	0	0	0	5.47E+09
+
+NP_002863.1_ras-related C3 botulinum toxin substrate 2; rho family, small GTP binding protein Rac2; Ras-related C3 botulinum toxin substrate 3 (rho family, small GTP-binding protein Rac2); small G protein [Homo sapiens] [MASS=21429] 	1.04E+09	2.02E+09	1.35E+09	5.82E+08	1.14E+09	0	1.46E+09	8.60E+08	1.96E+09	1.08E+09
+
+NP_002955.2_S100 calcium-binding protein A8; calgranulin A; cystic fibrosis antigen; S100 calcium-binding protein A8 (calgranulin A) [Homo sapiens] [MASS=10834]	6.89E+07	0	2.87E+09	4.36E+09	9.93E+07	0	0	4.87E+09	3.14E+08	0
+
+NP_005304.3_glucose regulated protein, 58kDa [Homo sapiens] [MASS=56782] 	9.03E+08	1.33E+09	1.41E+09	1.66E+09	1.92E+09	1.46E+09	1.27E+09	0	4.09E+08	2.53E+09
+
+NP_003861.1_IQ motif containing GTPase activating protein 1; rasGAP-like with IQ motifs; RASGAP-like with IQ motifs (sar1, S. pombe, homolog of) [Homo sapiens] [MASS=189251] 	4.05E+08	1.43E+09	1.55E+09	3.77E+08	9.10E+08	4.02E+09	1.25E+09	6.93E+08	7.67E+08	2.06E+09
+
+NP_068814.2_heat shock 70kDa protein 2; Heat-shock 70kD protein-2; heat shock 70kD protein 2 [Homo sapiens] [MASS=70020]	1.26E+09	1.69E+09	1.16E+09	1.95E+09	1.86E+09	3.84E+09	1.05E+09	0	3.98E+08	1.29E+09
+
+NP_002829.2_protein tyrosine phosphatase, receptor type, C isoform 1 precursor; protein tyrosine phosphatase, receptor type, c polypeptide; leukocyte-common antigen; T200 glycoprotein; SCID due to PTPRC deficiency; CD45 antigen; human homolog of severe c	2.08E+09	1.28E+09	8.67E+08	1.41E+08	1.17E+09	2.49E+09	2.12E+09	2.76E+09	7.60E+08	1.38E+09
+
+NP_000627.1_superoxide dismutase 2, mitochondrial [Homo sapiens] [MASS=24733] 	3.11E+08	1.30E+09	3.97E+09	7.65E+08	3.24E+09	0	1.76E+09	2.12E+09	2.65E+09	1.84E+08
+
+NP_002120.1_high-mobility group box 2; high-mobility group (nonhistone chromosomal) protein 2 [Homo sapiens] [MASS=24034]	2.76E+09	2.25E+09	8.33E+08	1.17E+09	1.17E+09	0	9.47E+08	4.82E+09	3.04E+09	1.65E+09
+
+NP_005800.3_peroxiredoxin 2 isoform a; thioredoxin-dependent peroxide reductase 1; thiol-specific antioxidant 1; natural killer-enhancing factor B; thioredoxin peroxidase 1; torin [Homo sapiens] [MASS=21892]	2.18E+09	2.97E+09	2.25E+09	1.46E+09	1.52E+09	0	2.65E+09	2.34E+09	2.95E+09	1.40E+09
+
+NP_006358.1_adenylyl cyclase-associated protein [Homo sapiens] [MASS=51673]	2.28E+09	4.76E+09	2.69E+09	2.04E+09	1.67E+09	3.96E+09	0	1.49E+09	0	1.47E+09
+
+NP_005909.2_mitochondrial malate dehydrogenase precursor [Homo sapiens] [MASS=35503]	1.33E+09	2.30E+09	1.04E+09	2.60E+09	1.37E+09	1.16E+09	5.05E+09	1.94E+09	3.16E+09	1.68E+09
+
+NP_005498.1_cofilin 1 (non-muscle) [Homo sapiens] [MASS=18502]	1.17E+09	1.03E+10	2.09E+09	1.71E+09	2.10E+09	0	4.85E+09	2.72E+09	9.17E+08	1.57E+09
+
+NP_001166.1_Rho GDP dissociation inhibitor (GDI) beta; Rho GDI 2; Ly-GDI [Homo sapiens] [MASS=22988]	3.73E+09	4.18E+09	2.43E+09	3.02E+09	1.49E+09	0	5.80E+09	1.06E+09	3.36E+09	2.94E+09
+
+NP_002291.1_lactate dehydrogenase B [Homo sapiens] [MASS=36638]	4.13E+09	2.97E+09	3.02E+09	1.06E+09	1.89E+09	2.33E+09	7.71E+09	4.24E+09	3.44E+09	3.04E+09
+
+NP_009005.1_coronin, actin binding protein, 1A; coronin, actin-binding, 1A; coronin, actin-binding protein, 1A; coronin-1 [Homo sapiens] [MASS=51026] 	3.09E+09	8.01E+09	5.37E+09	9.86E+08	2.62E+09	1.27E+10	0	1.56E+09	4.59E+09	2.22E+09
+
+NP_000691.1_annexin I; annexin I (lipocortin I); lipocortin I [Homo sapiens] [MASS=38714]	5.19E+09	7.65E+09	5.76E+09	1.00E+09	3.24E+09	3.78E+09	1.10E+10	3.51E+09	4.85E+09	2.88E+09
+
+NP_596869.1_titin isoform N2-A; connectin; CMH9, included; cardiomyopathy, dilated 1G (autosomal dominant) [Homo sapiens] [MASS=3816130] 	5.31E+09	3.22E+09	0	9.72E+09	9.48E+09	5.14E+09	0	8.32E+09	0	8.22E+09
+
+NP_005314.2_H1 histone family, member T, testis-specific; H1 histone family, member T (testis-specific) [Homo sapiens] [MASS=22019] 	7.01E+09	6.24E+09	2.43E+09	6.39E+09	3.91E+09	2.08E+09	3.49E+09	3.29E+09	1.06E+10	6.40E+09
+
+NP_001419.1_enolase 1; MYC promoter-binding protein 1; non-neural enolase; 2-phospho-D-glycerate hydro-lyase; tau-crystallin; phosphopyruvate hydratase [Homo sapiens] [MASS=47169]	8.87E+09	8.38E+09	8.76E+09	2.20E+09	5.65E+09	1.40E+10	1.13E+10	3.15E+09	1.58E+09	6.53E+09
+
+NP_001447.1_filamin 1 (actin-binding protein-280); filamin A, alpha (actin-binding protein-280); actin-binding protein-280; filamin 1 [Homo sapiens] [MASS=280759] 	9.17E+09	5.84E+09	4.83E+09	2.14E+10	2.53E+09	1.56E+10	2.87E+09	9.02E+09	3.95E+08	7.49E+09
+
+NP_002037.2_glyceraldehyde-3-phosphate dehydrogenase [Homo sapiens] [MASS=36053]	2.21E+10	1.28E+10	9.68E+09	6.27E+09	7.62E+09	1.57E+10	0	1.70E+10	0	1.15E+10
+
+NP_000468.1_albumin precursor; PRO0883 protein [Homo sapiens] [MASS=69366]	7.41E+10	1.67E+09	1.76E+10	7.50E+08	5.53E+09	2.29E+09	1.17E+09	7.95E+09	1.02E+10	4.48E+09
+
+NP_068803.1_H4 histone family, member E [Homo sapiens] [MASS=11367] 	2.68E+10	3.20E+10	4.51E+10	7.88E+10	6.47E+10	4.14E+08	5.23E+10	7.05E+10	1.00E+11	3.49E+10
+

@@ -1,0 +1,192 @@
+2006-02-21 15:45:49,380 INFO test1: [test1] description not found
+2006-02-21 15:45:49,381 DEBUG test1: Starting -----------------------------------
+	
+2006-02-21 15:45:49,381 DEBUG test1: setUp
+2006-02-21 15:45:49,381 DEBUG test1: GET: http://signs.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-21 15:45:49,391 DEBUG test1:  Done in 0.010s
+2006-02-21 15:45:49,391 DEBUG test1:  Load css and images...
+2006-02-21 15:45:49,466 DEBUG test1:   Done in 0.025s
+2006-02-21 15:45:49,476 DEBUG test1: POST: http://signs.bioinfo.cnio.es/cgi-bin/signsR.cgi {'validationtime': <webunit.utility.Upload instance at 0x4064ba0c>, 'idtype': 'None', 'MinCor': '0.5', 'methodSurv': 'FCMS', 'MinSize': '10', 'MaxSize': '100', 'validationevent': <webunit.utility.Upload instance at 0x4064baac>, 'validationcovariate': <webunit.utility.Upload instance at 0x4064b7ac>, 'time': <webunit.utility.Upload instance at 0x4064b7ec>, 'Minp': '0.1', 'covariate': <webunit.utility.Upload instance at 0x4064b5ac>, 'organism': 'None', 'event': <webunit.utility.Upload instance at 0x4064b82c>}
+	Page 2: Post /cgi-bin/signsR.cgi ...
+2006-02-21 15:45:49,476 DEBUG test1:  Failed in 0.000s
+2006-02-21 15:45:49,501 DEBUG test1: tearDown.
+
+2006-02-21 15:58:05,072 INFO test2: [test2] description not found
+2006-02-21 15:58:05,072 DEBUG test2: Starting -----------------------------------
+	
+2006-02-21 15:58:05,073 DEBUG test2: setUp
+2006-02-21 15:58:05,073 DEBUG test2: GET: http://signs.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-21 15:58:05,087 DEBUG test2:  Done in 0.014s
+2006-02-21 15:58:05,087 DEBUG test2:  Load css and images...
+2006-02-21 15:58:05,166 DEBUG test2:   Done in 0.033s
+2006-02-21 15:58:05,176 DEBUG test2: POST: http://signs.bioinfo.cnio.es/cgi-bin/signsR.cgi {'validationtime': <webunit.utility.Upload instance at 0x4064baec>, 'idtype': 'None', 'validation': 'on', 'MinCor': '0.5', 'methodSurv': 'FCMS', 'MinSize': '10', 'MaxSize': '100', 'validationevent': <webunit.utility.Upload instance at 0x4064bacc>, 'validationcovariate': <webunit.utility.Upload instance at 0x4064b8ec>, 'time': <webunit.utility.Upload instance at 0x4064b7ec>, 'Minp': '0.1', 'covariate': <webunit.utility.Upload instance at 0x4064b0ec>, 'organism': 'None', 'event': <webunit.utility.Upload instance at 0x4064b82c>}
+	Page 2: Post /cgi-bin/signsR.cgi ...
+2006-02-21 15:58:05,367 DEBUG test2:  Done in 0.191s
+2006-02-21 15:58:05,367 DEBUG test2:  Load css and images...
+2006-02-21 15:58:05,368 DEBUG test2:   Done in 0.000s
+2006-02-21 15:58:37,376 DEBUG test2: GET: http://signs.bioinfo.cnio.es/cgi-bin/signsR.cgi
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-21 15:58:37,442 DEBUG test2:  Done in 0.066s
+2006-02-21 15:58:37,443 DEBUG test2:  Load css and images...
+2006-02-21 15:58:37,444 DEBUG test2:   Done in 0.000s
+2006-02-21 15:58:37,446 DEBUG test2: tearDown.
+
+2006-02-21 15:59:16,410 INFO test2: [test2] description not found
+2006-02-21 15:59:16,410 DEBUG test2: Starting -----------------------------------
+	
+2006-02-21 15:59:16,410 DEBUG test2: setUp
+2006-02-21 15:59:16,410 DEBUG test2: GET: http://signs.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-21 15:59:16,417 DEBUG test2:  Done in 0.007s
+2006-02-21 15:59:16,577 INFO test2: Failed to remote control firefox: firefox -remote  "openfile(file:///tmp/tmppfIGIQ_funkload/001.html,new-tab)"
+2006-02-21 15:59:16,577 DEBUG test2:  Load css and images...
+2006-02-21 15:59:16,646 DEBUG test2:   Done in 0.027s
+2006-02-21 15:59:16,656 DEBUG test2: POST: http://signs.bioinfo.cnio.es/cgi-bin/signsR.cgi {'validationtime': <webunit.utility.Upload instance at 0x4061ea8c>, 'idtype': 'None', 'validation': 'on', 'MinCor': '0.5', 'methodSurv': 'FCMS', 'MinSize': '10', 'MaxSize': '100', 'validationevent': <webunit.utility.Upload instance at 0x4061ea6c>, 'validationcovariate': <webunit.utility.Upload instance at 0x4061e88c>, 'time': <webunit.utility.Upload instance at 0x4061e78c>, 'Minp': '0.1', 'covariate': <webunit.utility.Upload instance at 0x4061e7cc>, 'organism': 'None', 'event': <webunit.utility.Upload instance at 0x4061e50c>}
+	Page 2: Post /cgi-bin/signsR.cgi ...
+2006-02-21 15:59:16,836 DEBUG test2:  Done in 0.180s
+2006-02-21 15:59:16,837 DEBUG test2:  Load css and images...
+2006-02-21 15:59:16,838 DEBUG test2:   Done in 0.000s
+2006-02-21 15:59:48,846 DEBUG test2: GET: http://signs.bioinfo.cnio.es/cgi-bin/signsR.cgi
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-21 15:59:48,915 DEBUG test2:  Done in 0.069s
+2006-02-21 15:59:48,915 DEBUG test2:  Load css and images...
+2006-02-21 15:59:48,916 DEBUG test2:   Done in 0.000s
+2006-02-21 15:59:48,926 DEBUG test2: tearDown.
+
+2006-02-21 15:59:51,274 INFO test2: [test2] description not found
+2006-02-21 15:59:51,275 DEBUG test2: Starting -----------------------------------
+	
+2006-02-21 15:59:51,275 DEBUG test2: setUp
+2006-02-21 15:59:51,275 DEBUG test2: GET: http://signs.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-21 15:59:51,283 DEBUG test2:  Done in 0.008s
+2006-02-21 15:59:51,495 DEBUG test2:  Load css and images...
+2006-02-21 15:59:51,566 DEBUG test2:   Done in 0.034s
+2006-02-21 15:59:51,576 DEBUG test2: POST: http://signs.bioinfo.cnio.es/cgi-bin/signsR.cgi {'validationtime': <webunit.utility.Upload instance at 0x4061ea8c>, 'idtype': 'None', 'validation': 'on', 'MinCor': '0.5', 'methodSurv': 'FCMS', 'MinSize': '10', 'MaxSize': '100', 'validationevent': <webunit.utility.Upload instance at 0x4061ea6c>, 'validationcovariate': <webunit.utility.Upload instance at 0x4061e88c>, 'time': <webunit.utility.Upload instance at 0x4061e78c>, 'Minp': '0.1', 'covariate': <webunit.utility.Upload instance at 0x4061e7cc>, 'organism': 'None', 'event': <webunit.utility.Upload instance at 0x4061e50c>}
+	Page 2: Post /cgi-bin/signsR.cgi ...
+2006-02-21 15:59:51,769 DEBUG test2:  Done in 0.192s
+2006-02-21 15:59:51,994 DEBUG test2:  Load css and images...
+2006-02-21 15:59:51,996 DEBUG test2:   Done in 0.000s
+2006-02-21 16:00:24,006 DEBUG test2: GET: http://signs.bioinfo.cnio.es/cgi-bin/signsR.cgi
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-21 16:00:24,062 DEBUG test2:  Done in 0.056s
+2006-02-21 16:00:24,269 DEBUG test2:  Load css and images...
+2006-02-21 16:00:24,271 DEBUG test2:   Done in 0.000s
+2006-02-21 16:00:24,277 DEBUG test2: tearDown.
+
+2006-02-21 16:01:06,524 INFO test2: [test2] description not found
+2006-02-21 16:01:06,524 DEBUG test2: Starting -----------------------------------
+	
+2006-02-21 16:01:06,524 DEBUG test2: setUp
+2006-02-21 16:01:06,525 DEBUG test2: GET: http://signs.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-21 16:01:06,532 DEBUG test2:  Done in 0.007s
+2006-02-21 16:01:06,741 DEBUG test2:  Load css and images...
+2006-02-21 16:01:06,816 DEBUG test2:   Done in 0.027s
+2006-02-21 16:01:06,826 DEBUG test2: POST: http://signs.bioinfo.cnio.es/cgi-bin/signsR.cgi {'validationtime': <webunit.utility.Upload instance at 0x4064bb4c>, 'idtype': 'None', 'validation': 'on', 'MinCor': '0.5', 'methodSurv': 'FCMS', 'MinSize': '10', 'MaxSize': '100', 'validationevent': <webunit.utility.Upload instance at 0x4064bb2c>, 'validationcovariate': <webunit.utility.Upload instance at 0x4064b94c>, 'time': <webunit.utility.Upload instance at 0x4064b84c>, 'Minp': '0.1', 'covariate': <webunit.utility.Upload instance at 0x4064b88c>, 'organism': 'None', 'event': <webunit.utility.Upload instance at 0x4064b72c>}
+	Page 2: Post /cgi-bin/signsR.cgi ...
+2006-02-21 16:01:06,983 DEBUG test2:  Done in 0.157s
+2006-02-21 16:01:07,213 DEBUG test2:  Load css and images...
+2006-02-21 16:01:07,215 DEBUG test2:   Done in 0.000s
+2006-02-21 16:01:39,216 DEBUG test2: GET: http://signs.bioinfo.cnio.es/cgi-bin/signsR.cgi
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-21 16:01:39,285 DEBUG test2:  Done in 0.069s
+2006-02-21 16:01:39,491 DEBUG test2:  Load css and images...
+2006-02-21 16:01:39,492 DEBUG test2:   Done in 0.000s
+2006-02-21 16:01:39,496 DEBUG test2: tearDown.
+
+2006-02-21 16:03:15,129 INFO test2: [test2] description not found
+2006-02-21 16:03:15,129 DEBUG test2: Starting -----------------------------------
+	
+2006-02-21 16:03:15,129 DEBUG test2: setUp
+2006-02-21 16:03:15,129 DEBUG test2: GET: http://signs.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-21 16:03:15,136 DEBUG test2:  Done in 0.007s
+2006-02-21 16:03:15,342 DEBUG test2:  Load css and images...
+2006-02-21 16:03:15,416 DEBUG test2:   Done in 0.027s
+2006-02-21 16:03:15,426 DEBUG test2: POST: http://signs.bioinfo.cnio.es/cgi-bin/signsR.cgi {'validationtime': <webunit.utility.Upload instance at 0x4064bb4c>, 'idtype': 'None', 'validation': 'on', 'MinCor': '0.5', 'methodSurv': 'FCMS', 'MinSize': '10', 'MaxSize': '100', 'validationevent': <webunit.utility.Upload instance at 0x4064bb2c>, 'validationcovariate': <webunit.utility.Upload instance at 0x4064b94c>, 'time': <webunit.utility.Upload instance at 0x4064b84c>, 'Minp': '0.1', 'covariate': <webunit.utility.Upload instance at 0x4064b88c>, 'organism': 'None', 'event': <webunit.utility.Upload instance at 0x4064b72c>}
+	Page 2: Post /cgi-bin/signsR.cgi ...
+2006-02-21 16:03:15,619 DEBUG test2:  Done in 0.193s
+2006-02-21 16:03:15,845 DEBUG test2:  Load css and images...
+2006-02-21 16:03:15,846 DEBUG test2:   Done in 0.000s
+2006-02-21 16:03:15,856 DEBUG test2: GET: http://signs.bioinfo.cnio.es/cgi-bin/signsR.cgi
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-21 16:03:15,927 DEBUG test2:  Done in 0.071s
+2006-02-21 16:03:16,152 DEBUG test2:  Load css and images...
+2006-02-21 16:03:16,153 DEBUG test2:   Done in 0.000s
+2006-02-21 16:03:16,157 DEBUG test2: tearDown.
+
+2006-02-21 16:12:04,082 INFO test2: [test2] description not found
+2006-02-21 16:12:04,082 DEBUG test2: Starting -----------------------------------
+	
+2006-02-21 16:12:04,083 DEBUG test2: setUp
+2006-02-21 16:12:04,083 DEBUG test2: GET: http://signs.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-21 16:12:04,092 DEBUG test2:  Done in 0.009s
+2006-02-21 16:12:04,320 DEBUG test2:  Load css and images...
+2006-02-21 16:12:04,406 DEBUG test2:   Done in 0.035s
+2006-02-21 16:12:04,416 DEBUG test2: POST: http://signs.bioinfo.cnio.es/cgi-bin/signsR.cgi {'validationtime': <webunit.utility.Upload instance at 0x4064bb4c>, 'idtype': 'None', 'validation': 'on', 'MinCor': '0.5', 'methodSurv': 'FCMS', 'MinSize': '10', 'MaxSize': '100', 'validationevent': <webunit.utility.Upload instance at 0x4064bb2c>, 'validationcovariate': <webunit.utility.Upload instance at 0x4064b94c>, 'time': <webunit.utility.Upload instance at 0x4064b84c>, 'Minp': '0.1', 'covariate': <webunit.utility.Upload instance at 0x4064b88c>, 'organism': 'None', 'event': <webunit.utility.Upload instance at 0x4064b72c>}
+	Page 2: Post /cgi-bin/signsR.cgi ...
+2006-02-21 16:12:04,628 DEBUG test2:  Done in 0.212s
+2006-02-21 16:12:04,844 DEBUG test2:  Load css and images...
+2006-02-21 16:12:04,845 DEBUG test2:   Done in 0.000s
+2006-02-21 16:12:04,856 DEBUG test2: GET: http://signs.bioinfo.cnio.es/cgi-bin/signsR.cgi
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-21 16:12:04,948 DEBUG test2:  Done in 0.092s
+2006-02-21 16:12:05,187 DEBUG test2:  Load css and images...
+2006-02-21 16:12:05,189 DEBUG test2:   Done in 0.000s
+2006-02-21 16:12:05,196 DEBUG test2: tearDown.
+
+2006-02-21 16:15:33,641 INFO test1: [test1] description not found
+2006-02-21 16:15:33,641 DEBUG test1: Starting -----------------------------------
+	
+2006-02-21 16:15:33,642 DEBUG test1: setUp
+2006-02-21 16:15:33,642 DEBUG test1: GET: http://signs.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-21 16:15:33,649 DEBUG test1:  Done in 0.008s
+2006-02-21 16:15:33,860 DEBUG test1:  Load css and images...
+2006-02-21 16:15:33,936 DEBUG test1:   Done in 0.029s
+2006-02-21 16:15:33,946 DEBUG test1: POST: http://signs.bioinfo.cnio.es/cgi-bin/signsR.cgi {'validationtime': <webunit.utility.Upload instance at 0x4061ec8c>, 'idtype': 'None', 'MinCor': '0.5', 'methodSurv': 'FCMS', 'MinSize': '10', 'MaxSize': '100', 'validationevent': <webunit.utility.Upload instance at 0x4061ed2c>, 'validationcovariate': <webunit.utility.Upload instance at 0x4061ea2c>, 'time': <webunit.utility.Upload instance at 0x4061ea6c>, 'Minp': '0.1', 'covariate': <webunit.utility.Upload instance at 0x4061eaac>, 'organism': 'None', 'event': <webunit.utility.Upload instance at 0x4061e7ec>}
+	Page 2: Post /cgi-bin/signsR.cgi ...
+2006-02-21 16:15:34,205 DEBUG test1:  Done in 0.259s
+2006-02-21 16:15:34,207 DEBUG test1:  Load redirect link: http://signs.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=71222196399611405350708194
+2006-02-21 16:15:34,283 DEBUG test1:  Done in 0.075s
+2006-02-21 16:15:34,493 DEBUG test1:  Load css and images...
+2006-02-21 16:15:34,495 DEBUG test1:   Done in 0.000s
+2006-02-21 16:15:34,496 DEBUG test1: GET: http://signs.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=71222196399611405350708194
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-21 16:15:34,573 DEBUG test1:  Done in 0.076s
+2006-02-21 16:15:34,793 DEBUG test1:  Load css and images...
+2006-02-21 16:15:34,794 DEBUG test1:   Done in 0.000s
+2006-02-21 16:16:06,796 DEBUG test1: GET: http://signs.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=71222196399611405350708194
+	Page 4: Get /cgi-bin/checkdone.cgi ...
+2006-02-21 16:16:06,872 DEBUG test1:  Done in 0.076s
+2006-02-21 16:16:06,876 DEBUG test1:  Load redirect link: http://signs.bioinfo.cnio.es/tmp/71222196399611405350708194/results.html
+2006-02-21 16:16:06,881 DEBUG test1:  Done in 0.006s
+2006-02-21 16:16:07,098 DEBUG test1:  Load css and images...
+2006-02-21 16:16:07,126 DEBUG test1:   Done in 0.016s
+2006-02-21 16:16:07,136 DEBUG test1: tearDown.
+
+2006-02-21 16:16:07,136 INFO test2: [test2] description not found
+2006-02-21 16:16:07,137 DEBUG test2: Starting -----------------------------------
+	
+2006-02-21 16:16:07,137 DEBUG test2: setUp
+2006-02-21 16:16:07,137 DEBUG test2: GET: http://signs.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-21 16:16:07,142 DEBUG test2:  Done in 0.005s
+2006-02-21 16:16:07,434 DEBUG test2:  Load css and images...
+2006-02-21 16:16:07,507 DEBUG test2:   Done in 0.026s
+2006-02-21 16:16:07,516 DEBUG test2: POST: http://signs.bioinfo.cnio.es/cgi-bin/signsR.cgi {'validationtime': <webunit.utility.Upload instance at 0x4061ef4c>, 'idtype': 'None', 'validation': 'on', 'MinCor': '0.5', 'methodSurv': 'FCMS', 'MinSize': '10', 'MaxSize': '100', 'validationevent': <webunit.utility.Upload instance at 0x4061ebec>, 'validationcovariate': <webunit.utility.Upload instance at 0x4061ed4c>, 'time': <webunit.utility.Upload instance at 0x40622c4c>, 'Minp': '0.1', 'covariate': <webunit.utility.Upload instance at 0x40622e2c>, 'organism': 'None', 'event': <webunit.utility.Upload instance at 0x4061ec8c>}
+	Page 2: Post /cgi-bin/signsR.cgi ...
+2006-02-21 16:16:07,710 DEBUG test2:  Done in 0.193s
+2006-02-21 16:16:07,937 DEBUG test2:  Load css and images...
+2006-02-21 16:16:07,938 DEBUG test2:   Done in 0.000s
+2006-02-21 16:16:07,946 DEBUG test2: GET: http://signs.bioinfo.cnio.es/cgi-bin/signsR.cgi
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-21 16:16:08,016 DEBUG test2:  Done in 0.069s
+2006-02-21 16:16:08,275 DEBUG test2:  Load css and images...
+2006-02-21 16:16:08,276 DEBUG test2:   Done in 0.000s
+2006-02-21 16:16:08,286 DEBUG test2: tearDown.
+

@@ -1,0 +1,589 @@
+2006-02-27 18:09:32,946 INFO test1: [test1] description not found
+2006-02-27 18:09:32,946 DEBUG test1: Starting -----------------------------------
+	
+2006-02-27 18:09:32,947 DEBUG test1: setUp
+2006-02-27 18:09:32,947 DEBUG test1: GET: http://tnasas.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-27 18:09:32,954 DEBUG test1:  Done in 0.006s
+2006-02-27 18:09:32,954 DEBUG test1:  Load css and images...
+2006-02-27 18:09:33,017 DEBUG test1:   Done in 0.028s
+2006-02-27 18:09:33,027 DEBUG test1: POST: http://tnasas.bioinfo.cnio.es/cgi-bin/tnasasR.cgi {'idtype': 'None', 'genesel': 'Fratio', 'model': 'dlda', 'covariate': <webunit.utility.Upload instance at 0x406209ec>, 'organism': 'None', 'class': <webunit.utility.Upload instance at 0x40620c8c>}
+	Page 2: dlda and f ratio ...
+2006-02-27 18:09:33,224 DEBUG test1:  Done in 0.197s
+2006-02-27 18:09:33,226 DEBUG test1:  Load redirect link: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=891536903887511410602058435
+2006-02-27 18:09:33,277 DEBUG test1:  Done in 0.050s
+2006-02-27 18:09:33,277 DEBUG test1:  Load css and images...
+2006-02-27 18:09:33,278 DEBUG test1:   Done in 0.000s
+2006-02-27 18:10:05,287 DEBUG test1: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=891536903887511410602058435
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-27 18:10:05,373 DEBUG test1:  Done in 0.086s
+2006-02-27 18:10:05,377 DEBUG test1:  Load redirect link: http://tnasas.bioinfo.cnio.es/tmp/891536903887511410602058435/results.html
+2006-02-27 18:10:05,383 DEBUG test1:  Done in 0.006s
+2006-02-27 18:10:05,384 DEBUG test1:  Load css and images...
+2006-02-27 18:10:05,388 DEBUG test1:   Failed in ~ 0.00s
+2006-02-27 18:10:05,390 DEBUG test1: tearDown.
+
+2006-02-27 18:10:05,393 INFO test2: [test2] description not found
+2006-02-27 18:10:05,393 DEBUG test2: Starting -----------------------------------
+	
+2006-02-27 18:10:05,393 DEBUG test2: setUp
+2006-02-27 18:10:05,393 DEBUG test2: GET: http://tnasas.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-27 18:10:05,399 DEBUG test2:  Done in 0.005s
+2006-02-27 18:10:05,399 DEBUG test2:  Load css and images...
+2006-02-27 18:10:05,457 DEBUG test2:   Done in 0.026s
+2006-02-27 18:10:05,467 DEBUG test2: POST: http://tnasas.bioinfo.cnio.es/cgi-bin/tnasasR.cgi {'idtype': 'None', 'genesel': 'Wilcoxon', 'model': 'knn', 'covariate': <webunit.utility.Upload instance at 0x4062316c>, 'organism': 'None', 'class': <webunit.utility.Upload instance at 0x40623d2c>}
+	Page 2: knn and wilcoxon ...
+2006-02-27 18:10:05,644 DEBUG test2:  Done in 0.177s
+2006-02-27 18:10:05,647 DEBUG test2:  Load redirect link: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=256265182347311410602386652
+2006-02-27 18:10:05,709 DEBUG test2:  Done in 0.062s
+2006-02-27 18:10:05,709 DEBUG test2:  Load css and images...
+2006-02-27 18:10:05,710 DEBUG test2:   Done in 0.000s
+2006-02-27 18:10:37,717 DEBUG test2: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=256265182347311410602386652
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-27 18:10:37,812 DEBUG test2:  Done in 0.095s
+2006-02-27 18:10:37,816 DEBUG test2:  Load redirect link: http://tnasas.bioinfo.cnio.es/tmp/256265182347311410602386652/results.html
+2006-02-27 18:10:37,823 DEBUG test2:  Done in 0.006s
+2006-02-27 18:10:37,824 DEBUG test2:  Load css and images...
+2006-02-27 18:10:37,828 DEBUG test2:   Failed in ~ 0.00s
+2006-02-27 18:10:37,830 DEBUG test2: tearDown.
+
+2006-02-27 18:10:37,832 INFO test3: [test3] description not found
+2006-02-27 18:10:37,832 DEBUG test3: Starting -----------------------------------
+	
+2006-02-27 18:10:37,832 DEBUG test3: setUp
+2006-02-27 18:10:37,833 DEBUG test3: GET: http://tnasas.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-27 18:10:37,838 DEBUG test3:  Done in 0.005s
+2006-02-27 18:10:37,838 DEBUG test3:  Load css and images...
+2006-02-27 18:10:37,897 DEBUG test3:   Done in 0.024s
+2006-02-27 18:10:37,906 DEBUG test3: POST: http://tnasas.bioinfo.cnio.es/cgi-bin/tnasasR.cgi {'idtype': 'None', 'genesel': 'Fratio', 'model': 'randomforest', 'covariate': <webunit.utility.Upload instance at 0x40620d0c>, 'organism': 'None', 'class': <webunit.utility.Upload instance at 0x40620fac>}
+	Page 2: dlda and f ratio ...
+2006-02-27 18:10:38,069 DEBUG test3:  Done in 0.163s
+2006-02-27 18:10:38,076 DEBUG test3:  Load redirect link: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=82868097355011410602705346
+2006-02-27 18:10:38,139 DEBUG test3:  Done in 0.062s
+2006-02-27 18:10:38,139 DEBUG test3:  Load css and images...
+2006-02-27 18:10:38,140 DEBUG test3:   Done in 0.000s
+2006-02-27 18:11:10,147 DEBUG test3: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=82868097355011410602705346
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-27 18:11:10,198 DEBUG test3:  Done in 0.051s
+2006-02-27 18:11:10,199 DEBUG test3:  Load css and images...
+2006-02-27 18:11:10,200 DEBUG test3:   Done in 0.000s
+2006-02-27 18:11:42,207 DEBUG test3: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=82868097355011410602705346
+	Page 4: Get /cgi-bin/checkdone.cgi ...
+2006-02-27 18:11:42,256 DEBUG test3:  Done in 0.049s
+2006-02-27 18:11:42,256 DEBUG test3:  Load css and images...
+2006-02-27 18:11:42,257 DEBUG test3:   Done in 0.000s
+2006-02-27 18:12:14,267 DEBUG test3: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=82868097355011410602705346
+	Page 5: Get /cgi-bin/checkdone.cgi ...
+2006-02-27 18:12:14,316 DEBUG test3:  Done in 0.049s
+2006-02-27 18:12:14,316 DEBUG test3:  Load css and images...
+2006-02-27 18:12:14,317 DEBUG test3:   Done in 0.000s
+2006-02-27 18:12:46,327 DEBUG test3: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=82868097355011410602705346
+	Page 6: Get /cgi-bin/checkdone.cgi ...
+2006-02-27 18:12:46,426 DEBUG test3:  Done in 0.099s
+2006-02-27 18:12:46,436 DEBUG test3:  Load redirect link: http://tnasas.bioinfo.cnio.es/tmp/82868097355011410602705346/results.html
+2006-02-27 18:12:46,442 DEBUG test3:  Done in 0.006s
+2006-02-27 18:12:46,443 DEBUG test3:  Load css and images...
+2006-02-27 18:12:46,447 DEBUG test3:   Failed in ~ 0.00s
+2006-02-27 18:12:46,449 DEBUG test3: tearDown.
+
+2006-02-27 18:12:46,452 INFO test4: [test4] description not found
+2006-02-27 18:12:46,452 DEBUG test4: Starting -----------------------------------
+	
+2006-02-27 18:12:46,452 DEBUG test4: setUp
+2006-02-27 18:12:46,452 DEBUG test4: GET: http://tnasas.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-27 18:12:46,458 DEBUG test4:  Done in 0.005s
+2006-02-27 18:12:46,458 DEBUG test4:  Load css and images...
+2006-02-27 18:12:46,517 DEBUG test4:   Done in 0.026s
+2006-02-27 18:12:46,527 DEBUG test4: POST: http://tnasas.bioinfo.cnio.es/cgi-bin/tnasasR.cgi {'idtype': 'None', 'genesel': 'randomforest', 'model': 'svm', 'covariate': <webunit.utility.Upload instance at 0x4062320c>, 'organism': 'None', 'class': <webunit.utility.Upload instance at 0x40623bac>}
+	Page 2: dlda and f ratio ...
+2006-02-27 18:12:46,687 DEBUG test4:  Done in 0.160s
+2006-02-27 18:12:46,696 DEBUG test4:  Load redirect link: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=6050283507748711410603993419
+2006-02-27 18:12:46,744 DEBUG test4:  Done in 0.048s
+2006-02-27 18:12:46,745 DEBUG test4:  Load css and images...
+2006-02-27 18:12:46,746 DEBUG test4:   Done in 0.000s
+2006-02-27 18:13:18,747 DEBUG test4: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=6050283507748711410603993419
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-27 18:13:18,796 DEBUG test4:  Done in 0.049s
+2006-02-27 18:13:18,797 DEBUG test4:  Load css and images...
+2006-02-27 18:13:18,797 DEBUG test4:   Done in 0.000s
+2006-02-27 18:13:50,807 DEBUG test4: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=6050283507748711410603993419
+	Page 4: Get /cgi-bin/checkdone.cgi ...
+2006-02-27 18:13:50,856 DEBUG test4:  Done in 0.049s
+2006-02-27 18:13:50,856 DEBUG test4:  Load css and images...
+2006-02-27 18:13:50,857 DEBUG test4:   Done in 0.000s
+2006-02-27 18:14:22,867 DEBUG test4: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=6050283507748711410603993419
+	Page 5: Get /cgi-bin/checkdone.cgi ...
+2006-02-27 18:14:22,943 DEBUG test4:  Done in 0.076s
+2006-02-27 18:14:22,947 DEBUG test4:  Load redirect link: http://tnasas.bioinfo.cnio.es/tmp/6050283507748711410603993419/results.html
+2006-02-27 18:14:22,953 DEBUG test4:  Done in 0.006s
+2006-02-27 18:14:22,954 DEBUG test4:  Load css and images...
+2006-02-27 18:14:22,958 DEBUG test4:   Failed in ~ 0.00s
+2006-02-27 18:14:22,960 DEBUG test4: tearDown.
+
+2006-02-27 18:14:22,962 INFO test5: [test5] description not found
+2006-02-27 18:14:22,963 DEBUG test5: Starting -----------------------------------
+	
+2006-02-27 18:14:22,963 DEBUG test5: setUp
+2006-02-27 18:14:22,963 DEBUG test5: GET: http://tnasas.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-27 18:14:22,968 DEBUG test5:  Done in 0.005s
+2006-02-27 18:14:22,969 DEBUG test5:  Load css and images...
+2006-02-27 18:14:23,027 DEBUG test5:   Done in 0.029s
+2006-02-27 18:14:23,036 DEBUG test5: POST: http://tnasas.bioinfo.cnio.es/cgi-bin/tnasasR.cgi {'idtype': 'None', 'genesel': 'Fratio', 'model': 'PAM', 'covariate': <webunit.utility.Upload instance at 0x4063fe4c>, 'organism': 'None', 'class': <webunit.utility.Upload instance at 0x4063fc4c>}
+	Page 2: dlda and f ratio ...
+2006-02-27 18:14:23,228 DEBUG test5:  Done in 0.191s
+2006-02-27 18:14:23,237 DEBUG test5:  Load redirect link: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=5287302773114911410604966003
+2006-02-27 18:14:23,298 DEBUG test5:  Done in 0.061s
+2006-02-27 18:14:23,299 DEBUG test5:  Load css and images...
+2006-02-27 18:14:23,300 DEBUG test5:   Done in 0.000s
+2006-02-27 18:14:55,307 DEBUG test5: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=5287302773114911410604966003
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-27 18:14:55,383 DEBUG test5:  Done in 0.076s
+2006-02-27 18:14:55,387 DEBUG test5:  Load redirect link: http://tnasas.bioinfo.cnio.es/tmp/5287302773114911410604966003/results.html
+2006-02-27 18:14:55,393 DEBUG test5:  Done in 0.006s
+2006-02-27 18:14:55,393 DEBUG test5:  Load css and images...
+2006-02-27 18:14:55,398 DEBUG test5:   Failed in ~ 0.00s
+2006-02-27 18:14:55,400 DEBUG test5: tearDown.
+
+2006-02-27 18:25:00,826 INFO test1: [test1] description not found
+2006-02-27 18:25:00,826 DEBUG test1: Starting -----------------------------------
+	
+2006-02-27 18:25:00,827 DEBUG test1: setUp
+2006-02-27 18:25:00,827 DEBUG test1: GET: http://tnasas.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-27 18:25:00,834 DEBUG test1:  Done in 0.007s
+2006-02-27 18:25:00,834 DEBUG test1:  Load css and images...
+2006-02-27 18:25:00,897 DEBUG test1:   Done in 0.026s
+2006-02-27 18:25:00,906 DEBUG test1: POST: http://tnasas.bioinfo.cnio.es/cgi-bin/tnasasR.cgi {'idtype': 'None', 'genesel': 'Fratio', 'model': 'dlda', 'covariate': <webunit.utility.Upload instance at 0x4062298c>, 'organism': 'None', 'class': <webunit.utility.Upload instance at 0x40622c2c>}
+	Page 2: dlda and f ratio ...
+2006-02-27 18:25:01,085 DEBUG test1:  Done in 0.178s
+2006-02-27 18:25:01,086 DEBUG test1:  Load redirect link: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=1351302351999111410611339770
+2006-02-27 18:25:01,151 DEBUG test1:  Done in 0.064s
+2006-02-27 18:25:01,151 DEBUG test1:  Load css and images...
+2006-02-27 18:25:01,152 DEBUG test1:   Done in 0.000s
+2006-02-27 18:25:33,157 DEBUG test1: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=1351302351999111410611339770
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-27 18:25:33,231 DEBUG test1:  Done in 0.074s
+2006-02-27 18:25:33,236 DEBUG test1:  Load redirect link: http://tnasas.bioinfo.cnio.es/tmp/1351302351999111410611339770/results.html
+2006-02-27 18:25:33,243 DEBUG test1:  Done in 0.006s
+2006-02-27 18:25:33,244 DEBUG test1:  Load css and images...
+2006-02-27 18:25:33,293 DEBUG test1:   Done in 0.010s
+2006-02-27 18:25:33,296 DEBUG test1: tearDown.
+
+2006-02-27 18:25:33,297 INFO test2: [test2] description not found
+2006-02-27 18:25:33,297 DEBUG test2: Starting -----------------------------------
+	
+2006-02-27 18:25:33,297 DEBUG test2: setUp
+2006-02-27 18:25:33,297 DEBUG test2: GET: http://tnasas.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-27 18:25:33,303 DEBUG test2:  Done in 0.005s
+2006-02-27 18:25:33,303 DEBUG test2:  Load css and images...
+2006-02-27 18:25:33,367 DEBUG test2:   Done in 0.026s
+2006-02-27 18:25:33,377 DEBUG test2: POST: http://tnasas.bioinfo.cnio.es/cgi-bin/tnasasR.cgi {'idtype': 'None', 'genesel': 'Wilcoxon', 'model': 'knn', 'covariate': <webunit.utility.Upload instance at 0x40622c2c>, 'organism': 'None', 'class': <webunit.utility.Upload instance at 0x40622fec>}
+	Page 2: knn and wilcoxon ...
+2006-02-27 18:25:33,535 DEBUG test2:  Done in 0.159s
+2006-02-27 18:25:33,536 DEBUG test2:  Load redirect link: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=548426876654811410611662021
+2006-02-27 18:25:33,601 DEBUG test2:  Done in 0.065s
+2006-02-27 18:25:33,602 DEBUG test2:  Load css and images...
+2006-02-27 18:25:33,603 DEBUG test2:   Done in 0.000s
+2006-02-27 18:26:05,607 DEBUG test2: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=548426876654811410611662021
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-27 18:26:05,687 DEBUG test2:  Done in 0.080s
+2006-02-27 18:26:05,696 DEBUG test2:  Load redirect link: http://tnasas.bioinfo.cnio.es/tmp/548426876654811410611662021/results.html
+2006-02-27 18:26:05,703 DEBUG test2:  Done in 0.006s
+2006-02-27 18:26:05,704 DEBUG test2:  Load css and images...
+2006-02-27 18:26:05,764 DEBUG test2:   Done in 0.016s
+2006-02-27 18:26:05,767 DEBUG test2: tearDown.
+
+2006-02-27 18:26:05,767 INFO test3: [test3] description not found
+2006-02-27 18:26:05,767 DEBUG test3: Starting -----------------------------------
+	
+2006-02-27 18:26:05,768 DEBUG test3: setUp
+2006-02-27 18:26:05,768 DEBUG test3: GET: http://tnasas.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-27 18:26:05,773 DEBUG test3:  Done in 0.006s
+2006-02-27 18:26:05,774 DEBUG test3:  Load css and images...
+2006-02-27 18:26:05,837 DEBUG test3:   Done in 0.027s
+2006-02-27 18:26:05,847 DEBUG test3: POST: http://tnasas.bioinfo.cnio.es/cgi-bin/tnasasR.cgi {'idtype': 'None', 'genesel': 'Fratio', 'model': 'randomforest', 'covariate': <webunit.utility.Upload instance at 0x40622f8c>, 'organism': 'None', 'class': <webunit.utility.Upload instance at 0x40622fec>}
+	Page 2: dlda and f ratio ...
+2006-02-27 18:26:06,032 DEBUG test3:  Done in 0.185s
+2006-02-27 18:26:06,036 DEBUG test3:  Load redirect link: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=7041284931443411410611989771
+2006-02-27 18:26:06,111 DEBUG test3:  Done in 0.074s
+2006-02-27 18:26:06,111 DEBUG test3:  Load css and images...
+2006-02-27 18:26:06,112 DEBUG test3:   Done in 0.000s
+2006-02-27 18:26:38,117 DEBUG test3: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=7041284931443411410611989771
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-27 18:26:38,165 DEBUG test3:  Done in 0.048s
+2006-02-27 18:26:38,165 DEBUG test3:  Load css and images...
+2006-02-27 18:26:38,166 DEBUG test3:   Done in 0.000s
+2006-02-27 18:27:10,167 DEBUG test3: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=7041284931443411410611989771
+	Page 4: Get /cgi-bin/checkdone.cgi ...
+2006-02-27 18:27:10,216 DEBUG test3:  Done in 0.049s
+2006-02-27 18:27:10,216 DEBUG test3:  Load css and images...
+2006-02-27 18:27:10,217 DEBUG test3:   Done in 0.000s
+2006-02-27 18:27:42,227 DEBUG test3: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=7041284931443411410611989771
+	Page 5: Get /cgi-bin/checkdone.cgi ...
+2006-02-27 18:27:42,276 DEBUG test3:  Done in 0.049s
+2006-02-27 18:27:42,276 DEBUG test3:  Load css and images...
+2006-02-27 18:27:42,277 DEBUG test3:   Done in 0.000s
+2006-02-27 18:28:14,287 DEBUG test3: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=7041284931443411410611989771
+	Page 6: Get /cgi-bin/checkdone.cgi ...
+2006-02-27 18:28:14,365 DEBUG test3:  Done in 0.078s
+2006-02-27 18:28:14,366 DEBUG test3:  Load redirect link: http://tnasas.bioinfo.cnio.es/tmp/7041284931443411410611989771/results.html
+2006-02-27 18:28:14,373 DEBUG test3:  Done in 0.006s
+2006-02-27 18:28:14,373 DEBUG test3:  Load css and images...
+2006-02-27 18:28:14,423 DEBUG test3:   Done in 0.011s
+2006-02-27 18:28:14,426 DEBUG test3: tearDown.
+
+2006-02-27 18:28:14,427 INFO test4: [test4] description not found
+2006-02-27 18:28:14,427 DEBUG test4: Starting -----------------------------------
+	
+2006-02-27 18:28:14,427 DEBUG test4: setUp
+2006-02-27 18:28:14,427 DEBUG test4: GET: http://tnasas.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-27 18:28:14,433 DEBUG test4:  Done in 0.005s
+2006-02-27 18:28:14,433 DEBUG test4:  Load css and images...
+2006-02-27 18:28:14,497 DEBUG test4:   Done in 0.025s
+2006-02-27 18:28:14,506 DEBUG test4: POST: http://tnasas.bioinfo.cnio.es/cgi-bin/tnasasR.cgi {'idtype': 'None', 'genesel': 'randomforest', 'model': 'svm', 'covariate': <webunit.utility.Upload instance at 0x4067c5ac>, 'organism': 'None', 'class': <webunit.utility.Upload instance at 0x4067c16c>}
+	Page 2: dlda and f ratio ...
+2006-02-27 18:28:14,676 DEBUG test4:  Done in 0.170s
+2006-02-27 18:28:14,686 DEBUG test4:  Load redirect link: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=9673302188857911410613276876
+2006-02-27 18:28:14,736 DEBUG test4:  Done in 0.049s
+2006-02-27 18:28:14,736 DEBUG test4:  Load css and images...
+2006-02-27 18:28:14,737 DEBUG test4:   Done in 0.000s
+2006-02-27 18:28:46,747 DEBUG test4: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=9673302188857911410613276876
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-27 18:28:46,795 DEBUG test4:  Done in 0.049s
+2006-02-27 18:28:46,796 DEBUG test4:  Load css and images...
+2006-02-27 18:28:46,797 DEBUG test4:   Done in 0.000s
+2006-02-27 18:29:18,807 DEBUG test4: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=9673302188857911410613276876
+	Page 4: Get /cgi-bin/checkdone.cgi ...
+2006-02-27 18:29:18,856 DEBUG test4:  Done in 0.049s
+2006-02-27 18:29:18,856 DEBUG test4:  Load css and images...
+2006-02-27 18:29:18,857 DEBUG test4:   Done in 0.000s
+2006-02-27 18:29:50,867 DEBUG test4: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=9673302188857911410613276876
+	Page 5: Get /cgi-bin/checkdone.cgi ...
+2006-02-27 18:29:50,945 DEBUG test4:  Done in 0.078s
+2006-02-27 18:29:50,947 DEBUG test4:  Load redirect link: http://tnasas.bioinfo.cnio.es/tmp/9673302188857911410613276876/results.html
+2006-02-27 18:29:50,953 DEBUG test4:  Done in 0.006s
+2006-02-27 18:29:50,954 DEBUG test4:  Load css and images...
+2006-02-27 18:29:51,003 DEBUG test4:   Done in 0.011s
+2006-02-27 18:29:51,006 DEBUG test4: tearDown.
+
+2006-02-27 18:29:51,007 INFO test5: [test5] description not found
+2006-02-27 18:29:51,007 DEBUG test5: Starting -----------------------------------
+	
+2006-02-27 18:29:51,007 DEBUG test5: setUp
+2006-02-27 18:29:51,007 DEBUG test5: GET: http://tnasas.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-02-27 18:29:51,013 DEBUG test5:  Done in 0.006s
+2006-02-27 18:29:51,014 DEBUG test5:  Load css and images...
+2006-02-27 18:29:51,097 DEBUG test5:   Done in 0.037s
+2006-02-27 18:29:51,107 DEBUG test5: POST: http://tnasas.bioinfo.cnio.es/cgi-bin/tnasasR.cgi {'idtype': 'None', 'genesel': 'Fratio', 'model': 'PAM', 'covariate': <webunit.utility.Upload instance at 0x40622f8c>, 'organism': 'None', 'class': <webunit.utility.Upload instance at 0x40626f6c>}
+	Page 2: dlda and f ratio ...
+2006-02-27 18:29:51,252 DEBUG test5:  Done in 0.145s
+2006-02-27 18:29:51,256 DEBUG test5:  Load redirect link: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=3904287181045211410614246857
+2006-02-27 18:29:51,304 DEBUG test5:  Done in 0.048s
+2006-02-27 18:29:51,305 DEBUG test5:  Load css and images...
+2006-02-27 18:29:51,306 DEBUG test5:   Done in 0.000s
+2006-02-27 18:30:23,312 DEBUG test5: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=3904287181045211410614246857
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-02-27 18:30:23,651 DEBUG test5:  Done in 0.339s
+2006-02-27 18:30:23,656 DEBUG test5:  Load redirect link: http://tnasas.bioinfo.cnio.es/tmp/3904287181045211410614246857/results.html
+2006-02-27 18:30:23,662 DEBUG test5:  Done in 0.006s
+2006-02-27 18:30:23,663 DEBUG test5:  Load css and images...
+2006-02-27 18:30:23,716 DEBUG test5:   Done in 0.011s
+2006-02-27 18:30:23,716 DEBUG test5: tearDown.
+
+2006-09-11 17:58:51,277 INFO test1: [test1] description not found
+2006-09-11 17:58:51,277 DEBUG test1: Starting -----------------------------------
+	
+2006-09-11 17:58:51,277 DEBUG test1: setUp
+2006-09-11 17:58:51,277 DEBUG test1: GET: http://tnasas.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-09-11 17:58:51,282 DEBUG test1:  Done in 0.005s
+2006-09-11 17:58:51,283 DEBUG test1:  Load css and images...
+2006-09-11 17:58:51,304 DEBUG test1:   Done in 0.008s
+2006-09-11 17:58:51,309 DEBUG test1: POST: http://tnasas.bioinfo.cnio.es/cgi-bin/tnasasR.cgi {'idtype': 'None', 'genesel': 'Fratio', 'model': 'dlda', 'covariate': <webunit.utility.Upload instance at 0x2affd85dc7e8>, 'organism': 'None', 'class': <webunit.utility.Upload instance at 0x2affd85dc758>}
+	Page 2: dlda and f ratio ...
+2006-09-11 18:03:52,452 DEBUG test1:  Failed in 301.143s
+2006-09-11 18:03:52,457 DEBUG test1: tearDown.
+
+2006-09-11 18:03:52,460 INFO test2: [test2] description not found
+2006-09-11 18:03:52,460 DEBUG test2: Starting -----------------------------------
+	
+2006-09-11 18:03:52,460 DEBUG test2: setUp
+2006-09-11 18:03:52,460 DEBUG test2: GET: http://tnasas.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-09-11 18:03:52,464 DEBUG test2:  Done in 0.004s
+2006-09-11 18:03:52,464 DEBUG test2:  Load css and images...
+2006-09-11 18:03:52,484 DEBUG test2:   Done in 0.007s
+2006-09-11 18:03:52,489 DEBUG test2: POST: http://tnasas.bioinfo.cnio.es/cgi-bin/tnasasR.cgi {'idtype': 'None', 'genesel': 'Wilcoxon', 'model': 'knn', 'covariate': <webunit.utility.Upload instance at 0x2affd85f9878>, 'organism': 'None', 'class': <webunit.utility.Upload instance at 0x2affd85f9710>}
+	Page 2: knn and wilcoxon ...
+2006-09-11 18:03:52,685 DEBUG test2:  Done in 0.196s
+2006-09-11 18:03:52,691 DEBUG test2:  Load redirect link: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=7036119072736711579905971260
+2006-09-11 18:03:52,765 DEBUG test2:  Done in 0.074s
+2006-09-11 18:03:52,765 DEBUG test2:  Load css and images...
+2006-09-11 18:03:52,766 DEBUG test2:   Done in 0.000s
+2006-09-11 18:04:24,766 DEBUG test2: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=7036119072736711579905971260
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-09-11 18:04:24,866 DEBUG test2:  Done in 0.099s
+2006-09-11 18:04:24,871 DEBUG test2:  Load redirect link: http://tnasas.bioinfo.cnio.es/tmp/7036119072736711579905971260/results.html
+2006-09-11 18:04:24,876 DEBUG test2:  Done in 0.004s
+2006-09-11 18:04:24,876 DEBUG test2:  Load css and images...
+2006-09-11 18:04:24,910 DEBUG test2:   Done in 0.008s
+2006-09-11 18:04:24,915 DEBUG test2: tearDown.
+
+2006-09-11 18:04:24,915 INFO test3: [test3] description not found
+2006-09-11 18:04:24,916 DEBUG test3: Starting -----------------------------------
+	
+2006-09-11 18:04:24,916 DEBUG test3: setUp
+2006-09-11 18:04:24,916 DEBUG test3: GET: http://tnasas.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-09-11 18:04:24,920 DEBUG test3:  Done in 0.004s
+2006-09-11 18:04:24,920 DEBUG test3:  Load css and images...
+2006-09-11 18:04:24,941 DEBUG test3:   Done in 0.008s
+2006-09-11 18:04:24,946 DEBUG test3: POST: http://tnasas.bioinfo.cnio.es/cgi-bin/tnasasR.cgi {'idtype': 'None', 'genesel': 'Fratio', 'model': 'randomforest', 'covariate': <webunit.utility.Upload instance at 0x2affd85fefc8>, 'organism': 'None', 'class': <webunit.utility.Upload instance at 0x2affd85f9710>}
+	Page 2: dlda and f ratio ...
+2006-09-11 18:04:25,119 DEBUG test3:  Done in 0.172s
+2006-09-11 18:04:25,124 DEBUG test3:  Load redirect link: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=24321177293027115799073636
+2006-09-11 18:04:25,196 DEBUG test3:  Done in 0.072s
+2006-09-11 18:04:25,196 DEBUG test3:  Load css and images...
+2006-09-11 18:04:25,197 DEBUG test3:   Done in 0.000s
+2006-09-11 18:04:57,197 DEBUG test3: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=24321177293027115799073636
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-09-11 18:04:57,247 DEBUG test3:  Done in 0.049s
+2006-09-11 18:04:57,247 DEBUG test3:  Load css and images...
+2006-09-11 18:04:57,248 DEBUG test3:   Done in 0.000s
+2006-09-11 18:05:29,249 DEBUG test3: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=24321177293027115799073636
+	Page 4: Get /cgi-bin/checkdone.cgi ...
+2006-09-11 18:05:29,321 DEBUG test3:  Done in 0.072s
+2006-09-11 18:05:29,322 DEBUG test3:  Load css and images...
+2006-09-11 18:05:29,322 DEBUG test3:   Done in 0.000s
+2006-09-11 18:06:01,323 DEBUG test3: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=24321177293027115799073636
+	Page 5: Get /cgi-bin/checkdone.cgi ...
+2006-09-11 18:06:01,404 DEBUG test3:  Done in 0.081s
+2006-09-11 18:06:01,404 DEBUG test3:  Load css and images...
+2006-09-11 18:06:01,405 DEBUG test3:   Done in 0.000s
+2006-09-11 18:06:33,405 DEBUG test3: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=24321177293027115799073636
+	Page 6: Get /cgi-bin/checkdone.cgi ...
+2006-09-11 18:06:33,539 DEBUG test3:  Done in 0.134s
+2006-09-11 18:06:33,544 DEBUG test3:  Load redirect link: http://tnasas.bioinfo.cnio.es/tmp/24321177293027115799073636/results.html
+2006-09-11 18:06:33,549 DEBUG test3:  Done in 0.005s
+2006-09-11 18:06:33,549 DEBUG test3:  Load css and images...
+2006-09-11 18:06:33,582 DEBUG test3:   Done in 0.009s
+2006-09-11 18:06:33,586 DEBUG test3: tearDown.
+
+2006-09-11 18:06:33,586 INFO test4: [test4] description not found
+2006-09-11 18:06:33,586 DEBUG test4: Starting -----------------------------------
+	
+2006-09-11 18:06:33,586 DEBUG test4: setUp
+2006-09-11 18:06:33,586 DEBUG test4: GET: http://tnasas.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-09-11 18:06:33,590 DEBUG test4:  Done in 0.003s
+2006-09-11 18:06:33,590 DEBUG test4:  Load css and images...
+2006-09-11 18:06:33,610 DEBUG test4:   Done in 0.008s
+2006-09-11 18:06:33,615 DEBUG test4: POST: http://tnasas.bioinfo.cnio.es/cgi-bin/tnasasR.cgi {'idtype': 'None', 'genesel': 'randomforest', 'model': 'svm', 'covariate': <webunit.utility.Upload instance at 0x2affd8600ea8>, 'organism': 'None', 'class': <webunit.utility.Upload instance at 0x2affd8600f38>}
+	Page 2: dlda and f ratio ...
+2006-09-11 18:06:33,827 DEBUG test4:  Done in 0.212s
+2006-09-11 18:06:33,832 DEBUG test4:  Load redirect link: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=3283119875623311579907587512
+2006-09-11 18:06:33,906 DEBUG test4:  Done in 0.074s
+2006-09-11 18:06:33,906 DEBUG test4:  Load css and images...
+2006-09-11 18:06:33,907 DEBUG test4:   Done in 0.000s
+2006-09-11 18:07:05,907 DEBUG test4: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=3283119875623311579907587512
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-09-11 18:07:05,981 DEBUG test4:  Done in 0.073s
+2006-09-11 18:07:05,981 DEBUG test4:  Load css and images...
+2006-09-11 18:07:05,981 DEBUG test4:   Done in 0.000s
+2006-09-11 18:07:37,981 DEBUG test4: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=3283119875623311579907587512
+	Page 4: Get /cgi-bin/checkdone.cgi ...
+2006-09-11 18:07:38,056 DEBUG test4:  Done in 0.074s
+2006-09-11 18:07:38,056 DEBUG test4:  Load css and images...
+2006-09-11 18:07:38,057 DEBUG test4:   Done in 0.000s
+2006-09-11 18:08:10,058 DEBUG test4: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=3283119875623311579907587512
+	Page 5: Get /cgi-bin/checkdone.cgi ...
+2006-09-11 18:08:10,160 DEBUG test4:  Done in 0.102s
+2006-09-11 18:08:10,165 DEBUG test4:  Load redirect link: http://tnasas.bioinfo.cnio.es/tmp/3283119875623311579907587512/results.html
+2006-09-11 18:08:10,169 DEBUG test4:  Done in 0.004s
+2006-09-11 18:08:10,170 DEBUG test4:  Load css and images...
+2006-09-11 18:08:10,202 DEBUG test4:   Done in 0.007s
+2006-09-11 18:08:10,207 DEBUG test4: tearDown.
+
+2006-09-11 18:08:10,208 INFO test5: [test5] description not found
+2006-09-11 18:08:10,208 DEBUG test5: Starting -----------------------------------
+	
+2006-09-11 18:08:10,208 DEBUG test5: setUp
+2006-09-11 18:08:10,208 DEBUG test5: GET: http://tnasas.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-09-11 18:08:10,211 DEBUG test5:  Done in 0.003s
+2006-09-11 18:08:10,212 DEBUG test5:  Load css and images...
+2006-09-11 18:08:10,231 DEBUG test5:   Done in 0.007s
+2006-09-11 18:08:10,236 DEBUG test5: POST: http://tnasas.bioinfo.cnio.es/cgi-bin/tnasasR.cgi {'idtype': 'None', 'genesel': 'Fratio', 'model': 'PAM', 'covariate': <webunit.utility.Upload instance at 0x2affd86009e0>, 'organism': 'None', 'class': <webunit.utility.Upload instance at 0x2affd8600ea8>}
+	Page 2: dlda and f ratio ...
+2006-09-11 18:08:10,438 DEBUG test5:  Done in 0.202s
+2006-09-11 18:08:10,443 DEBUG test5:  Load redirect link: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=560774024601011579909166018
+2006-09-11 18:08:10,517 DEBUG test5:  Done in 0.074s
+2006-09-11 18:08:10,518 DEBUG test5:  Load css and images...
+2006-09-11 18:08:10,518 DEBUG test5:   Done in 0.000s
+2006-09-11 18:08:42,519 DEBUG test5: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=560774024601011579909166018
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-09-11 18:08:42,624 DEBUG test5:  Done in 0.105s
+2006-09-11 18:08:42,630 DEBUG test5:  Load redirect link: http://tnasas.bioinfo.cnio.es/tmp/560774024601011579909166018/results.html
+2006-09-11 18:08:42,634 DEBUG test5:  Done in 0.004s
+2006-09-11 18:08:42,634 DEBUG test5:  Load css and images...
+2006-09-11 18:08:42,668 DEBUG test5:   Done in 0.007s
+2006-09-11 18:08:42,673 DEBUG test5: tearDown.
+
+2006-09-12 09:37:24,677 INFO test1: [test1] description not found
+2006-09-12 09:37:24,677 DEBUG test1: Starting -----------------------------------
+	
+2006-09-12 09:37:24,677 DEBUG test1: setUp
+2006-09-12 09:37:24,678 DEBUG test1: GET: http://tnasas.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-09-12 09:37:24,682 DEBUG test1:  Done in 0.004s
+2006-09-12 09:37:24,682 DEBUG test1:  Load css and images...
+2006-09-12 09:37:24,702 DEBUG test1:   Done in 0.008s
+2006-09-12 09:37:24,708 DEBUG test1: POST: http://tnasas.bioinfo.cnio.es/cgi-bin/tnasasR.cgi {'idtype': 'None', 'genesel': 'Fratio', 'model': 'dlda', 'covariate': <webunit.utility.Upload instance at 0x2b56add95cb0>, 'organism': 'None', 'class': <webunit.utility.Upload instance at 0x2b56add95b48>}
+	Page 2: dlda and f ratio ...
+2006-09-12 09:37:24,882 DEBUG test1:  Done in 0.174s
+2006-09-12 09:37:24,887 DEBUG test1:  Load redirect link: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=1089302853700811580468824651
+2006-09-12 09:37:24,960 DEBUG test1:  Done in 0.072s
+2006-09-12 09:37:24,961 DEBUG test1:  Load css and images...
+2006-09-12 09:37:24,961 DEBUG test1:   Done in 0.000s
+2006-09-12 09:37:56,962 DEBUG test1: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=1089302853700811580468824651
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-09-12 09:37:57,058 DEBUG test1:  Done in 0.096s
+2006-09-12 09:37:57,064 DEBUG test1:  Load redirect link: http://tnasas.bioinfo.cnio.es/tmp/1089302853700811580468824651/results.html
+2006-09-12 09:37:57,068 DEBUG test1:  Done in 0.004s
+2006-09-12 09:37:57,068 DEBUG test1:  Load css and images...
+2006-09-12 09:37:57,100 DEBUG test1:   Done in 0.007s
+2006-09-12 09:37:57,106 DEBUG test1: tearDown.
+
+2006-09-12 09:37:57,106 INFO test2: [test2] description not found
+2006-09-12 09:37:57,106 DEBUG test2: Starting -----------------------------------
+	
+2006-09-12 09:37:57,106 DEBUG test2: setUp
+2006-09-12 09:37:57,106 DEBUG test2: GET: http://tnasas.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-09-12 09:37:57,110 DEBUG test2:  Done in 0.003s
+2006-09-12 09:37:57,110 DEBUG test2:  Load css and images...
+2006-09-12 09:37:57,131 DEBUG test2:   Done in 0.008s
+2006-09-12 09:37:57,136 DEBUG test2: POST: http://tnasas.bioinfo.cnio.es/cgi-bin/tnasasR.cgi {'idtype': 'None', 'genesel': 'Wilcoxon', 'model': 'knn', 'covariate': <webunit.utility.Upload instance at 0x2b56add8c368>, 'organism': 'None', 'class': <webunit.utility.Upload instance at 0x2b56adb20fc8>}
+	Page 2: knn and wilcoxon ...
+2006-09-12 09:37:57,353 DEBUG test2:  Done in 0.217s
+2006-09-12 09:37:57,359 DEBUG test2:  Load redirect link: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=8873294401909611580467049810
+2006-09-12 09:37:57,427 DEBUG test2:  Done in 0.068s
+2006-09-12 09:37:57,428 DEBUG test2:  Load css and images...
+2006-09-12 09:37:57,428 DEBUG test2:   Done in 0.000s
+2006-09-12 09:38:29,429 DEBUG test2: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=8873294401909611580467049810
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-09-12 09:38:29,533 DEBUG test2:  Done in 0.104s
+2006-09-12 09:38:29,539 DEBUG test2:  Load redirect link: http://tnasas.bioinfo.cnio.es/tmp/8873294401909611580467049810/results.html
+2006-09-12 09:38:29,543 DEBUG test2:  Done in 0.004s
+2006-09-12 09:38:29,544 DEBUG test2:  Load css and images...
+2006-09-12 09:38:29,576 DEBUG test2:   Done in 0.008s
+2006-09-12 09:38:29,582 DEBUG test2: tearDown.
+
+2006-09-12 09:38:29,582 INFO test3: [test3] description not found
+2006-09-12 09:38:29,582 DEBUG test3: Starting -----------------------------------
+	
+2006-09-12 09:38:29,582 DEBUG test3: setUp
+2006-09-12 09:38:29,582 DEBUG test3: GET: http://tnasas.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-09-12 09:38:29,586 DEBUG test3:  Done in 0.003s
+2006-09-12 09:38:29,586 DEBUG test3:  Load css and images...
+2006-09-12 09:38:29,606 DEBUG test3:   Done in 0.008s
+2006-09-12 09:38:29,611 DEBUG test3: POST: http://tnasas.bioinfo.cnio.es/cgi-bin/tnasasR.cgi {'idtype': 'None', 'genesel': 'Fratio', 'model': 'randomforest', 'covariate': <webunit.utility.Upload instance at 0x2b56add95dd0>, 'organism': 'None', 'class': <webunit.utility.Upload instance at 0x2b56add8d6c8>}
+	Page 2: dlda and f ratio ...
+2006-09-12 09:38:29,803 DEBUG test3:  Done in 0.192s
+2006-09-12 09:38:29,808 DEBUG test3:  Load redirect link: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=195541963309611580467423060
+2006-09-12 09:38:29,859 DEBUG test3:  Done in 0.051s
+2006-09-12 09:38:29,860 DEBUG test3:  Load css and images...
+2006-09-12 09:38:29,860 DEBUG test3:   Done in 0.000s
+2006-09-12 09:39:01,860 DEBUG test3: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=195541963309611580467423060
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-09-12 09:39:01,910 DEBUG test3:  Done in 0.050s
+2006-09-12 09:39:01,911 DEBUG test3:  Load css and images...
+2006-09-12 09:39:01,911 DEBUG test3:   Done in 0.000s
+2006-09-12 09:39:33,912 DEBUG test3: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=195541963309611580467423060
+	Page 4: Get /cgi-bin/checkdone.cgi ...
+2006-09-12 09:39:33,963 DEBUG test3:  Done in 0.050s
+2006-09-12 09:39:33,963 DEBUG test3:  Load css and images...
+2006-09-12 09:39:33,964 DEBUG test3:   Done in 0.000s
+2006-09-12 09:40:05,965 DEBUG test3: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=195541963309611580467423060
+	Page 5: Get /cgi-bin/checkdone.cgi ...
+2006-09-12 09:40:06,042 DEBUG test3:  Done in 0.077s
+2006-09-12 09:40:06,042 DEBUG test3:  Load css and images...
+2006-09-12 09:40:06,043 DEBUG test3:   Done in 0.000s
+2006-09-12 09:40:38,044 DEBUG test3: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=195541963309611580467423060
+	Page 6: Get /cgi-bin/checkdone.cgi ...
+2006-09-12 09:40:38,120 DEBUG test3:  Done in 0.076s
+2006-09-12 09:40:38,126 DEBUG test3:  Load redirect link: http://tnasas.bioinfo.cnio.es/tmp/195541963309611580467423060/results.html
+2006-09-12 09:40:38,130 DEBUG test3:  Done in 0.004s
+2006-09-12 09:40:38,130 DEBUG test3:  Load css and images...
+2006-09-12 09:40:38,162 DEBUG test3:   Done in 0.007s
+2006-09-12 09:40:38,168 DEBUG test3: tearDown.
+
+2006-09-12 09:40:38,168 INFO test4: [test4] description not found
+2006-09-12 09:40:38,168 DEBUG test4: Starting -----------------------------------
+	
+2006-09-12 09:40:38,168 DEBUG test4: setUp
+2006-09-12 09:40:38,168 DEBUG test4: GET: http://tnasas.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-09-12 09:40:38,171 DEBUG test4:  Done in 0.003s
+2006-09-12 09:40:38,172 DEBUG test4:  Load css and images...
+2006-09-12 09:40:38,192 DEBUG test4:   Done in 0.008s
+2006-09-12 09:40:38,198 DEBUG test4: POST: http://tnasas.bioinfo.cnio.es/cgi-bin/tnasasR.cgi {'idtype': 'None', 'genesel': 'randomforest', 'model': 'svm', 'covariate': <webunit.utility.Upload instance at 0x2b56add8c368>, 'organism': 'None', 'class': <webunit.utility.Upload instance at 0x2b56add8d6c8>}
+	Page 2: dlda and f ratio ...
+2006-09-12 09:40:38,394 DEBUG test4:  Done in 0.196s
+2006-09-12 09:40:38,400 DEBUG test4:  Load redirect link: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=5380296356676811580468786413
+2006-09-12 09:40:38,447 DEBUG test4:  Done in 0.047s
+2006-09-12 09:40:38,447 DEBUG test4:  Load css and images...
+2006-09-12 09:40:38,447 DEBUG test4:   Done in 0.000s
+2006-09-12 09:41:10,448 DEBUG test4: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=5380296356676811580468786413
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-09-12 09:41:10,520 DEBUG test4:  Done in 0.072s
+2006-09-12 09:41:10,521 DEBUG test4:  Load css and images...
+2006-09-12 09:41:10,521 DEBUG test4:   Done in 0.000s
+2006-09-12 09:41:42,521 DEBUG test4: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=5380296356676811580468786413
+	Page 4: Get /cgi-bin/checkdone.cgi ...
+2006-09-12 09:41:42,595 DEBUG test4:  Done in 0.073s
+2006-09-12 09:41:42,595 DEBUG test4:  Load css and images...
+2006-09-12 09:41:42,596 DEBUG test4:   Done in 0.000s
+2006-09-12 09:42:14,595 DEBUG test4: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=5380296356676811580468786413
+	Page 5: Get /cgi-bin/checkdone.cgi ...
+2006-09-12 09:42:14,711 DEBUG test4:  Done in 0.115s
+2006-09-12 09:42:14,715 DEBUG test4:  Load redirect link: http://tnasas.bioinfo.cnio.es/tmp/5380296356676811580468786413/results.html
+2006-09-12 09:42:14,719 DEBUG test4:  Done in 0.004s
+2006-09-12 09:42:14,720 DEBUG test4:  Load css and images...
+2006-09-12 09:42:14,751 DEBUG test4:   Done in 0.007s
+2006-09-12 09:42:14,756 DEBUG test4: tearDown.
+
+2006-09-12 09:42:14,756 INFO test5: [test5] description not found
+2006-09-12 09:42:14,757 DEBUG test5: Starting -----------------------------------
+	
+2006-09-12 09:42:14,757 DEBUG test5: setUp
+2006-09-12 09:42:14,757 DEBUG test5: GET: http://tnasas.bioinfo.cnio.es/
+	Page 1: Get / ...
+2006-09-12 09:42:14,760 DEBUG test5:  Done in 0.003s
+2006-09-12 09:42:14,760 DEBUG test5:  Load css and images...
+2006-09-12 09:42:14,779 DEBUG test5:   Done in 0.007s
+2006-09-12 09:42:14,784 DEBUG test5: POST: http://tnasas.bioinfo.cnio.es/cgi-bin/tnasasR.cgi {'idtype': 'None', 'genesel': 'Fratio', 'model': 'PAM', 'covariate': <webunit.utility.Upload instance at 0x2b56add99ea8>, 'organism': 'None', 'class': <webunit.utility.Upload instance at 0x2b56add99e18>}
+	Page 2: dlda and f ratio ...
+2006-09-12 09:42:14,957 DEBUG test5:  Done in 0.172s
+2006-09-12 09:42:14,962 DEBUG test5:  Load redirect link: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=2481298757327411580469403403
+2006-09-12 09:42:15,010 DEBUG test5:  Done in 0.048s
+2006-09-12 09:42:15,010 DEBUG test5:  Load css and images...
+2006-09-12 09:42:15,011 DEBUG test5:   Done in 0.000s
+2006-09-12 09:42:47,010 DEBUG test5: GET: http://tnasas.bioinfo.cnio.es/cgi-bin/checkdone.cgi?newDir=2481298757327411580469403403
+	Page 3: Get /cgi-bin/checkdone.cgi ...
+2006-09-12 09:42:47,087 DEBUG test5:  Done in 0.076s
+2006-09-12 09:42:47,092 DEBUG test5:  Load redirect link: http://tnasas.bioinfo.cnio.es/tmp/2481298757327411580469403403/results.html
+2006-09-12 09:42:47,096 DEBUG test5:  Done in 0.004s
+2006-09-12 09:42:47,097 DEBUG test5:  Load css and images...
+2006-09-12 09:42:47,130 DEBUG test5:   Done in 0.007s
+2006-09-12 09:42:47,134 DEBUG test5: tearDown.
+

@@ -1,0 +1,432 @@
+##########   10 Jan 2011 11:38:51
+pomelo_run2.py pid = 2634
+    
+##########   10 Jan 2011 11:38:52
+starting else loop
+    
+##########   10 Jan 2011 11:38:52
+before lamboot
+    
+##########   10 Jan 2011 11:38:52
+before sentinel inside lamboot
+    
+##########   10 Jan 2011 11:38:52
+newDir is 58732581594471294655928393
+    
+##########   10 Jan 2011 11:38:52
+lamSuffix 12946559322634875130
+    
+##########   10 Jan 2011 11:38:53
+runningProcs /http/pomelo2/www/Pom.running.procs
+    
+##########   10 Jan 2011 11:38:53
+before fullCommand inside lamboot
+    
+##########   10 Jan 2011 11:38:53
+before os.system inside lamboot
+    
+##########   10 Jan 2011 11:39:06
+after lboot ---os.system--- inside lamboot. Exiting lamboot
+    
+##########   10 Jan 2011 11:39:06
+after lamboot
+    
+##########   10 Jan 2011 11:39:06
+after counter applications
+    
+##########   10 Jan 2011 11:39:07
+ about to launch multestCommand
+    
+##########   10 Jan 2011 11:39:07
+    inside multestCommand: ready for os.system
+    
+##########   10 Jan 2011 11:39:11
+ MEMORY ERROR (from inside multestCommand)
+    
+##########   10 Jan 2011 11:39:11
+    inside multestCommand: done os.system
+    
+##########   10 Jan 2011 11:39:57
+ .... inside collectZombies
+    
+##########   10 Jan 2011 11:39:57
+ MEMORY ERROR 
+    
+##########   10 Jan 2011 11:39:59
+before touch pomelo_run_finished
+    
+##########   10 Jan 2011 11:39:59
+before collectZombies
+    
+##########   10 Jan 2011 11:39:59
+ .... inside collectZombies
+    
+##########   10 Jan 2011 11:39:59
+before burying
+    
+##########   10 Jan 2011 11:40:00
+after burying
+    
+##########   10 Jan 2011 11:40:09
+pomelo_run2.py pid = 2912
+    
+##########   10 Jan 2011 11:40:09
+starting else loop
+    
+##########   10 Jan 2011 11:40:09
+before lamboot
+    
+##########   10 Jan 2011 11:40:10
+before sentinel inside lamboot
+    
+##########   10 Jan 2011 11:40:10
+newDir is 58732581594471294655928393
+    
+##########   10 Jan 2011 11:40:10
+lamSuffix 12946560092912690460
+    
+##########   10 Jan 2011 11:40:10
+runningProcs /http/pomelo2/www/Pom.running.procs
+    
+##########   10 Jan 2011 11:40:10
+before fullCommand inside lamboot
+    
+##########   10 Jan 2011 11:40:10
+before os.system inside lamboot
+    
+##########   10 Jan 2011 11:40:12
+after killing all old lam
+    
+##########   10 Jan 2011 11:40:25
+after lboot ---os.system--- inside lamboot. Exiting lamboot
+    
+##########   10 Jan 2011 11:40:25
+after lamboot
+    
+##########   10 Jan 2011 11:40:25
+after counter applications
+    
+##########   10 Jan 2011 11:40:25
+ about to launch multestCommand
+    
+##########   10 Jan 2011 11:40:25
+    inside multestCommand: ready for os.system
+    
+##########   10 Jan 2011 11:40:29
+ MEMORY ERROR (from inside multestCommand)
+    
+##########   10 Jan 2011 11:40:29
+    inside multestCommand: done os.system
+    
+##########   10 Jan 2011 11:41:16
+ .... inside collectZombies
+    
+##########   10 Jan 2011 11:41:16
+ MEMORY ERROR 
+    
+##########   10 Jan 2011 11:41:18
+before touch pomelo_run_finished
+    
+##########   10 Jan 2011 11:41:18
+before collectZombies
+    
+##########   10 Jan 2011 11:41:18
+ .... inside collectZombies
+    
+##########   10 Jan 2011 11:41:19
+before burying
+    
+##########   10 Jan 2011 11:41:19
+after burying
+    
+##########   10 Jan 2011 11:41:26
+pomelo_run2.py pid = 3209
+    
+##########   10 Jan 2011 11:41:26
+starting else loop
+    
+##########   10 Jan 2011 11:41:26
+before lamboot
+    
+##########   10 Jan 2011 11:41:26
+before sentinel inside lamboot
+    
+##########   10 Jan 2011 11:41:27
+newDir is 58732581594471294655928393
+    
+##########   10 Jan 2011 11:41:27
+lamSuffix 12946560863209479232
+    
+##########   10 Jan 2011 11:41:27
+runningProcs /http/pomelo2/www/Pom.running.procs
+    
+##########   10 Jan 2011 11:41:27
+before fullCommand inside lamboot
+    
+##########   10 Jan 2011 11:41:27
+before os.system inside lamboot
+    
+##########   10 Jan 2011 11:41:32
+after killing all old lam
+    
+##########   10 Jan 2011 11:41:41
+after lboot ---os.system--- inside lamboot. Exiting lamboot
+    
+##########   10 Jan 2011 11:41:41
+after lamboot
+    
+##########   10 Jan 2011 11:41:41
+after counter applications
+    
+##########   10 Jan 2011 11:41:41
+ about to launch multestCommand
+    
+##########   10 Jan 2011 11:41:42
+    inside multestCommand: ready for os.system
+    
+##########   10 Jan 2011 11:41:46
+ MEMORY ERROR (from inside multestCommand)
+    
+##########   10 Jan 2011 11:41:46
+    inside multestCommand: done os.system
+    
+##########   10 Jan 2011 11:42:31
+ .... inside collectZombies
+    
+##########   10 Jan 2011 11:42:31
+ MEMORY ERROR 
+    
+##########   10 Jan 2011 11:42:33
+before touch pomelo_run_finished
+    
+##########   10 Jan 2011 11:42:33
+before collectZombies
+    
+##########   10 Jan 2011 11:42:33
+ .... inside collectZombies
+    
+##########   10 Jan 2011 11:42:33
+before burying
+    
+##########   10 Jan 2011 11:42:34
+after burying
+    
+##########   10 Jan 2011 11:42:43
+pomelo_run2.py pid = 3575
+    
+##########   10 Jan 2011 11:42:43
+starting else loop
+    
+##########   10 Jan 2011 11:42:43
+before lamboot
+    
+##########   10 Jan 2011 11:42:44
+before sentinel inside lamboot
+    
+##########   10 Jan 2011 11:42:44
+newDir is 58732581594471294655928393
+    
+##########   10 Jan 2011 11:42:44
+lamSuffix 12946561633575483232
+    
+##########   10 Jan 2011 11:42:44
+runningProcs /http/pomelo2/www/Pom.running.procs
+    
+##########   10 Jan 2011 11:42:44
+before fullCommand inside lamboot
+    
+##########   10 Jan 2011 11:42:44
+before os.system inside lamboot
+    
+##########   10 Jan 2011 11:42:47
+after killing all old lam
+    
+##########   10 Jan 2011 11:42:59
+after lboot ---os.system--- inside lamboot. Exiting lamboot
+    
+##########   10 Jan 2011 11:42:59
+after lamboot
+    
+##########   10 Jan 2011 11:42:59
+after counter applications
+    
+##########   10 Jan 2011 11:42:59
+ about to launch multestCommand
+    
+##########   10 Jan 2011 11:42:59
+    inside multestCommand: ready for os.system
+    
+##########   10 Jan 2011 11:43:04
+ MEMORY ERROR (from inside multestCommand)
+    
+##########   10 Jan 2011 11:43:04
+    inside multestCommand: done os.system
+    
+##########   10 Jan 2011 11:43:52
+ .... inside collectZombies
+    
+##########   10 Jan 2011 11:43:52
+ MEMORY ERROR 
+    
+##########   10 Jan 2011 11:43:54
+before touch pomelo_run_finished
+    
+##########   10 Jan 2011 11:43:54
+before collectZombies
+    
+##########   10 Jan 2011 11:43:54
+ .... inside collectZombies
+    
+##########   10 Jan 2011 11:43:54
+before burying
+    
+##########   10 Jan 2011 11:43:55
+after burying
+    
+##########   10 Jan 2011 11:44:08
+after killing all old lam
+    
+##########   10 Jan 2011 11:44:10
+pomelo_run2.py pid = 3887
+    
+##########   10 Jan 2011 11:44:10
+starting else loop
+    
+##########   10 Jan 2011 11:44:11
+before lamboot
+    
+##########   10 Jan 2011 11:44:11
+before sentinel inside lamboot
+    
+##########   10 Jan 2011 11:44:11
+newDir is 58732581594471294655928393
+    
+##########   10 Jan 2011 11:44:11
+lamSuffix 1294656251388724940
+    
+##########   10 Jan 2011 11:44:11
+runningProcs /http/pomelo2/www/Pom.running.procs
+    
+##########   10 Jan 2011 11:44:11
+before fullCommand inside lamboot
+    
+##########   10 Jan 2011 11:44:12
+before os.system inside lamboot
+    
+##########   10 Jan 2011 11:44:25
+after lboot ---os.system--- inside lamboot. Exiting lamboot
+    
+##########   10 Jan 2011 11:44:26
+after lamboot
+    
+##########   10 Jan 2011 11:44:26
+after counter applications
+    
+##########   10 Jan 2011 11:44:26
+ about to launch multestCommand
+    
+##########   10 Jan 2011 11:44:26
+    inside multestCommand: ready for os.system
+    
+##########   10 Jan 2011 11:44:30
+ MEMORY ERROR (from inside multestCommand)
+    
+##########   10 Jan 2011 11:44:30
+    inside multestCommand: done os.system
+    
+##########   10 Jan 2011 11:45:16
+ .... inside collectZombies
+    
+##########   10 Jan 2011 11:45:16
+ MEMORY ERROR 
+    
+##########   10 Jan 2011 11:45:17
+before touch pomelo_run_finished
+    
+##########   10 Jan 2011 11:45:18
+before collectZombies
+    
+##########   10 Jan 2011 11:45:18
+ .... inside collectZombies
+    
+##########   10 Jan 2011 11:45:18
+before burying
+    
+##########   10 Jan 2011 11:45:18
+after burying
+    
+##########   10 Jan 2011 11:45:27
+pomelo_run2.py pid = 4121
+    
+##########   10 Jan 2011 11:45:27
+starting else loop
+    
+##########   10 Jan 2011 11:45:27
+before lamboot
+    
+##########   10 Jan 2011 11:45:27
+before sentinel inside lamboot
+    
+##########   10 Jan 2011 11:45:27
+newDir is 58732581594471294655928393
+    
+##########   10 Jan 2011 11:45:27
+lamSuffix 1294656327412184084
+    
+##########   10 Jan 2011 11:45:27
+runningProcs /http/pomelo2/www/Pom.running.procs
+    
+##########   10 Jan 2011 11:45:27
+before fullCommand inside lamboot
+    
+##########   10 Jan 2011 11:45:27
+before os.system inside lamboot
+    
+##########   10 Jan 2011 11:45:31
+after killing all old lam
+    
+##########   10 Jan 2011 11:45:41
+after lboot ---os.system--- inside lamboot. Exiting lamboot
+    
+##########   10 Jan 2011 11:45:41
+after lamboot
+    
+##########   10 Jan 2011 11:45:41
+after counter applications
+    
+##########   10 Jan 2011 11:45:42
+ about to launch multestCommand
+    
+##########   10 Jan 2011 11:45:42
+    inside multestCommand: ready for os.system
+    
+##########   10 Jan 2011 11:45:46
+ MEMORY ERROR (from inside multestCommand)
+    
+##########   10 Jan 2011 11:45:46
+    inside multestCommand: done os.system
+    
+##########   10 Jan 2011 11:46:33
+ .... inside collectZombies
+    
+##########   10 Jan 2011 11:46:33
+ MEMORY ERROR 
+    
+##########   10 Jan 2011 11:46:35
+before touch pomelo_run_finished
+    
+##########   10 Jan 2011 11:46:35
+before collectZombies
+    
+##########   10 Jan 2011 11:46:35
+ .... inside collectZombies
+    
+##########   10 Jan 2011 11:46:35
+before burying
+    
+##########   10 Jan 2011 11:46:36
+after burying
+    
+##########   10 Jan 2011 11:46:49
+after killing all old lam
+    
