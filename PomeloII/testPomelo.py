@@ -123,7 +123,7 @@ class Pomelo(FunkLoadTestCase):
     def setUp(self):
         """Setting up test."""
         self.logd("setUp")
-        self.server_url = 'http://pomelo2.bioinfo.cnio.es'
+        self.server_url = 'http://pomelo2.iib.uam.es'
         ##self.server_url = self.conf_get('main', 'url')
 
     def test_t(self):
@@ -354,7 +354,8 @@ class Pomelo(FunkLoadTestCase):
             ['idtype', 'None'],
             ['organism', 'None']],
             description='Different number columns')
-        final_output = 'The class file and the Gene expression file<br> do not agree on the number of arrays'
+        # final_output = 'The class file and the Gene expression file<br> do not agree on the number of arrays'
+        final_output = 'different number of class labels (40) and columns of data (10)'
         common_part(self, final_output)
 
 ### Three tests for limma
@@ -440,7 +441,6 @@ class Pomelo(FunkLoadTestCase):
         common_part(self, final_output)
 
 
-
     def test_limma_not_estimable(self):
         server_url = self.server_url
         self.get(server_url + "/",
@@ -459,13 +459,13 @@ class Pomelo(FunkLoadTestCase):
         self.post(server_url + "/cgi-bin/check_covariables.cgi", params=[
             ['covariables', Upload("./limma_anova/covs10")],
             ['cgi_option', 'check_covariables'],
-            ['tmp_dir', '/http/pomelo2/www/tmp/' + tmpDir]],
+            ['tmp_dir', '/asterias-web-apps/pomelo2/www/tmp/' + tmpDir]],
                   description="Post /cgi-bin/check_covariables.cgi")
         time.sleep(3)
         self.post(server_url + "/cgi-bin/check_covariables.cgi",
                   params=[
             ['cgi_option', 'covar_launch'],
-            ['tmp_dir', '/http/pomelo2/www/tmp/' + tmpDir],
+            ['tmp_dir', '/asterias-web-apps/pomelo2/www/tmp/' + tmpDir],
             ['V1', 'V1'],
             ['submit_button', ' Send selected covariables ']],
                   description="check_covariables.cgi: submit V1")
@@ -654,7 +654,7 @@ class Pomelo(FunkLoadTestCase):
             ['idtype', 'None'],
             ['organism', 'None']],
             description='Name with "')
-        final_output = 'You need at least one gene to use Pomelo II.'
+        final_output = 'different number of class labels (10) and columns of data (0)'
         common_part(self, final_output)
 
     def test_c0b_regress(self):
@@ -670,7 +670,7 @@ class Pomelo(FunkLoadTestCase):
             ['idtype', 'None'],
             ['organism', 'None']],
             description='Name with "')
-        final_output = 'You need at least one gene to use Pomelo II.'
+        final_output = 'different number of class labels (10) and columns of data (0)'
         common_part(self, final_output)
 
     def test_c1_regress(self):
