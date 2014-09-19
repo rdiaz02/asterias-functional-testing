@@ -44,7 +44,7 @@ def verify_Cox(data_name):
                               FILES_DIR + data_name + '.event.txt',
                               'Cox', '2')
     r_read = data_name + 'Pomelo <- readPomeloOutput()'
-    r_compare = 'comparePomelo(' + data_name + 'Pomelo, ' + \
+    r_compare = 'compareCox(' + data_name + 'Pomelo, ' + \
                      data_name + '.results)'
     ## r_read and r_compare are so that we can
     ## send to R the following two types of instructions
@@ -243,15 +243,22 @@ def verify_Pomelo(test, data = None, **keypar):
 
 ####           Start execution   
 
+
+## others
+verify_Pomelo('Cox')
+verify_Pomelo('Fisher')
+
+
 ## limma
+verify_Pomelo('t_limma', 'leukemia')
+verify_Pomelo('t_limma_paired', 'leukemia.paired')
+
 verify_Pomelo('Anova_limma', 'breast.3.class',
              other_covars = 'covs.breast3.txt')
 verify_Pomelo('Anova_limma', 'breast.3.class',
              other_covars = 'covs.breast2.txt')
 verify_Pomelo('Anova_limma', 'breast.3.class',
              other_covars = 'covs.breast.txt')
-verify_Pomelo('t_limma', 'leukemia')
-verify_Pomelo('t_limma_paired', 'leukemia.paired')
 verify_Pomelo('Anova_limma', 'breast.3.class')
 
 
@@ -266,9 +273,6 @@ verify_Pomelo('Anova', 'brain')
 ## and we have used only 1000 permuts there.
 verify_Pomelo('Regres', 'aml.small', permuts = '2100')
 
-## others
-verify_Pomelo('Fisher')
-verify_Pomelo('Cox')
 
 
 

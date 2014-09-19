@@ -60,6 +60,7 @@ permutRegres <- function(genes, depvar, B) {
     N <- length(depvar)
     countLarger <- rep(0, nrow(genes))
     absObsStat <- abs(obsStat)
+    ## eh!!! use mclapply!!
     for(i in 1:B) {
         cat("\n Doing permutation ", i, "\n")
         depPerm <- sample(depvar)
@@ -257,7 +258,7 @@ compareAppr <- function(x, y, names,
         equality <- all.equal(a, b, check.attributes = FALSE,
                               tolerance = tol)
         nonEqMessage <- paste("Equality failed at ",
-                              name,". Values are",
+                              name,". Values are ",
                               a, ", ", b, ". ",
                               equality, sep = "")
 
@@ -338,6 +339,31 @@ comparePomelo <- function(pomelo, reference, fisher = FALSE) {
     }
 }
 
+## FIXME: compare only when flag is 0.
+compareCox <- function(pomelo, reference, tol = 1e-03) {
+## Compares statistc, p-value and FDR for Cox. There seem to be minor
+## differences in some values in the last few digits.
+        names <- pomelo$ID
+        cat("\n\n Comparing coefficients:    ")
+        c1 <- compareAppr2(pomelo$obs_stat, reference$coefficient,
+                          pomelo$ID)
+        cat(c1)
+        cat("\n\n Comparing p-values:        ")
+        c2 <- compareAppr2(pomelo$unadj.p, reference$pvalue,
+                          pomelo$ID)
+        cat(c2)
+        cat("\n\n Verifying FDR adjustment:  ")
+        c3 <- compareAppr2(pomelo$FDR_indep,
+                          p.adjust(pomelo$unadj.p, method = "BH"),
+                          pomelo$ID)
+        cat(c3)
+        cat("\n\n")
+        if(!(all(c1 == "OK", c2 == "OK", c3 == "OK"))) {
+            cat("\n ERROR: At least one test failed. See above.\n")
+            return("ERROR: test failed")
+        }
+}
+
 
 
 comparePermutPomelo <- function(pomelo, reference, 
@@ -375,7 +401,7 @@ comparePermutPomelo <- function(pomelo, reference,
 
 
 
-comparePomeloLimma <- function(pomelo, reference, tol = 1e-02) {
+comparePomeloLimma <- function(pomelo, reference, tol = 1e-03) {
 ## Compares statistc, p-value and FDR for limma tests
     ## Note that there seem to be numerical differences among
     ## limma versions; thus the compareAppr2
