@@ -1,4 +1,4 @@
-#!/usr/bin/python2.5
+#!/usr/bin/python
 
 """ Compare output from Pomelo II with output from analyses done in R.
 These tests carry out a fairly comprehensive set of tests of all the
@@ -38,7 +38,7 @@ def verify_Cox(data_name):
     ''' Launch Cox in PomeloII, get results, and verify against R.'''
     print '\n\n\n******* Verifying Cox results for data set ' + data_name + '\n'
     coxConnect = flstandalone.NumTesting()
-    coxConnect.setUp('http://pomelo2.bioinfo.cnio.es')
+    coxConnect.setUp('http://pomelo2.iib.uam.es')
     coxConnect.send_get_pomelo(FILES_DIR + data_name + '.covar.txt',
                               FILES_DIR + data_name + '.surv.txt',
                               FILES_DIR + data_name + '.event.txt',
@@ -67,7 +67,7 @@ def verify_Permut(data_name, test, permuts = '200000'):
     print '\n\n\n******* Verifying test ' + test + ' for data set ' + \
           data_name + "\n"
     pConnect = flstandalone.NumTesting()
-    pConnect.setUp('http://pomelo2.bioinfo.cnio.es')
+    pConnect.setUp('http://pomelo2.iib.uam.es')
     pConnect.send_get_pomelo(Covar = FILES_DIR + data_name + '.covar.txt'\
                              ,Class = FILES_DIR + data_name + '.class.txt'\
                              ,Status = FILES_DIR + 'empty.txt'\
@@ -97,7 +97,7 @@ def verify_Limma(data_name, test, other_covars = None, tol = 0.02):
         print ' with covars (if any) ' + other_covars + "\n"
         
     pConnect = flstandalone.NumTesting()
-    pConnect.setUp('http://pomelo2.bioinfo.cnio.es')
+    pConnect.setUp('http://pomelo2.iib.uam.es')
     if (test == 't_limma'):
         pConnect.send_get_pomelo(FILES_DIR + data_name + '.covar.txt',
                                  FILES_DIR + data_name + '.class.txt',
@@ -174,7 +174,7 @@ def verify_FishersExact(data_name):
     print "\n\n\n******* Verifying Fisher's test results \n"
     rpy.r('load("' + FILES_DIR + 'fisher.verified.RData")')
     fisherConnect = flstandalone.NumTesting()
-    fisherConnect.setUp('http://pomelo2.bioinfo.cnio.es')
+    fisherConnect.setUp('http://pomelo2.iib.uam.es')
     fisherConnect.send_get_pomelo(FILES_DIR + data_name + '.data.txt',
                                   FILES_DIR + data_name + '.labels.txt',
                                   FILES_DIR + 'empty.txt',

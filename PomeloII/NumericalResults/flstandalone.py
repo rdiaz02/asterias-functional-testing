@@ -77,7 +77,8 @@ class NumTesting(FunkLoadTestCase):
         self.suite_name = 'pomeloStandAloneSuite'
 #         unittest.TestCase.__init__(self, methodName=self.test_name)
         self._response = None
-        self.options = options
+        self._pause = 0 # with 1, stops at every step
+        self._options = options
         self.debug_level = 2 ## getattr(options, 'debug_level', 0)
         self._funkload_init()
         self._dump_dir = getattr(options, 'dump_dir', None)

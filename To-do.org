@@ -1,0 +1,2 @@
+- Try to get the Numerical testing code to work. It now calls cgi's that
+  are not supposed to be called by the user.
