@@ -41,7 +41,7 @@ FINAL_OUTPUT      = 'Output table:'
 FILE_TO_DOWNLOAD  = 'multest_parallel.res'
 LOCAL_FILE        = './tmp-files/results.txt'
 POST_APPL         = '/cgi-bin/pomeloII.cgi'
-TMP_DIR           = '/http/pomelo2/www/tmp/'
+TMP_DIR           = '/asterias-web-apps/pomelo2/www/tmp/'
 
 
 LONG_SLEEP   = 24 ## 184
